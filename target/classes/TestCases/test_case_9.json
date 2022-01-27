@@ -1,0 +1,127 @@
+{
+  "firstPokemonCoach": {
+    "name": "coach_1_9",
+    "age": 26,
+    "pokemons": [
+      {
+        "name": "Pikachu",
+        "HP": 0,
+        "normalAttack": 4,
+        "defence": 2,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 3,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          }
+        ]
+      },
+      {
+        "name": "Charmander",
+        "HP": 0,
+        "normalAttack": 4,
+        "defence": 3,
+        "specialDefence": 2,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 7,
+            "stun": false,
+            "dodge": false,
+            "cd": 6
+          }
+        ]
+      },
+      {
+        "name": "Vulpix",
+        "HP": 0,
+        "normalAttack": 5,
+        "defence": 2,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 8,
+            "stun": true,
+            "dodge": false,
+            "cd": 6
+          },
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": true,
+            "cd": 7
+          }
+        ]
+      }
+    ]
+  },
+  "secondPokemonCoach": {
+    "name": "coach_2_9",
+    "age": 38,
+    "pokemons": [
+      {
+        "name": "Pikachu",
+        "HP": 0,
+        "normalAttack": 4,
+        "defence": 2,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 3,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          }
+        ]
+      },
+      {
+        "name": "Charmander",
+        "HP": 0,
+        "normalAttack": 4,
+        "defence": 3,
+        "specialDefence": 2,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 7,
+            "stun": false,
+            "dodge": false,
+            "cd": 6
+          }
+        ]
+      },
+      {
+        "name": "Neutrel1",
+        "HP": 0,
+        "normalAttack": 3,
+        "defence": 1,
+        "specialDefence": 1,
+        "abilities": []
+      }
+    ]
+  }
+}

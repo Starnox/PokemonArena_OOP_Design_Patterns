@@ -1,0 +1,140 @@
+{
+  "firstPokemonCoach": {
+    "name": "coach_1_6",
+    "age": 43,
+    "pokemons": [
+      {
+        "name": "Psyduck",
+        "HP": 0,
+        "normalAttack": 3,
+        "defence": 3,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 2,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
+          }
+        ]
+      },
+      {
+        "name": "Eevee",
+        "HP": 0,
+        "normalAttack": 5,
+        "defence": 2,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 8,
+            "stun": true,
+            "dodge": false,
+            "cd": 6
+          },
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": true,
+            "cd": 7
+          }
+        ]
+      },
+      {
+        "name": "Snorlax",
+        "HP": 0,
+        "normalAttack": 3,
+        "defence": 6,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
+          },
+          {
+            "damage": 0,
+            "stun": false,
+            "dodge": true,
+            "cd": 5
+          }
+        ]
+      }
+    ]
+  },
+  "secondPokemonCoach": {
+    "name": "coach_2_6",
+    "age": 79,
+    "pokemons": [
+      {
+        "name": "Psyduck",
+        "HP": 0,
+        "normalAttack": 3,
+        "defence": 3,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 2,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
+          }
+        ]
+      },
+      {
+        "name": "Eevee",
+        "HP": 0,
+        "normalAttack": 5,
+        "defence": 2,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 8,
+            "stun": true,
+            "dodge": false,
+            "cd": 6
+          },
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": true,
+            "cd": 7
+          }
+        ]
+      },
+      {
+        "name": "Snorlax",
+        "HP": 0,
+        "normalAttack": 3,
+        "defence": 6,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
+          },
+          {
+            "damage": 0,
+            "stun": false,
+            "dodge": true,
+            "cd": 5
+          }
+        ]
+      }
+    ]
+  }
+}

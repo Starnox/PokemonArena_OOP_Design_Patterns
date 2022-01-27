@@ -63,4 +63,15 @@ public class Pokemon {
     public int calculateStats(){
         return HP + normalAttack + specialAttack + defence + specialDefence;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj == this)
+            return true;
+
+        if(!(obj instanceof Pokemon objPokemon))
+            return false;
+
+        return this.name.equals(objPokemon.name);
+    }
 }

@@ -1,16 +1,21 @@
 package org.eduard.pokemon.helpers;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.eduard.pokemon.entities.Item;
 import org.eduard.pokemon.entities.Pokemon;
 import org.eduard.pokemon.entities.PokemonFactory;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.Writer;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -21,16 +26,19 @@ import java.util.Objects;
 public class JSONHandler {
     public static final String PATH_TO_POKEMONS = "src/main/resources/Pokemons";
     public static final String PATH_TO_ITEMS = "src/main/resources/Items";
+    public static final String PATH_TO_TESTS = "src/main/resources/TestCases/";
 
     private static final Gson gson = new Gson();
-    private static final ArrayList<File> JSONPokemons =
+    private static final Gson gsonBuilder = new GsonBuilder().setPrettyPrinting().create();
+    public static final ArrayList<File> JSONPokemons =
             new ArrayList<>(Arrays.stream(Objects.requireNonNull
                     (new File(PATH_TO_POKEMONS).listFiles())).toList());
-    private static final ArrayList<File> JSONItems =
+    public static final ArrayList<File> JSONItems =
             new ArrayList<>(Arrays.stream(Objects.requireNonNull
                     (new File(PATH_TO_ITEMS).listFiles())).toList());
 
     private JSONHandler() {}
+
 
     public static Pokemon readPokemonFromFileToObject(String pokemonName){
         String json = getJSONStringFromFile(getObjectFileFromName(pokemonName, JSONPokemons));
@@ -70,8 +78,23 @@ public class JSONHandler {
         return json;
     }
 
-    public static void createJSONFileFromTestCase(TestCase testCase){
+    public static List<String> getPokemonNames(){
+        List<String> pokemonNames = new ArrayList<>();
+        for(File file : JSONPokemons){
+            String pokemonName = getFileNameWithoutExtension(file);
+            if(!pokemonName.equals("Neutrel1") && !pokemonName.equals("Neutrel2"))
+                pokemonNames.add(pokemonName);
+        }
+        return pokemonNames;
+    }
 
+    public static void createJSONFileFromTestCase(TestCase testCase, int testCaseNumber){
+        String outputPath = PATH_TO_TESTS + "test_case_" + testCaseNumber + ".json";
+        try(Writer writer = new PrintWriter(outputPath, StandardCharsets.UTF_8)){
+            gsonBuilder.toJson(testCase, writer);
+        }catch (IOException e){
+            e.printStackTrace();
+        }
     }
 
 }

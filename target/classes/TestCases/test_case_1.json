@@ -1,0 +1,88 @@
+{
+  "firstPokemonCoach": {
+    "name": "coach_1_1",
+    "age": 75,
+    "pokemons": [
+      {
+        "name": "Eevee",
+        "HP": 0,
+        "normalAttack": 5,
+        "defence": 2,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 8,
+            "stun": true,
+            "dodge": false,
+            "cd": 6
+          },
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": true,
+            "cd": 7
+          }
+        ]
+      },
+      {
+        "name": "Neutrel1",
+        "HP": 0,
+        "normalAttack": 3,
+        "defence": 1,
+        "specialDefence": 1,
+        "abilities": []
+      },
+      {
+        "name": "Neutrel2",
+        "HP": 0,
+        "normalAttack": 4,
+        "defence": 1,
+        "specialDefence": 1,
+        "abilities": []
+      }
+    ]
+  },
+  "secondPokemonCoach": {
+    "name": "coach_2_1",
+    "age": 18,
+    "pokemons": [
+      {
+        "name": "Pikachu",
+        "HP": 0,
+        "normalAttack": 4,
+        "defence": 2,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 3,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          }
+        ]
+      },
+      {
+        "name": "Neutrel1",
+        "HP": 0,
+        "normalAttack": 3,
+        "defence": 1,
+        "specialDefence": 1,
+        "abilities": []
+      },
+      {
+        "name": "Neutrel2",
+        "HP": 0,
+        "normalAttack": 4,
+        "defence": 1,
+        "specialDefence": 1,
+        "abilities": []
+      }
+    ]
+  }
+}
