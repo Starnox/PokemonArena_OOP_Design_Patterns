@@ -1,0 +1,7 @@
+{
+  "hp": 10,
+  "attack" : null,
+  "specialAttack" : null,
+  "defense" : null,
+  "specialDefense" : null
+}

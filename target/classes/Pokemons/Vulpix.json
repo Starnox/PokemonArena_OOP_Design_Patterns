@@ -1,0 +1,22 @@
+{
+  "name": "Vulpix",
+  "hp": 36,
+  "normalAttack": 5,
+  "specialAttack": null,
+  "defence": 2,
+  "specialDefence": 4,
+  "abilities": [
+    {
+      "damage": 8,
+      "stun": true,
+      "dodge": false,
+      "cd": 6
+    },
+    {
+      "damage": 2,
+      "stun": false,
+      "dodge": true,
+      "cd": 7
+    }
+  ]
+}

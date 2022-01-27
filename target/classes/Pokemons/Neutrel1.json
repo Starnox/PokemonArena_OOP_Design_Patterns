@@ -1,0 +1,9 @@
+{
+  "name": "Neutrel1",
+  "hp": 10,
+  "normalAttack": 3,
+  "specialAttack": null,
+  "defence": 1,
+  "specialDefence": 1,
+  "abilities": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Snorlax",
+  "hp": 62,
+  "normalAttack": 3,
+  "specialAttack": null,
+  "defence": 6,
+  "specialDefence": 4,
+  "abilities": [
+    {
+      "damage": 4,
+      "stun": true,
+      "dodge": false,
+      "cd": 5
+    },
+    {
+      "damage": 0,
+      "stun": false,
+      "dodge": true,
+      "cd": 5
+    }
+  ]
+}

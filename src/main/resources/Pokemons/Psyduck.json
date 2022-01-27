@@ -1,0 +1,22 @@
+{
+  "name": "Psyduck",
+  "hp": 43,
+  "normalAttack": 3,
+  "specialAttack": null,
+  "defence": 3,
+  "specialDefence": 3,
+  "abilities": [
+    {
+      "damage": 2,
+      "stun": false,
+      "dodge": false,
+      "cd": 4
+    },
+    {
+      "damage": 2,
+      "stun": true,
+      "dodge": false,
+      "cd": 5
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Pikachu",
+  "HP": 20,
+  "normalAttack": null,
+  "specialAttack": 4,
+  "defence": 2,
+  "specialDefence": 3,
+  "abilities": [
+    {
+      "damage": 6,
+      "stun": false,
+      "dodge": false,
+      "cd": 4
+    },
+    {
+      "damage": 4,
+      "stun": true,
+      "dodge": false,
+      "cd": 5
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Charmander",
+  "hp": 50,
+  "normalAttack": 4,
+  "specialAttack": null,
+  "defence": 3,
+  "specialDefence": 2,
+  "abilities": [
+    {
+      "damage": 4,
+      "stun": true,
+      "dodge": false,
+      "cd": 4
+    },
+    {
+      "damage": 7,
+      "stun": false,
+      "dodge": false,
+      "cd": 6
+    }
+  ]
+}
