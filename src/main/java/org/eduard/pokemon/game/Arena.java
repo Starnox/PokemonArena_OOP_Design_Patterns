@@ -3,6 +3,7 @@ package org.eduard.pokemon.game;
 import org.eduard.pokemon.entities.Pokemon;
 import org.eduard.pokemon.entities.PokemonCoach;
 import org.eduard.pokemon.helpers.Constants;
+import org.eduard.pokemon.helpers.Logger;
 
 import java.util.List;
 
@@ -27,10 +28,29 @@ public class Arena {
     }
 
     public void startBattle(){
+        // initialise logger and print players
+        Logger logger = Logger.getInstance();
+        logger.logPlayers(firstPokemonCoach, secondPokemonCoach);
+        logger.logDelimiter();
+
         List<Pokemon> firstCoachPokemonList = firstPokemonCoach.getPokemons();
         List<Pokemon> secondCoachPokemonList = secondPokemonCoach.getPokemons();
-        for(int i = 0; i < Math.min(firstCoachPokemonList.size(), secondCoachPokemonList.size()); ++i){
-            startBattleBetweenPokemons(firstCoachPokemonList.get(i), secondCoachPokemonList.get(i));
+        for(int i = 0; i < firstCoachPokemonList.size(); ++i){
+            // print pokemons and start the battle between them
+            logger.logEntrance(firstPokemonCoach, secondPokemonCoach, i);
+            logger.logDelimiter();
+            Pokemon firstPokemon = firstCoachPokemonList.get(i);
+            // add stats to pokemon
+
+            Pokemon secondPokemon = secondCoachPokemonList.get(i);
+
+            // show the stats of both pokemon
+            logger.logPokemonStats(firstPokemon);
+            logger.logDelimiter();
+            logger.logPokemonStats(secondPokemon);
+            logger.logDelimiter();
+
+            startBattleBetweenPokemons(firstPokemon, secondPokemon);
         }
 
         // TODO implement battle between the two best pokemons of the two trainers

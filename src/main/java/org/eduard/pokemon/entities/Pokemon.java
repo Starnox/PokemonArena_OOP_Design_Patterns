@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class Pokemon {
     private String name;
-    private int HP;
+    private int hp;
     // use Integer in order to handle null input from JSON file
     private Integer normalAttack;
     private Integer specialAttack;
@@ -24,7 +24,7 @@ public class Pokemon {
     public Pokemon(String name, int HP, int normalAttack, int specialAttack, int defence,
                    int specialDefence, List<Ability> abilities) {
         this.name = name;
-        this.HP = HP;
+        this.hp = HP;
         this.normalAttack = normalAttack;
         this.specialAttack = specialAttack;
         this.defence = defence;
@@ -39,7 +39,7 @@ public class Pokemon {
     public Integer getNormalAttack() { return normalAttack; }
 
     public int getHP() {
-        return HP;
+        return hp;
     }
 
     public List<Item> getItemList() {
@@ -48,10 +48,20 @@ public class Pokemon {
 
     public void setItemList(List<Item> itemList) {
         this.itemList = itemList;
+        // add stats from the items
+        for(Item item : itemList){
+            hp += (item.getHp() == null ? 0 : item.getHp());
+            if(normalAttack != null)
+                normalAttack += (item.getAttack() == null ? 0 : item.getAttack());
+            else
+                specialAttack += (item.getSpecialAttack() == null ? 0 : item.getSpecialAttack());
+            defence += (item.getDefense() == null ? 0 : item.getDefense());
+            specialDefence += (item.getSpecialDefense() == null ? 0 : item.getSpecialDefense());
+        }
     }
 
     public void increaseStats(){
-        HP++;
+        hp++;
         defence++;
         specialDefence++;
         if(normalAttack == null)
@@ -61,7 +71,7 @@ public class Pokemon {
     }
 
     public int calculateStats(){
-        return HP + normalAttack + specialAttack + defence + specialDefence;
+        return hp + normalAttack + specialAttack + defence + specialDefence;
     }
 
     @Override
@@ -74,4 +84,25 @@ public class Pokemon {
 
         return this.name.equals(objPokemon.name);
     }
+
+    @Override
+    public String toString(){
+        String typeOfAttack = (normalAttack == null ? "specialAttack: " + specialAttack  :
+                "normalAttack: " + normalAttack);
+        StringBuilder itemsString = new StringBuilder();
+        for(Item item : itemList){
+            itemsString.append(item).append("\n");
+        }
+        // delete last \n
+        if(!itemList.isEmpty())
+            itemsString.deleteCharAt(itemsString.length()-1);
+        else
+            itemsString.append("no items");
+
+        return name + ":\n" + "hp: " + hp + "\n"
+                + typeOfAttack + "\n" + "defence: " + defence + "\n"
+                + "specialDefence: " + specialDefence + "\nSi itemele:\n"
+                + itemsString;
+    }
+
 }

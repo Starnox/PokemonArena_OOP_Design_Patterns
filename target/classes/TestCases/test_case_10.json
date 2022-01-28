@@ -1,67 +1,11 @@
 {
   "firstPokemonCoach": {
-    "name": "coach_1_0",
-    "age": 8,
-    "pokemons": [
-      {
-        "name": "Bulbasaur",
-        "HP": 0,
-        "specialAttack": 5,
-        "defence": 3,
-        "specialDefence": 1,
-        "abilities": [
-          {
-            "damage": 6,
-            "stun": false,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 5,
-            "stun": false,
-            "dodge": false,
-            "cd": 3
-          }
-        ]
-      },
-      {
-        "name": "Charmander",
-        "HP": 0,
-        "normalAttack": 4,
-        "defence": 3,
-        "specialDefence": 2,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 7,
-            "stun": false,
-            "dodge": false,
-            "cd": 6
-          }
-        ]
-      },
-      {
-        "name": "Neutrel1",
-        "HP": 0,
-        "normalAttack": 3,
-        "defence": 1,
-        "specialDefence": 1,
-        "abilities": []
-      }
-    ]
-  },
-  "secondPokemonCoach": {
-    "name": "coach_2_0",
-    "age": 92,
+    "name": "coach_1_10",
+    "age": 52,
     "pokemons": [
       {
         "name": "Pikachu",
-        "HP": 20,
+        "hp": 35,
         "specialAttack": 4,
         "defence": 2,
         "specialDefence": 3,
@@ -81,8 +25,98 @@
         ]
       },
       {
+        "name": "Bulbasaur",
+        "hp": 42,
+        "specialAttack": 5,
+        "defence": 3,
+        "specialDefence": 1,
+        "abilities": [
+          {
+            "damage": 6,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 5,
+            "stun": false,
+            "dodge": false,
+            "cd": 3
+          }
+        ]
+      },
+      {
+        "name": "Squirtle",
+        "hp": 60,
+        "specialAttack": 3,
+        "defence": 5,
+        "specialDefence": 5,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": false,
+            "dodge": false,
+            "cd": 3
+          },
+          {
+            "damage": 2,
+            "stun": true,
+            "dodge": false,
+            "cd": 2
+          }
+        ]
+      }
+    ]
+  },
+  "secondPokemonCoach": {
+    "name": "coach_2_10",
+    "age": 11,
+    "pokemons": [
+      {
+        "name": "Jigglypuff",
+        "hp": 34,
+        "normalAttack": 4,
+        "defence": 2,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 3,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          }
+        ]
+      },
+      {
+        "name": "Bulbasaur",
+        "hp": 42,
+        "specialAttack": 5,
+        "defence": 3,
+        "specialDefence": 1,
+        "abilities": [
+          {
+            "damage": 6,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 5,
+            "stun": false,
+            "dodge": false,
+            "cd": 3
+          }
+        ]
+      },
+      {
         "name": "Eevee",
-        "HP": 0,
+        "hp": 36,
         "normalAttack": 5,
         "defence": 2,
         "specialDefence": 4,
@@ -100,14 +134,6 @@
             "cd": 7
           }
         ]
-      },
-      {
-        "name": "Neutrel2",
-        "HP": 0,
-        "normalAttack": 4,
-        "defence": 1,
-        "specialDefence": 1,
-        "abilities": []
       }
     ]
   }

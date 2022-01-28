@@ -1,32 +1,11 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_2",
-    "age": 25,
+    "age": 96,
     "pokemons": [
       {
-        "name": "Charmander",
-        "HP": 0,
-        "normalAttack": 4,
-        "defence": 3,
-        "specialDefence": 2,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 7,
-            "stun": false,
-            "dodge": false,
-            "cd": 6
-          }
-        ]
-      },
-      {
-        "name": "Eevee",
-        "HP": 0,
+        "name": "Vulpix",
+        "hp": 36,
         "normalAttack": 5,
         "defence": 2,
         "specialDefence": 4,
@@ -46,16 +25,16 @@
         ]
       },
       {
-        "name": "Meowth",
-        "HP": 0,
+        "name": "Psyduck",
+        "hp": 43,
         "normalAttack": 3,
-        "defence": 4,
-        "specialDefence": 2,
+        "defence": 3,
+        "specialDefence": 3,
         "abilities": [
           {
-            "damage": 5,
+            "damage": 2,
             "stun": false,
-            "dodge": true,
+            "dodge": false,
             "cd": 4
           },
           {
@@ -65,37 +44,10 @@
             "cd": 5
           }
         ]
-      }
-    ]
-  },
-  "secondPokemonCoach": {
-    "name": "coach_2_2",
-    "age": 65,
-    "pokemons": [
-      {
-        "name": "Charmander",
-        "HP": 0,
-        "normalAttack": 4,
-        "defence": 3,
-        "specialDefence": 2,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 7,
-            "stun": false,
-            "dodge": false,
-            "cd": 6
-          }
-        ]
       },
       {
         "name": "Squirtle",
-        "HP": 0,
+        "hp": 60,
         "specialAttack": 3,
         "defence": 5,
         "specialDefence": 5,
@@ -113,25 +65,73 @@
             "cd": 2
           }
         ]
-      },
+      }
+    ]
+  },
+  "secondPokemonCoach": {
+    "name": "coach_2_2",
+    "age": 65,
+    "pokemons": [
       {
-        "name": "Eevee",
-        "HP": 0,
-        "normalAttack": 5,
+        "name": "Jigglypuff",
+        "hp": 34,
+        "normalAttack": 4,
         "defence": 2,
-        "specialDefence": 4,
+        "specialDefence": 3,
         "abilities": [
           {
-            "damage": 8,
+            "damage": 4,
             "stun": true,
             "dodge": false,
-            "cd": 6
+            "cd": 4
+          },
+          {
+            "damage": 3,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          }
+        ]
+      },
+      {
+        "name": "Meowth",
+        "hp": 41,
+        "normalAttack": 3,
+        "defence": 4,
+        "specialDefence": 2,
+        "abilities": [
+          {
+            "damage": 5,
+            "stun": false,
+            "dodge": true,
+            "cd": 4
           },
           {
             "damage": 2,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
+          }
+        ]
+      },
+      {
+        "name": "Snorlax",
+        "hp": 62,
+        "normalAttack": 3,
+        "defence": 6,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
+          },
+          {
+            "damage": 0,
             "stun": false,
             "dodge": true,
-            "cd": 7
+            "cd": 5
           }
         ]
       }

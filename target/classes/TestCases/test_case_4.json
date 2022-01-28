@@ -1,11 +1,11 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_4",
-    "age": 27,
+    "age": 41,
     "pokemons": [
       {
         "name": "Pikachu",
-        "HP": 20,
+        "hp": 35,
         "specialAttack": 4,
         "defence": 2,
         "specialDefence": 3,
@@ -25,29 +25,29 @@
         ]
       },
       {
-        "name": "Charmander",
-        "HP": 0,
-        "normalAttack": 4,
+        "name": "Bulbasaur",
+        "hp": 42,
+        "specialAttack": 5,
         "defence": 3,
-        "specialDefence": 2,
+        "specialDefence": 1,
         "abilities": [
           {
-            "damage": 4,
-            "stun": true,
+            "damage": 6,
+            "stun": false,
             "dodge": false,
             "cd": 4
           },
           {
-            "damage": 7,
+            "damage": 5,
             "stun": false,
             "dodge": false,
-            "cd": 6
+            "cd": 3
           }
         ]
       },
       {
         "name": "Meowth",
-        "HP": 0,
+        "hp": 41,
         "normalAttack": 3,
         "defence": 4,
         "specialDefence": 2,
@@ -70,32 +70,32 @@
   },
   "secondPokemonCoach": {
     "name": "coach_2_4",
-    "age": 34,
+    "age": 32,
     "pokemons": [
       {
-        "name": "Pikachu",
-        "HP": 20,
-        "specialAttack": 4,
+        "name": "Jigglypuff",
+        "hp": 34,
+        "normalAttack": 4,
         "defence": 2,
         "specialDefence": 3,
         "abilities": [
           {
-            "damage": 6,
-            "stun": false,
+            "damage": 4,
+            "stun": true,
             "dodge": false,
             "cd": 4
           },
           {
-            "damage": 4,
+            "damage": 3,
             "stun": true,
             "dodge": false,
-            "cd": 5
+            "cd": 4
           }
         ]
       },
       {
         "name": "Bulbasaur",
-        "HP": 0,
+        "hp": 42,
         "specialAttack": 5,
         "defence": 3,
         "specialDefence": 1,
@@ -115,22 +115,22 @@
         ]
       },
       {
-        "name": "Snorlax",
-        "HP": 0,
+        "name": "Psyduck",
+        "hp": 43,
         "normalAttack": 3,
-        "defence": 6,
-        "specialDefence": 4,
+        "defence": 3,
+        "specialDefence": 3,
         "abilities": [
           {
-            "damage": 4,
-            "stun": true,
+            "damage": 2,
+            "stun": false,
             "dodge": false,
-            "cd": 5
+            "cd": 4
           },
           {
-            "damage": 0,
-            "stun": false,
-            "dodge": true,
+            "damage": 2,
+            "stun": true,
+            "dodge": false,
             "cd": 5
           }
         ]

@@ -1,5 +1,6 @@
 {
-  "HP": null,
+  "name" : "Scut",
+  "hp": null,
   "attack" : null,
   "specialAttack" : null,
   "defense" : 2,

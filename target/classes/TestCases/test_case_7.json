@@ -1,14 +1,14 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_7",
-    "age": 54,
+    "age": 50,
     "pokemons": [
       {
-        "name": "Pikachu",
-        "HP": 20,
-        "specialAttack": 4,
-        "defence": 2,
-        "specialDefence": 3,
+        "name": "Bulbasaur",
+        "hp": 42,
+        "specialAttack": 5,
+        "defence": 3,
+        "specialDefence": 1,
         "abilities": [
           {
             "damage": 6,
@@ -17,16 +17,64 @@
             "cd": 4
           },
           {
-            "damage": 4,
-            "stun": true,
+            "damage": 5,
+            "stun": false,
             "dodge": false,
-            "cd": 5
+            "cd": 3
           }
         ]
       },
       {
-        "name": "Pikachu",
-        "HP": 0,
+        "name": "Vulpix",
+        "hp": 36,
+        "normalAttack": 5,
+        "defence": 2,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 8,
+            "stun": true,
+            "dodge": false,
+            "cd": 6
+          },
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": true,
+            "cd": 7
+          }
+        ]
+      },
+      {
+        "name": "Snorlax",
+        "hp": 62,
+        "normalAttack": 3,
+        "defence": 6,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
+          },
+          {
+            "damage": 0,
+            "stun": false,
+            "dodge": true,
+            "cd": 5
+          }
+        ]
+      }
+    ]
+  },
+  "secondPokemonCoach": {
+    "name": "coach_2_7",
+    "age": 37,
+    "pokemons": [
+      {
+        "name": "Jigglypuff",
+        "hp": 34,
         "normalAttack": 4,
         "defence": 2,
         "specialDefence": 3,
@@ -47,7 +95,7 @@
       },
       {
         "name": "Bulbasaur",
-        "HP": 0,
+        "hp": 42,
         "specialAttack": 5,
         "defence": 3,
         "specialDefence": 1,
@@ -65,16 +113,10 @@
             "cd": 3
           }
         ]
-      }
-    ]
-  },
-  "secondPokemonCoach": {
-    "name": "coach_2_7",
-    "age": 46,
-    "pokemons": [
+      },
       {
-        "name": "Eevee",
-        "HP": 0,
+        "name": "Vulpix",
+        "hp": 36,
         "normalAttack": 5,
         "defence": 2,
         "specialDefence": 4,
@@ -90,48 +132,6 @@
             "stun": false,
             "dodge": true,
             "cd": 7
-          }
-        ]
-      },
-      {
-        "name": "Meowth",
-        "HP": 0,
-        "normalAttack": 3,
-        "defence": 4,
-        "specialDefence": 2,
-        "abilities": [
-          {
-            "damage": 5,
-            "stun": false,
-            "dodge": true,
-            "cd": 4
-          },
-          {
-            "damage": 2,
-            "stun": true,
-            "dodge": false,
-            "cd": 5
-          }
-        ]
-      },
-      {
-        "name": "Snorlax",
-        "HP": 0,
-        "normalAttack": 3,
-        "defence": 6,
-        "specialDefence": 4,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": true,
-            "dodge": false,
-            "cd": 5
-          },
-          {
-            "damage": 0,
-            "stun": false,
-            "dodge": true,
-            "cd": 5
           }
         ]
       }

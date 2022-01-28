@@ -1,5 +1,6 @@
 package org.eduard.pokemon.helpers;
 
+import org.eduard.pokemon.entities.Item;
 import org.eduard.pokemon.entities.Pokemon;
 import org.eduard.pokemon.entities.PokemonCoach;
 import org.eduard.pokemon.entities.PokemonCoachBuilder;
@@ -13,7 +14,7 @@ public class TestsHandler {
 
     public static void createTests(){
         // create 10 tests
-        for(int i = 0; i< 10; ++i){
+        for(int i = 1; i<= 10; ++i){
             // pick a name and age for the two trainers
 
             // create list of pokemons for the two trainers with no duplicates;
@@ -21,16 +22,24 @@ public class TestsHandler {
             List<Pokemon> secondCoachPokemons = generatePokemonList();
 
             // TODO add items to the pokemons
+            for(Pokemon pokemon : firstCoachPokemons){
+                pokemon.setItemList(generateItemsForPokemon());
+            }
+
+            for(Pokemon pokemon : secondCoachPokemons){
+                pokemon.setItemList(generateItemsForPokemon());
+            }
+
 
             PokemonCoach firstCoach = new PokemonCoachBuilder()
                     .withName("coach_1_" + i)
-                    .withAge(Constants.getRandomNumber())
+                    .withAge(Constants.getRandomAge())
                     .withPokemons(firstCoachPokemons)
                     .build();
 
             PokemonCoach secondCoach = new PokemonCoachBuilder()
                     .withName("coach_2_" + i)
-                    .withAge(Constants.getRandomNumber())
+                    .withAge(Constants.getRandomAge())
                     .withPokemons(secondCoachPokemons)
                     .build();
 
@@ -49,6 +58,19 @@ public class TestsHandler {
         }
 
         return pokemonList;
+    }
+
+    private static List<Item> generateItemsForPokemon(){
+        Set<String> itemSet = new HashSet<>();
+        while(itemSet.size() < Constants.getRandomNumber(4))
+            itemSet.add(Constants.getRandomItem());
+
+        List<Item> itemList = new ArrayList<>();
+        for(String item : itemSet){
+            itemList.add(JSONHandler.readItemFromFileToObject(item));
+        }
+
+        return itemList;
     }
 
 }

@@ -1,40 +1,41 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_2",
-    "age": 24,
+    "age": 11,
     "pokemons": [
       {
-        "name": "Eevee",
-        "HP": 0,
-        "normalAttack": 5,
+        "name": "Pikachu",
+        "hp": 35,
+        "specialAttack": 4,
         "defence": 2,
-        "specialDefence": 4,
+        "specialDefence": 3,
         "abilities": [
           {
-            "damage": 8,
+            "damage": 6,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 4,
             "stun": true,
             "dodge": false,
-            "cd": 6
-          },
+            "cd": 5
+          }
+        ],
+        "itemList": []
+      },
+      {
+        "name": "Psyduck",
+        "hp": 43,
+        "normalAttack": 3,
+        "defence": 5,
+        "specialDefence": 5,
+        "abilities": [
           {
             "damage": 2,
             "stun": false,
-            "dodge": true,
-            "cd": 7
-          }
-        ]
-      },
-      {
-        "name": "Meowth",
-        "HP": 0,
-        "normalAttack": 3,
-        "defence": 4,
-        "specialDefence": 2,
-        "abilities": [
-          {
-            "damage": 5,
-            "stun": false,
-            "dodge": true,
+            "dodge": false,
             "cd": 4
           },
           {
@@ -43,13 +44,20 @@
             "dodge": false,
             "cd": 5
           }
+        ],
+        "itemList": [
+          {
+            "name": "Scut",
+            "defense": 2,
+            "specialDefense": 2
+          }
         ]
       },
       {
         "name": "Snorlax",
-        "HP": 0,
+        "hp": 62,
         "normalAttack": 3,
-        "defence": 6,
+        "defence": 7,
         "specialDefence": 4,
         "abilities": [
           {
@@ -64,20 +72,48 @@
             "dodge": true,
             "cd": 5
           }
+        ],
+        "itemList": [
+          {
+            "name": "Brad de Craciun",
+            "defense": 1
+          }
         ]
       }
     ]
   },
   "secondPokemonCoach": {
     "name": "coach_2_2",
-    "age": 98,
+    "age": 32,
     "pokemons": [
       {
-        "name": "Charmander",
-        "HP": 0,
+        "name": "Pikachu",
+        "hp": 35,
+        "specialAttack": 4,
+        "defence": 2,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 6,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
+          }
+        ],
+        "itemList": []
+      },
+      {
+        "name": "Jigglypuff",
+        "hp": 34,
         "normalAttack": 4,
-        "defence": 3,
-        "specialDefence": 2,
+        "defence": 2,
+        "specialDefence": 3,
         "abilities": [
           {
             "damage": 4,
@@ -86,39 +122,19 @@
             "cd": 4
           },
           {
-            "damage": 7,
-            "stun": false,
-            "dodge": false,
-            "cd": 6
-          }
-        ]
-      },
-      {
-        "name": "Squirtle",
-        "HP": 0,
-        "specialAttack": 3,
-        "defence": 5,
-        "specialDefence": 5,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": false,
-            "dodge": false,
-            "cd": 3
-          },
-          {
-            "damage": 2,
+            "damage": 3,
             "stun": true,
             "dodge": false,
-            "cd": 2
+            "cd": 4
           }
-        ]
+        ],
+        "itemList": []
       },
       {
-        "name": "Eevee",
-        "HP": 0,
+        "name": "Vulpix",
+        "hp": 36,
         "normalAttack": 5,
-        "defence": 2,
+        "defence": 3,
         "specialDefence": 4,
         "abilities": [
           {
@@ -132,6 +148,12 @@
             "stun": false,
             "dodge": true,
             "cd": 7
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Brad de Craciun",
+            "defense": 1
           }
         ]
       }

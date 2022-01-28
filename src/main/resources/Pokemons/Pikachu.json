@@ -1,6 +1,6 @@
 {
   "name": "Pikachu",
-  "HP": 20,
+  "hp": 35,
   "normalAttack": null,
   "specialAttack": 4,
   "defence": 2,

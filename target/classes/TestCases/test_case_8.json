@@ -1,23 +1,23 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_8",
-    "age": 80,
+    "age": 89,
     "pokemons": [
       {
-        "name": "Psyduck",
-        "HP": 0,
-        "normalAttack": 3,
-        "defence": 3,
+        "name": "Pikachu",
+        "hp": 35,
+        "specialAttack": 4,
+        "defence": 2,
         "specialDefence": 3,
         "abilities": [
           {
-            "damage": 2,
+            "damage": 6,
             "stun": false,
             "dodge": false,
             "cd": 4
           },
           {
-            "damage": 2,
+            "damage": 4,
             "stun": true,
             "dodge": false,
             "cd": 5
@@ -25,29 +25,29 @@
         ]
       },
       {
-        "name": "Squirtle",
-        "HP": 0,
-        "specialAttack": 3,
-        "defence": 5,
-        "specialDefence": 5,
+        "name": "Vulpix",
+        "hp": 36,
+        "normalAttack": 5,
+        "defence": 2,
+        "specialDefence": 4,
         "abilities": [
           {
-            "damage": 4,
-            "stun": false,
+            "damage": 8,
+            "stun": true,
             "dodge": false,
-            "cd": 3
+            "cd": 6
           },
           {
             "damage": 2,
-            "stun": true,
-            "dodge": false,
-            "cd": 2
+            "stun": false,
+            "dodge": true,
+            "cd": 7
           }
         ]
       },
       {
         "name": "Snorlax",
-        "HP": 0,
+        "hp": 62,
         "normalAttack": 3,
         "defence": 6,
         "specialDefence": 4,
@@ -70,32 +70,53 @@
   },
   "secondPokemonCoach": {
     "name": "coach_2_8",
-    "age": 33,
+    "age": 68,
     "pokemons": [
       {
-        "name": "Pikachu",
-        "HP": 20,
-        "specialAttack": 4,
+        "name": "Jigglypuff",
+        "hp": 34,
+        "normalAttack": 4,
         "defence": 2,
         "specialDefence": 3,
         "abilities": [
           {
-            "damage": 6,
-            "stun": false,
+            "damage": 4,
+            "stun": true,
             "dodge": false,
             "cd": 4
           },
           {
+            "damage": 3,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          }
+        ]
+      },
+      {
+        "name": "Charmander",
+        "hp": 50,
+        "normalAttack": 4,
+        "defence": 3,
+        "specialDefence": 2,
+        "abilities": [
+          {
             "damage": 4,
             "stun": true,
             "dodge": false,
-            "cd": 5
+            "cd": 4
+          },
+          {
+            "damage": 7,
+            "stun": false,
+            "dodge": false,
+            "cd": 6
           }
         ]
       },
       {
         "name": "Vulpix",
-        "HP": 0,
+        "hp": 36,
         "normalAttack": 5,
         "defence": 2,
         "specialDefence": 4,
@@ -111,27 +132,6 @@
             "stun": false,
             "dodge": true,
             "cd": 7
-          }
-        ]
-      },
-      {
-        "name": "Meowth",
-        "HP": 0,
-        "normalAttack": 3,
-        "defence": 4,
-        "specialDefence": 2,
-        "abilities": [
-          {
-            "damage": 5,
-            "stun": false,
-            "dodge": true,
-            "cd": 4
-          },
-          {
-            "damage": 2,
-            "stun": true,
-            "dodge": false,
-            "cd": 5
           }
         ]
       }

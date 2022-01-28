@@ -10,4 +10,12 @@ public class TestCase {
         this.firstPokemonCoach = firstPokemonCoach;
         this.secondPokemonCoach = secondPokemonCoach;
     }
+
+    public PokemonCoach getFirstPokemonCoach() {
+        return firstPokemonCoach;
+    }
+
+    public PokemonCoach getSecondPokemonCoach() {
+        return secondPokemonCoach;
+    }
 }

@@ -1,4 +1,5 @@
 {
+  "name" : "Vesta",
   "hp": 10,
   "attack" : null,
   "specialAttack" : null,

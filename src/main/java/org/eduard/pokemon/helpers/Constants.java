@@ -23,7 +23,9 @@ public class Constants {
     private static final int EVENTS_SIZE = VALUES.size();
     private static final SecureRandom RANDOM = new SecureRandom();
     private static final List<String> POKEMON_NAMES = JSONHandler.getPokemonNames();
+    private static final List<String> ITEM_NAMES = JSONHandler.getItemNames();
     private static final int POKEMON_SIZE = POKEMON_NAMES.size();
+    private static final int ITEM_SIZE = ITEM_NAMES.size();
     private static final int MAX_AGE = 100;
 
     public static EVENT_TYPE randomEvent(){
@@ -34,8 +36,16 @@ public class Constants {
         return POKEMON_NAMES.get(RANDOM.nextInt(POKEMON_SIZE));
     }
 
-    public static int getRandomNumber(){
+    public static String getRandomItem(){
+        return ITEM_NAMES.get(RANDOM.nextInt(ITEM_SIZE));
+    }
+
+    public static int getRandomAge(){
         return RANDOM.nextInt(MAX_AGE);
+    }
+
+    public static int getRandomNumber(int number){
+        return RANDOM.nextInt(number);
     }
 
 
