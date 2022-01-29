@@ -12,4 +12,20 @@ public class Ability {
         this.dodge = dodge;
         this.cd = cd;
     }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public boolean isStun() {
+        return stun;
+    }
+
+    public boolean isDodge() {
+        return dodge;
+    }
+
+    public int getCd() {
+        return cd;
+    }
 }

@@ -1,6 +1,10 @@
 package org.eduard.pokemon.entities;
 
+import org.eduard.pokemon.game.MoveResult;
+import org.eduard.pokemon.helpers.Constants;
+
 import java.util.List;
+import java.util.Random;
 
 public class PokemonCoach {
     private String name;
@@ -37,5 +41,37 @@ public class PokemonCoach {
 
     public List<Pokemon> getPokemons() {
         return pokemons;
+    }
+
+    public MoveResult chooseMoveForPokemon(int pokemonIndex){
+        Pokemon currentPokemon = pokemons.get(pokemonIndex);
+
+        // if the pokemon isStunned it can't do anything
+        if(currentPokemon.isStunned()) {
+            currentPokemon.setStunned(false);
+            return null;
+        }
+        Constants.MOVE_TYPE moveType = Constants.getRandomMove();
+
+        // the loop  will always have an ability to exit
+        while(true) {
+            switch (moveType) {
+                case ATTACK -> {
+                    int attack = (currentPokemon.getNormalAttack() == null ? currentPokemon.getSpecialAttack() :
+                            currentPokemon.getNormalAttack());
+                    return new MoveResult(attack);
+                }
+                case ABILITY -> {
+                    int abilityIndex = (Constants.getRandomNumber(currentPokemon.getAbilities().size()));
+                    if(currentPokemon.getAbilitiesCooldown().get(abilityIndex) == 0) {
+                        Ability attack = currentPokemon.getAbilities().get(abilityIndex);
+                        // set the cooldown
+                        currentPokemon.getAbilitiesCooldown().set(abilityIndex, attack.getCd());
+                        return new MoveResult(attack, abilityIndex);
+                    }
+                }
+            }
+            moveType = Constants.getRandomMove();
+        }
     }
 }

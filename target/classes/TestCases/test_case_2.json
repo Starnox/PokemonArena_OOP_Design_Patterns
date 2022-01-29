@@ -1,13 +1,13 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_2",
-    "age": 88,
+    "age": 22,
     "pokemons": [
       {
         "name": "Jigglypuff",
         "hp": 36,
         "normalAttack": 6,
-        "defence": 2,
+        "defence": 3,
         "specialDefence": 3,
         "abilities": [
           {
@@ -25,41 +25,64 @@
         ],
         "itemList": [
           {
+            "name": "Brad de Craciun",
+            "defense": 1
+          },
+          {
             "name": "Vitamine",
             "hp": 2,
             "attack": 2,
             "specialAttack": 2
           }
+        ],
+        "savedHp": 34,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
         ]
       },
       {
-        "name": "Vulpix",
-        "hp": 36,
-        "normalAttack": 5,
-        "defence": 2,
-        "specialDefence": 4,
+        "name": "Psyduck",
+        "hp": 43,
+        "normalAttack": 6,
+        "defence": 3,
+        "specialDefence": 3,
         "abilities": [
-          {
-            "damage": 8,
-            "stun": true,
-            "dodge": false,
-            "cd": 6
-          },
           {
             "damage": 2,
             "stun": false,
-            "dodge": true,
-            "cd": 7
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 2,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
           }
         ],
-        "itemList": []
+        "itemList": [
+          {
+            "name": "Sabiuta",
+            "attack": 3
+          }
+        ],
+        "savedHp": 43,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
+        ]
       },
       {
         "name": "Meowth",
-        "hp": 51,
-        "normalAttack": 3,
+        "hp": 41,
+        "normalAttack": 6,
         "defence": 4,
-        "specialDefence": 2,
+        "specialDefence": 5,
         "abilities": [
           {
             "damage": 5,
@@ -76,23 +99,35 @@
         ],
         "itemList": [
           {
-            "name": "Vesta",
-            "hp": 10
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
+          },
+          {
+            "name": "Sabiuta",
+            "attack": 3
           }
+        ],
+        "savedHp": 41,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
         ]
       }
     ]
   },
   "secondPokemonCoach": {
     "name": "coach_2_2",
-    "age": 22,
+    "age": 25,
     "pokemons": [
       {
-        "name": "Charmander",
-        "hp": 50,
+        "name": "Jigglypuff",
+        "hp": 34,
         "normalAttack": 4,
-        "defence": 3,
-        "specialDefence": 2,
+        "defence": 2,
+        "specialDefence": 6,
         "abilities": [
           {
             "damage": 4,
@@ -101,91 +136,89 @@
             "cd": 4
           },
           {
-            "damage": 7,
-            "stun": false,
-            "dodge": false,
-            "cd": 6
-          }
-        ],
-        "itemList": [
-          {
-            "name": "Bagheta Magica",
-            "specialAttack": 3
-          }
-        ]
-      },
-      {
-        "name": "Vulpix",
-        "hp": 46,
-        "normalAttack": 5,
-        "defence": 2,
-        "specialDefence": 7,
-        "abilities": [
-          {
-            "damage": 8,
+            "damage": 3,
             "stun": true,
             "dodge": false,
-            "cd": 6
-          },
-          {
-            "damage": 2,
-            "stun": false,
-            "dodge": true,
-            "cd": 7
+            "cd": 4
           }
         ],
         "itemList": [
-          {
-            "name": "Bagheta Magica",
-            "specialAttack": 3
-          },
-          {
-            "name": "Vesta",
-            "hp": 10
-          },
           {
             "name": "Pelerina",
             "specialAttack": 3,
             "specialDefense": 3
           }
+        ],
+        "savedHp": 34,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
         ]
       },
       {
-        "name": "Snorlax",
-        "hp": 64,
-        "normalAttack": 5,
-        "defence": 9,
-        "specialDefence": 6,
+        "name": "Bulbasaur",
+        "hp": 42,
+        "specialAttack": 5,
+        "defence": 3,
+        "specialDefence": 1,
+        "abilities": [
+          {
+            "damage": 6,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 5,
+            "stun": false,
+            "dodge": false,
+            "cd": 3
+          }
+        ],
+        "itemList": [],
+        "savedHp": 42,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Squirtle",
+        "hp": 60,
+        "specialAttack": 3,
+        "defence": 7,
+        "specialDefence": 7,
         "abilities": [
           {
             "damage": 4,
-            "stun": true,
+            "stun": false,
             "dodge": false,
-            "cd": 5
+            "cd": 3
           },
           {
-            "damage": 0,
-            "stun": false,
-            "dodge": true,
-            "cd": 5
+            "damage": 2,
+            "stun": true,
+            "dodge": false,
+            "cd": 2
           }
         ],
         "itemList": [
           {
-            "name": "Brad de Craciun",
-            "defense": 1
-          },
-          {
             "name": "Scut",
             "defense": 2,
             "specialDefense": 2
-          },
-          {
-            "name": "Vitamine",
-            "hp": 2,
-            "attack": 2,
-            "specialAttack": 2
           }
+        ],
+        "savedHp": 60,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
         ]
       }
     ]

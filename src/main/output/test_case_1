@@ -1,21 +1,131 @@
-coach_1_1 cu varsta de 52 intra in arena si se va lupta cu coach_2_1 care are varsta de 58
+coach_1_1 cu varsta de 56 intra in arena si se va lupta cu coach_2_1 care are varsta de 27
 ------------------**************------------------
-coach_1_1 se lupta cu pokemonul Bulbasaur contra lui coach_2_1 care are pokemonul Jigglypuff
+coach_1_1 se lupta cu pokemonul Bulbasaur contra lui coach_2_1 care are pokemonul Vulpix
 ------------------**************------------------
 Bulbasaur:
 hp: 42
-specialAttack: 8
+specialAttack: 5
 defence: 3
-specialDefence: 4
-Si itemele:
-Pelerina
-Sabiuta
-------------------**************------------------
-Jigglypuff:
-hp: 34
-normalAttack: 4
-defence: 2
-specialDefence: 3
+specialDefence: 1
 Si itemele:
 no items
 ------------------**************------------------
+Vulpix:
+hp: 48
+normalAttack: 7
+defence: 2
+specialDefence: 4
+Si itemele:
+Vesta
+Vitamine
+------------------**************------------------
+coach_1_1 se lupta cu pokemonul Eevee contra lui coach_2_1 care are pokemonul Psyduck
+------------------**************------------------
+Eevee:
+hp: 36
+normalAttack: 5
+defence: 2
+specialDefence: 4
+Si itemele:
+no items
+------------------**************------------------
+Psyduck:
+hp: 55
+normalAttack: 5
+defence: 3
+specialDefence: 3
+Si itemele:
+Vesta
+Vitamine
+------------------**************------------------
+coach_1_1 se lupta cu pokemonul Meowth contra lui coach_2_1 care are pokemonul Eevee
+------------------**************------------------
+Meowth:
+hp: 41
+normalAttack: 3
+defence: 4
+specialDefence: 2
+Si itemele:
+no items
+------------------**************------------------
+Eevee:
+hp: 38
+normalAttack: 7
+defence: 2
+specialDefence: 4
+Si itemele:
+Vitamine
+------------------**************------------------
+Meowth abilitate 1 / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Eevee ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Eevee abilitate 2 / Neutrel2 ataca normal -> Rezultat: 
+
+Eevee ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Eevee ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth abilitate 1 / Neutrel2 ataca normal -> Rezultat: 
+
+Eevee ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Eevee ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Eevee ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth abilitate 2 / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 nu face nimic -> Rezultat: 
+
+Meowth abilitate 1 / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Meowth ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Eevee ataca normal / Neutrel2 ataca normal -> Rezultat: 
+
+Eevee abilitate 2 / Neutrel2 ataca normal -> Rezultat: 
+
+Eevee abilitate 1 / Neutrel2 ataca normal -> Rezultat: 
+
+Eevee ataca normal / Neutrel2 nu face nimic -> Rezultat: 
+
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat

@@ -3,6 +3,7 @@ package org.eduard.pokemon.helpers;
 import org.eduard.pokemon.entities.Pokemon;
 import org.eduard.pokemon.entities.PokemonCoach;
 import org.eduard.pokemon.game.BattleResult;
+import org.eduard.pokemon.game.MoveResult;
 
 import java.io.*;
 import java.sql.SQLOutput;
@@ -84,4 +85,26 @@ public class Logger {
     }
 
 
+    public void logBattleSequence(MoveResult firstMoveResult, MoveResult secondMoveResults,
+                                  Pokemon firstPokemon, Pokemon secondPokemon) {
+
+        StringBuilder stringToLog = new StringBuilder();
+        stringToLog.append(headerForPokemon(firstPokemon, firstMoveResult));
+        stringToLog.append(" / ");
+        stringToLog.append(headerForPokemon(secondPokemon, secondMoveResults));
+        stringToLog.append(" -> Rezultat: \n");
+
+        System.out.println(stringToLog);
+        logStringToFile(stringToLog.toString());
+
+    }
+
+    private String headerForPokemon(Pokemon pokemon, MoveResult moveResult){
+        if(moveResult == null)
+            return pokemon.getName() + " nu face nimic";
+        else{
+            return pokemon.getName() + (moveResult.getMoveType() == Constants.MOVE_TYPE.ABILITY ? " abilitate "
+                    + (moveResult.getAbilityIndex() + 1) : " ataca " + (pokemon.getNormalAttack() != null ? "normal" : "special"));
+        }
+    }
 }

@@ -5,10 +5,7 @@ import org.eduard.pokemon.entities.Pokemon;
 import org.eduard.pokemon.entities.PokemonCoach;
 import org.eduard.pokemon.entities.PokemonCoachBuilder;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class TestsHandler {
 
@@ -21,12 +18,17 @@ public class TestsHandler {
             List<Pokemon> firstCoachPokemons = generatePokemonList();
             List<Pokemon> secondCoachPokemons = generatePokemonList();
 
-            // TODO add items to the pokemons
+            // set the cooldown if the abilities to 0 and add itmes
+
             for(Pokemon pokemon : firstCoachPokemons){
+                pokemon.setSavedHp(pokemon.getHp());
+                pokemon.setAbilitiesCooldown(new ArrayList<>(Collections.nCopies(2, 0)));
                 pokemon.setItemList(generateItemsForPokemon());
             }
 
             for(Pokemon pokemon : secondCoachPokemons){
+                pokemon.setSavedHp(pokemon.getHp());
+                pokemon.setAbilitiesCooldown(new ArrayList<>(Collections.nCopies(2, 0)));
                 pokemon.setItemList(generateItemsForPokemon());
             }
 

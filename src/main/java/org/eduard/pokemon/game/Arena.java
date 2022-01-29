@@ -62,22 +62,28 @@ public class Arena {
 
         Logger logger = Logger.getInstance();
         // loop while the current event is not a duel
-        Constants.EVENT_TYPE currentEvent = Constants.randomEvent();
+        Constants.EVENT_TYPE currentEvent = Constants.getRandomEvent();
         boolean duelWasFought = false;
         while(!duelWasFought){
 
             // create new event depending on its type, start the battle and then update the stats
             IEvent battleEvent = EventFactory.createEvent(currentEvent, firstPokemonCoach, secondPokemonCoach, pokemonIndex);
 
+            assert battleEvent != null;
             BattleResult battleResult = battleEvent.startBattle();
+
+            // TODO implement duel and delete this if
+            if(currentEvent == Constants.EVENT_TYPE.DUEL) {
+                duelWasFought = true;
+                break;
+            }
             logger.logBattleResult(battleResult);
 
             updatePokemonStatsAfterBattle(battleResult, pokemonIndex);
 
-            if(currentEvent == Constants.EVENT_TYPE.DUEL)
-                duelWasFought = true;
 
-            currentEvent = Constants.randomEvent();
+
+            currentEvent = Constants.getRandomEvent();
         }
 
     }
@@ -92,6 +98,9 @@ public class Arena {
                 secondPokemonCoach.getPokemons().get(pokemonIndex).increaseStats();
         }
         else{
+            // if it is a draw
+            if(battleResult.isFirstPokemonDead() && battleResult.isSecondPokemonDead())
+                return;
             // the second pokemon won
             if(battleResult.isFirstPokemonDead())
                 secondPokemonCoach.getPokemons().get(pokemonIndex).increaseStats();
