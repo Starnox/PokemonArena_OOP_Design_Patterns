@@ -1,14 +1,36 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_5",
-    "age": 86,
+    "age": 11,
     "pokemons": [
+      {
+        "name": "Charmander",
+        "hp": 50,
+        "normalAttack": 4,
+        "defence": 3,
+        "specialDefence": 2,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 7,
+            "stun": false,
+            "dodge": false,
+            "cd": 6
+          }
+        ],
+        "itemList": []
+      },
       {
         "name": "Squirtle",
         "hp": 60,
         "specialAttack": 3,
-        "defence": 5,
-        "specialDefence": 5,
+        "defence": 7,
+        "specialDefence": 7,
         "abilities": [
           {
             "damage": 4,
@@ -22,6 +44,13 @@
             "dodge": false,
             "cd": 2
           }
+        ],
+        "itemList": [
+          {
+            "name": "Scut",
+            "defense": 2,
+            "specialDefense": 2
+          }
         ]
       },
       {
@@ -29,7 +58,7 @@
         "hp": 36,
         "normalAttack": 5,
         "defence": 2,
-        "specialDefence": 4,
+        "specialDefence": 7,
         "abilities": [
           {
             "damage": 8,
@@ -43,26 +72,12 @@
             "dodge": true,
             "cd": 7
           }
-        ]
-      },
-      {
-        "name": "Meowth",
-        "hp": 41,
-        "normalAttack": 3,
-        "defence": 4,
-        "specialDefence": 2,
-        "abilities": [
+        ],
+        "itemList": [
           {
-            "damage": 5,
-            "stun": false,
-            "dodge": true,
-            "cd": 4
-          },
-          {
-            "damage": 2,
-            "stun": true,
-            "dodge": false,
-            "cd": 5
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
           }
         ]
       }
@@ -70,14 +85,14 @@
   },
   "secondPokemonCoach": {
     "name": "coach_2_5",
-    "age": 3,
+    "age": 38,
     "pokemons": [
       {
         "name": "Pikachu",
-        "hp": 35,
+        "hp": 45,
         "specialAttack": 4,
-        "defence": 2,
-        "specialDefence": 3,
+        "defence": 4,
+        "specialDefence": 5,
         "abilities": [
           {
             "damage": 6,
@@ -91,14 +106,56 @@
             "dodge": false,
             "cd": 5
           }
+        ],
+        "itemList": [
+          {
+            "name": "Scut",
+            "defense": 2,
+            "specialDefense": 2
+          },
+          {
+            "name": "Vesta",
+            "hp": 10
+          }
+        ]
+      },
+      {
+        "name": "Bulbasaur",
+        "hp": 42,
+        "specialAttack": 5,
+        "defence": 4,
+        "specialDefence": 1,
+        "abilities": [
+          {
+            "damage": 6,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 5,
+            "stun": false,
+            "dodge": false,
+            "cd": 3
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Brad de Craciun",
+            "defense": 1
+          },
+          {
+            "name": "Sabiuta",
+            "attack": 3
+          }
         ]
       },
       {
         "name": "Psyduck",
         "hp": 43,
         "normalAttack": 3,
-        "defence": 3,
-        "specialDefence": 3,
+        "defence": 5,
+        "specialDefence": 8,
         "abilities": [
           {
             "damage": 2,
@@ -112,26 +169,17 @@
             "dodge": false,
             "cd": 5
           }
-        ]
-      },
-      {
-        "name": "Eevee",
-        "hp": 36,
-        "normalAttack": 5,
-        "defence": 2,
-        "specialDefence": 4,
-        "abilities": [
+        ],
+        "itemList": [
           {
-            "damage": 8,
-            "stun": true,
-            "dodge": false,
-            "cd": 6
+            "name": "Scut",
+            "defense": 2,
+            "specialDefense": 2
           },
           {
-            "damage": 2,
-            "stun": false,
-            "dodge": true,
-            "cd": 7
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
           }
         ]
       }

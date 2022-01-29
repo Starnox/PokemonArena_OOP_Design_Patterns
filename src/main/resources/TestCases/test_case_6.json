@@ -1,14 +1,14 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_6",
-    "age": 39,
+    "age": 17,
     "pokemons": [
       {
         "name": "Bulbasaur",
-        "hp": 52,
-        "specialAttack": 8,
+        "hp": 42,
+        "specialAttack": 5,
         "defence": 3,
-        "specialDefence": 4,
+        "specialDefence": 1,
         "abilities": [
           {
             "damage": 6,
@@ -23,46 +23,43 @@
             "cd": 3
           }
         ],
-        "itemList": [
-          {
-            "name": "Vesta",
-            "hp": 10
-          },
-          {
-            "name": "Pelerina",
-            "specialAttack": 3,
-            "specialDefense": 3
-          }
-        ]
+        "itemList": []
       },
       {
-        "name": "Charmander",
-        "hp": 50,
-        "normalAttack": 4,
+        "name": "Psyduck",
+        "hp": 45,
+        "normalAttack": 5,
         "defence": 3,
-        "specialDefence": 2,
+        "specialDefence": 3,
         "abilities": [
           {
-            "damage": 4,
-            "stun": true,
+            "damage": 2,
+            "stun": false,
             "dodge": false,
             "cd": 4
           },
           {
-            "damage": 7,
-            "stun": false,
+            "damage": 2,
+            "stun": true,
             "dodge": false,
-            "cd": 6
+            "cd": 5
           }
         ],
-        "itemList": []
+        "itemList": [
+          {
+            "name": "Vitamine",
+            "hp": 2,
+            "attack": 2,
+            "specialAttack": 2
+          }
+        ]
       },
       {
-        "name": "Vulpix",
-        "hp": 36,
+        "name": "Eevee",
+        "hp": 46,
         "normalAttack": 5,
         "defence": 2,
-        "specialDefence": 4,
+        "specialDefence": 7,
         "abilities": [
           {
             "damage": 8,
@@ -77,29 +74,39 @@
             "cd": 7
           }
         ],
-        "itemList": []
+        "itemList": [
+          {
+            "name": "Vesta",
+            "hp": 10
+          },
+          {
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
+          }
+        ]
       }
     ]
   },
   "secondPokemonCoach": {
     "name": "coach_2_6",
-    "age": 7,
+    "age": 36,
     "pokemons": [
       {
-        "name": "Pikachu",
-        "hp": 35,
-        "specialAttack": 4,
+        "name": "Psyduck",
+        "hp": 43,
+        "normalAttack": 3,
         "defence": 3,
-        "specialDefence": 3,
+        "specialDefence": 6,
         "abilities": [
           {
-            "damage": 6,
+            "damage": 2,
             "stun": false,
             "dodge": false,
             "cd": 4
           },
           {
-            "damage": 4,
+            "damage": 2,
             "stun": true,
             "dodge": false,
             "cd": 5
@@ -107,32 +114,43 @@
         ],
         "itemList": [
           {
-            "name": "Brad de Craciun",
-            "defense": 1
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
           }
         ]
       },
       {
-        "name": "Squirtle",
-        "hp": 60,
-        "specialAttack": 3,
-        "defence": 5,
+        "name": "Meowth",
+        "hp": 41,
+        "normalAttack": 3,
+        "defence": 4,
         "specialDefence": 5,
         "abilities": [
           {
-            "damage": 4,
+            "damage": 5,
             "stun": false,
-            "dodge": false,
-            "cd": 3
+            "dodge": true,
+            "cd": 4
           },
           {
             "damage": 2,
             "stun": true,
             "dodge": false,
-            "cd": 2
+            "cd": 5
           }
         ],
-        "itemList": []
+        "itemList": [
+          {
+            "name": "Bagheta Magica",
+            "specialAttack": 3
+          },
+          {
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
+          }
+        ]
       },
       {
         "name": "Snorlax",

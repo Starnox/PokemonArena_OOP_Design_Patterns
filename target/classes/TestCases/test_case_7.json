@@ -1,14 +1,14 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_7",
-    "age": 50,
+    "age": 3,
     "pokemons": [
       {
-        "name": "Bulbasaur",
-        "hp": 42,
-        "specialAttack": 5,
+        "name": "Pikachu",
+        "hp": 35,
+        "specialAttack": 4,
         "defence": 3,
-        "specialDefence": 1,
+        "specialDefence": 3,
         "abilities": [
           {
             "damage": 6,
@@ -17,10 +17,16 @@
             "cd": 4
           },
           {
-            "damage": 5,
-            "stun": false,
+            "damage": 4,
+            "stun": true,
             "dodge": false,
-            "cd": 3
+            "cd": 5
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Brad de Craciun",
+            "defense": 1
           }
         ]
       },
@@ -28,8 +34,8 @@
         "name": "Vulpix",
         "hp": 36,
         "normalAttack": 5,
-        "defence": 2,
-        "specialDefence": 4,
+        "defence": 4,
+        "specialDefence": 6,
         "abilities": [
           {
             "damage": 8,
@@ -43,81 +49,47 @@
             "dodge": true,
             "cd": 7
           }
+        ],
+        "itemList": [
+          {
+            "name": "Scut",
+            "defense": 2,
+            "specialDefense": 2
+          }
         ]
       },
       {
-        "name": "Snorlax",
-        "hp": 62,
+        "name": "Psyduck",
+        "hp": 43,
         "normalAttack": 3,
-        "defence": 6,
-        "specialDefence": 4,
+        "defence": 3,
+        "specialDefence": 3,
         "abilities": [
           {
-            "damage": 4,
+            "damage": 2,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 2,
             "stun": true,
             "dodge": false,
             "cd": 5
-          },
-          {
-            "damage": 0,
-            "stun": false,
-            "dodge": true,
-            "cd": 5
           }
-        ]
+        ],
+        "itemList": []
       }
     ]
   },
   "secondPokemonCoach": {
     "name": "coach_2_7",
-    "age": 37,
+    "age": 18,
     "pokemons": [
-      {
-        "name": "Jigglypuff",
-        "hp": 34,
-        "normalAttack": 4,
-        "defence": 2,
-        "specialDefence": 3,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 3,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          }
-        ]
-      },
-      {
-        "name": "Bulbasaur",
-        "hp": 42,
-        "specialAttack": 5,
-        "defence": 3,
-        "specialDefence": 1,
-        "abilities": [
-          {
-            "damage": 6,
-            "stun": false,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 5,
-            "stun": false,
-            "dodge": false,
-            "cd": 3
-          }
-        ]
-      },
       {
         "name": "Vulpix",
         "hp": 36,
-        "normalAttack": 5,
+        "normalAttack": 8,
         "defence": 2,
         "specialDefence": 4,
         "abilities": [
@@ -133,7 +105,64 @@
             "dodge": true,
             "cd": 7
           }
+        ],
+        "itemList": [
+          {
+            "name": "Sabiuta",
+            "attack": 3
+          }
         ]
+      },
+      {
+        "name": "Eevee",
+        "hp": 38,
+        "normalAttack": 7,
+        "defence": 2,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 8,
+            "stun": true,
+            "dodge": false,
+            "cd": 6
+          },
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": true,
+            "cd": 7
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Vitamine",
+            "hp": 2,
+            "attack": 2,
+            "specialAttack": 2
+          }
+        ]
+      },
+      {
+        "name": "Meowth",
+        "hp": 41,
+        "normalAttack": 3,
+        "defence": 4,
+        "specialDefence": 2,
+        "abilities": [
+          {
+            "damage": 5,
+            "stun": false,
+            "dodge": true,
+            "cd": 4
+          },
+          {
+            "damage": 2,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
+          }
+        ],
+        "itemList": []
       }
     ]
   }

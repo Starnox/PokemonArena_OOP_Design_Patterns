@@ -1,4 +1,4 @@
 package org.eduard.pokemon.game;
 
-public class Battle {
+public class MoveResult {
 }

@@ -18,6 +18,12 @@ public class Constants {
         DUEL
     }
 
+    public enum MOVE_TYPE{
+        NORMAL_ATTACK,
+        SPECIAL_ATTACK,
+        ABILITY
+    }
+
     private static final List<EVENT_TYPE> VALUES =
             List.of(EVENT_TYPE.values());
     private static final int EVENTS_SIZE = VALUES.size();
@@ -27,6 +33,8 @@ public class Constants {
     private static final int POKEMON_SIZE = POKEMON_NAMES.size();
     private static final int ITEM_SIZE = ITEM_NAMES.size();
     private static final int MAX_AGE = 100;
+    private static final String NEUTREL1 = "Neutrel1";
+    private static final String NEUTREL2 = "Neutrel2";
 
     public static EVENT_TYPE randomEvent(){
         return VALUES.get(RANDOM.nextInt(EVENTS_SIZE));
@@ -46,6 +54,13 @@ public class Constants {
 
     public static int getRandomNumber(int number){
         return RANDOM.nextInt(number);
+    }
+
+    public static Pokemon getNeutrel1() {
+        return JSONHandler.readPokemonFromFileToObject(NEUTREL1);
+    }
+    public static Pokemon getNeutrel2() {
+        return JSONHandler.readPokemonFromFileToObject(NEUTREL2);
     }
 
 

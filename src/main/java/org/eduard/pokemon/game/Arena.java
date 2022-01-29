@@ -35,14 +35,14 @@ public class Arena {
 
         List<Pokemon> firstCoachPokemonList = firstPokemonCoach.getPokemons();
         List<Pokemon> secondCoachPokemonList = secondPokemonCoach.getPokemons();
-        for(int i = 0; i < firstCoachPokemonList.size(); ++i){
+        for(int pokemonIndex = 0; pokemonIndex < firstCoachPokemonList.size(); ++pokemonIndex){
             // print pokemons and start the battle between them
-            logger.logEntrance(firstPokemonCoach, secondPokemonCoach, i);
+            logger.logEntrance(firstPokemonCoach, secondPokemonCoach, pokemonIndex);
             logger.logDelimiter();
-            Pokemon firstPokemon = firstCoachPokemonList.get(i);
+            Pokemon firstPokemon = firstCoachPokemonList.get(pokemonIndex);
             // add stats to pokemon
 
-            Pokemon secondPokemon = secondCoachPokemonList.get(i);
+            Pokemon secondPokemon = secondCoachPokemonList.get(pokemonIndex);
 
             // show the stats of both pokemon
             logger.logPokemonStats(firstPokemon);
@@ -50,7 +50,7 @@ public class Arena {
             logger.logPokemonStats(secondPokemon);
             logger.logDelimiter();
 
-            startBattleBetweenPokemons(firstPokemon, secondPokemon);
+            startBattleBetweenPokemons(pokemonIndex);
         }
 
         // TODO implement battle between the two best pokemons of the two trainers
@@ -58,21 +58,47 @@ public class Arena {
 
 
 
-    public void startBattleBetweenPokemons(Pokemon firstPokemon, Pokemon secondPokemon){
-        // TODO make a while loop that verifies if the two coaches fight each other
-        // otherwise do the neutral fights and update the pokemons
+    public void startBattleBetweenPokemons(int pokemonIndex){
 
-
+        Logger logger = Logger.getInstance();
         // loop while the current event is not a duel
         Constants.EVENT_TYPE currentEvent = Constants.randomEvent();
-        while(currentEvent != Constants.EVENT_TYPE.DUEL){
+        boolean duelWasFought = false;
+        while(!duelWasFought){
 
-            int hpSavedFirstPokemon = firstPokemon.getHP();
-            int hpSavedSecondPokemon = secondPokemon.getHP();
+            // create new event depending on its type, start the battle and then update the stats
+            IEvent battleEvent = EventFactory.createEvent(currentEvent, firstPokemonCoach, secondPokemonCoach, pokemonIndex);
+
+            BattleResult battleResult = battleEvent.startBattle();
+            logger.logBattleResult(battleResult);
+
+            updatePokemonStatsAfterBattle(battleResult, pokemonIndex);
+
+            if(currentEvent == Constants.EVENT_TYPE.DUEL)
+                duelWasFought = true;
 
             currentEvent = Constants.randomEvent();
         }
 
+    }
+
+    private void updatePokemonStatsAfterBattle(BattleResult battleResult, int pokemonIndex){
+        // check if it is against neutrel
+        if(battleResult.isAgainstNeutrel()){
+            // if it is not dead then update the stats for the first coach pokemon
+            if(!battleResult.isFirstPokemonDead())
+                firstPokemonCoach.getPokemons().get(pokemonIndex).increaseStats();
+            if(!battleResult.isSecondPokemonDead())
+                secondPokemonCoach.getPokemons().get(pokemonIndex).increaseStats();
+        }
+        else{
+            // the second pokemon won
+            if(battleResult.isFirstPokemonDead())
+                secondPokemonCoach.getPokemons().get(pokemonIndex).increaseStats();
+            else
+                firstPokemonCoach.getPokemons().get(pokemonIndex).increaseStats();
+
+        }
     }
 
 }

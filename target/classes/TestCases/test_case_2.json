@@ -1,8 +1,37 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_2",
-    "age": 96,
+    "age": 88,
     "pokemons": [
+      {
+        "name": "Jigglypuff",
+        "hp": 36,
+        "normalAttack": 6,
+        "defence": 2,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 3,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Vitamine",
+            "hp": 2,
+            "attack": 2,
+            "specialAttack": 2
+          }
+        ]
+      },
       {
         "name": "Vulpix",
         "hp": 36,
@@ -22,80 +51,12 @@
             "dodge": true,
             "cd": 7
           }
-        ]
-      },
-      {
-        "name": "Psyduck",
-        "hp": 43,
-        "normalAttack": 3,
-        "defence": 3,
-        "specialDefence": 3,
-        "abilities": [
-          {
-            "damage": 2,
-            "stun": false,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 2,
-            "stun": true,
-            "dodge": false,
-            "cd": 5
-          }
-        ]
-      },
-      {
-        "name": "Squirtle",
-        "hp": 60,
-        "specialAttack": 3,
-        "defence": 5,
-        "specialDefence": 5,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": false,
-            "dodge": false,
-            "cd": 3
-          },
-          {
-            "damage": 2,
-            "stun": true,
-            "dodge": false,
-            "cd": 2
-          }
-        ]
-      }
-    ]
-  },
-  "secondPokemonCoach": {
-    "name": "coach_2_2",
-    "age": 65,
-    "pokemons": [
-      {
-        "name": "Jigglypuff",
-        "hp": 34,
-        "normalAttack": 4,
-        "defence": 2,
-        "specialDefence": 3,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 3,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          }
-        ]
+        ],
+        "itemList": []
       },
       {
         "name": "Meowth",
-        "hp": 41,
+        "hp": 51,
         "normalAttack": 3,
         "defence": 4,
         "specialDefence": 2,
@@ -112,14 +73,89 @@
             "dodge": false,
             "cd": 5
           }
+        ],
+        "itemList": [
+          {
+            "name": "Vesta",
+            "hp": 10
+          }
+        ]
+      }
+    ]
+  },
+  "secondPokemonCoach": {
+    "name": "coach_2_2",
+    "age": 22,
+    "pokemons": [
+      {
+        "name": "Charmander",
+        "hp": 50,
+        "normalAttack": 4,
+        "defence": 3,
+        "specialDefence": 2,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 7,
+            "stun": false,
+            "dodge": false,
+            "cd": 6
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Bagheta Magica",
+            "specialAttack": 3
+          }
+        ]
+      },
+      {
+        "name": "Vulpix",
+        "hp": 46,
+        "normalAttack": 5,
+        "defence": 2,
+        "specialDefence": 7,
+        "abilities": [
+          {
+            "damage": 8,
+            "stun": true,
+            "dodge": false,
+            "cd": 6
+          },
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": true,
+            "cd": 7
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Bagheta Magica",
+            "specialAttack": 3
+          },
+          {
+            "name": "Vesta",
+            "hp": 10
+          },
+          {
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
+          }
         ]
       },
       {
         "name": "Snorlax",
-        "hp": 62,
-        "normalAttack": 3,
-        "defence": 6,
-        "specialDefence": 4,
+        "hp": 64,
+        "normalAttack": 5,
+        "defence": 9,
+        "specialDefence": 6,
         "abilities": [
           {
             "damage": 4,
@@ -132,6 +168,23 @@
             "stun": false,
             "dodge": true,
             "cd": 5
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Brad de Craciun",
+            "defense": 1
+          },
+          {
+            "name": "Scut",
+            "defense": 2,
+            "specialDefense": 2
+          },
+          {
+            "name": "Vitamine",
+            "hp": 2,
+            "attack": 2,
+            "specialAttack": 2
           }
         ]
       }

@@ -1,32 +1,11 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_10",
-    "age": 52,
+    "age": 81,
     "pokemons": [
       {
-        "name": "Pikachu",
-        "hp": 35,
-        "specialAttack": 4,
-        "defence": 2,
-        "specialDefence": 3,
-        "abilities": [
-          {
-            "damage": 6,
-            "stun": false,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 4,
-            "stun": true,
-            "dodge": false,
-            "cd": 5
-          }
-        ]
-      },
-      {
         "name": "Bulbasaur",
-        "hp": 42,
+        "hp": 52,
         "specialAttack": 5,
         "defence": 3,
         "specialDefence": 1,
@@ -43,12 +22,47 @@
             "dodge": false,
             "cd": 3
           }
+        ],
+        "itemList": [
+          {
+            "name": "Vesta",
+            "hp": 10
+          }
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "hp": 45,
+        "normalAttack": 5,
+        "defence": 3,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 2,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Vitamine",
+            "hp": 2,
+            "attack": 2,
+            "specialAttack": 2
+          }
         ]
       },
       {
         "name": "Squirtle",
-        "hp": 60,
-        "specialAttack": 3,
+        "hp": 62,
+        "specialAttack": 5,
         "defence": 5,
         "specialDefence": 5,
         "abilities": [
@@ -64,41 +78,28 @@
             "dodge": false,
             "cd": 2
           }
+        ],
+        "itemList": [
+          {
+            "name": "Vitamine",
+            "hp": 2,
+            "attack": 2,
+            "specialAttack": 2
+          }
         ]
       }
     ]
   },
   "secondPokemonCoach": {
     "name": "coach_2_10",
-    "age": 11,
+    "age": 5,
     "pokemons": [
-      {
-        "name": "Jigglypuff",
-        "hp": 34,
-        "normalAttack": 4,
-        "defence": 2,
-        "specialDefence": 3,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 3,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          }
-        ]
-      },
       {
         "name": "Bulbasaur",
         "hp": 42,
         "specialAttack": 5,
-        "defence": 3,
-        "specialDefence": 1,
+        "defence": 5,
+        "specialDefence": 3,
         "abilities": [
           {
             "damage": 6,
@@ -112,14 +113,21 @@
             "dodge": false,
             "cd": 3
           }
+        ],
+        "itemList": [
+          {
+            "name": "Scut",
+            "defense": 2,
+            "specialDefense": 2
+          }
         ]
       },
       {
-        "name": "Eevee",
+        "name": "Vulpix",
         "hp": 36,
         "normalAttack": 5,
-        "defence": 2,
-        "specialDefence": 4,
+        "defence": 4,
+        "specialDefence": 6,
         "abilities": [
           {
             "damage": 8,
@@ -132,6 +140,42 @@
             "stun": false,
             "dodge": true,
             "cd": 7
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Scut",
+            "defense": 2,
+            "specialDefense": 2
+          }
+        ]
+      },
+      {
+        "name": "Squirtle",
+        "hp": 62,
+        "specialAttack": 5,
+        "defence": 5,
+        "specialDefence": 5,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": false,
+            "dodge": false,
+            "cd": 3
+          },
+          {
+            "damage": 2,
+            "stun": true,
+            "dodge": false,
+            "cd": 2
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Vitamine",
+            "hp": 2,
+            "attack": 2,
+            "specialAttack": 2
           }
         ]
       }

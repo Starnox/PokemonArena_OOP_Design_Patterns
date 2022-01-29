@@ -2,10 +2,7 @@ package org.eduard.pokemon.game;
 
 import org.eduard.pokemon.entities.Item;
 import org.eduard.pokemon.entities.Pokemon;
-import org.eduard.pokemon.helpers.JSONHandler;
-import org.eduard.pokemon.helpers.Logger;
-import org.eduard.pokemon.helpers.TestCase;
-import org.eduard.pokemon.helpers.TestsHandler;
+import org.eduard.pokemon.helpers.*;
 
 import java.util.List;
 
@@ -33,6 +30,7 @@ public class PlayGame
             // set for each testCase the output file of the logger
 
         }*/
+
 
         TestCase testCase1 = testCaseList.get(0);
         Arena newArena = new ArenaBuilder()

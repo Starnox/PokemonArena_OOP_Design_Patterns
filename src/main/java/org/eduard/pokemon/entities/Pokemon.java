@@ -90,14 +90,16 @@ public class Pokemon {
         String typeOfAttack = (normalAttack == null ? "specialAttack: " + specialAttack  :
                 "normalAttack: " + normalAttack);
         StringBuilder itemsString = new StringBuilder();
-        for(Item item : itemList){
-            itemsString.append(item).append("\n");
+        if(itemList != null) {
+            for (Item item : itemList) {
+                itemsString.append(item).append("\n");
+            }
+            // delete last \n
+            if (!itemList.isEmpty())
+                itemsString.deleteCharAt(itemsString.length() - 1);
+            else
+                itemsString.append("no items");
         }
-        // delete last \n
-        if(!itemList.isEmpty())
-            itemsString.deleteCharAt(itemsString.length()-1);
-        else
-            itemsString.append("no items");
 
         return name + ":\n" + "hp: " + hp + "\n"
                 + typeOfAttack + "\n" + "defence: " + defence + "\n"

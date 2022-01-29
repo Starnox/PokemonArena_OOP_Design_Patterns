@@ -1,62 +1,21 @@
-coach_1_1 cu varsta de 76 intra in arena si se va lupta cu coach_2_1 care are varsta de 86
+coach_1_1 cu varsta de 52 intra in arena si se va lupta cu coach_2_1 care are varsta de 58
 ------------------**************------------------
-coach_1_1 se lupta cu pokemonul Eevee contra lui coach_2_1 care are pokemonul Psyduck
+coach_1_1 se lupta cu pokemonul Bulbasaur contra lui coach_2_1 care are pokemonul Jigglypuff
 ------------------**************------------------
-Eevee:
-hp: 38
-normalAttack: 7
+Bulbasaur:
+hp: 42
+specialAttack: 8
 defence: 3
 specialDefence: 4
 Si itemele:
-Brad de Craciun
-Vitamine
-------------------**************------------------
-Psyduck:
-hp: 53
-normalAttack: 3
-defence: 3
-specialDefence: 3
-Si itemele:
-Vesta
-------------------**************------------------
-coach_1_1 se lupta cu pokemonul Meowth contra lui coach_2_1 care are pokemonul Squirtle
-------------------**************------------------
-Meowth:
-hp: 41
-normalAttack: 6
-defence: 5
-specialDefence: 5
-Si itemele:
-Brad de Craciun
 Pelerina
 Sabiuta
 ------------------**************------------------
-Squirtle:
-hp: 60
-specialAttack: 6
-defence: 6
-specialDefence: 5
-Si itemele:
-Brad de Craciun
-Bagheta Magica
-------------------**************------------------
-coach_1_1 se lupta cu pokemonul Snorlax contra lui coach_2_1 care are pokemonul Eevee
-------------------**************------------------
-Snorlax:
-hp: 74
-normalAttack: 8
-defence: 6
-specialDefence: 4
-Si itemele:
-Vesta
-Sabiuta
-Vitamine
-------------------**************------------------
-Eevee:
-hp: 36
-normalAttack: 5
+Jigglypuff:
+hp: 34
+normalAttack: 4
 defence: 2
-specialDefence: 4
+specialDefence: 3
 Si itemele:
 no items
 ------------------**************------------------

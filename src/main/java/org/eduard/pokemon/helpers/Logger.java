@@ -5,6 +5,7 @@ import org.eduard.pokemon.entities.PokemonCoach;
 import org.eduard.pokemon.game.BattleResult;
 
 import java.io.*;
+import java.sql.SQLOutput;
 
 // TODO implement logger so that the file stays open until a function tells it to close
 
@@ -49,7 +50,8 @@ public class Logger {
     }
 
     public void logBattleResult(BattleResult battleResult){
-
+        System.out.println(battleResult);
+        logStringToFile(battleResult.toString());
     }
 
     public void logDelimiter(){
