@@ -2,9 +2,8 @@ package org.eduard.pokemon.game;
 
 import org.eduard.pokemon.entities.Pokemon;
 import org.eduard.pokemon.entities.PokemonCoach;
-import org.eduard.pokemon.helpers.Constants;
+import org.eduard.pokemon.helpers.Logger;
 
-import java.util.Random;
 
 public class NeutralFightEvent implements IEvent {
     private PokemonCoach pokemonCoach1;
@@ -23,10 +22,19 @@ public class NeutralFightEvent implements IEvent {
     @Override
     public BattleResult startBattle() {
         // Coach number 1 will fight first against neutrel
-        boolean isFirstPokemonDead = startIndividualBattle(pokemonCoach1);
-        boolean isSecondPokemonDead = startIndividualBattle(pokemonCoach2);
+        Logger logger = Logger.getInstance();
 
-        return new BattleResult(true, false, isFirstPokemonDead, isSecondPokemonDead);
+        // log and start battle 1
+        logger.logPokemonBattleHeader(pokemonCoach1.getPokemons().get(pokemonIndex), neutrelPokemon);
+        boolean isFirstPokemonDead = startIndividualBattle(pokemonCoach1);
+
+        logger.logDelimiter();
+        // log and start battle 2
+        logger.logPokemonBattleHeader(pokemonCoach2.getPokemons().get(pokemonIndex), neutrelPokemon);
+        boolean isSecondPokemonDead = startIndividualBattle(pokemonCoach2);
+        logger.logDelimiter();
+
+        return new BattleResult(true, isFirstPokemonDead, isSecondPokemonDead);
     }
 
     private boolean startIndividualBattle(PokemonCoach pokemonCoach){
@@ -59,5 +67,11 @@ public class NeutralFightEvent implements IEvent {
         return  isPokemonDead;
     }
 
+    public Pokemon getNeutrelPokemon() {
+        return neutrelPokemon;
+    }
 
+    public void setNeutrelPokemon(Pokemon neutrelPokemon) {
+        this.neutrelPokemon = neutrelPokemon;
+    }
 }

@@ -4,20 +4,15 @@ import org.eduard.pokemon.entities.Pokemon;
 
 public final class BattleResult {
     private final boolean isAgainstNeutrel;
-    private final boolean isDraw;
     private final boolean isFirstPokemonDead;
     private final boolean isSecondPokemonDead;
 
-    public BattleResult(boolean isAgainstNeutrel, boolean isDraw, boolean isFirstPokemonDead, boolean isSecondPokemonDead) {
+    public BattleResult(boolean isAgainstNeutrel, boolean isFirstPokemonDead, boolean isSecondPokemonDead) {
         this.isAgainstNeutrel = isAgainstNeutrel;
-        this.isDraw = isDraw;
         this.isFirstPokemonDead = isFirstPokemonDead;
         this.isSecondPokemonDead = isSecondPokemonDead;
     }
 
-    public boolean isDraw() {
-        return isDraw;
-    }
 
     public boolean isFirstPokemonDead() {
         return isFirstPokemonDead;
@@ -38,10 +33,13 @@ public final class BattleResult {
             toReturn.append("Lupta impotriva lui Neutrel s-a terminat\n");
             toReturn.append("Pokemonul primului antrenor a ").append(isFirstPokemonDead ? "pierdut" : "castigat").append("\n");
             toReturn.append("Pokemonul celui de-al doilea antrenor a ").append(isFirstPokemonDead ? "pierdut" : "castigat");
+            toReturn.append("\n");
+            toReturn.append("Caracterisiticile for fi actualizate");
 
         }
         else{
-            if(isDraw)
+            // draw
+            if(isSecondPokemonDead && isSecondPokemonDead)
                 toReturn.append("Duelul s-a terminat intr-o remiza");
             else if(isFirstPokemonDead)
                 toReturn.append("Pokemonul celui de-al doilea antrenor a castigat");

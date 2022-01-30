@@ -30,10 +30,14 @@ public class MoveProcessor {
         }
         if(firstMoveResult == null){
             processEachMove(secondMoveResults, firstPokemon, secondPokemon, secondMoveResults.getMoveType());
+            logger.logPokemonAfterBattleSequence(firstPokemon, null);
+            logger.logPokemonAfterBattleSequence(secondPokemon, secondMoveResults);
             return;
         }
         if(secondMoveResults == null){
             processEachMove(firstMoveResult, secondPokemon, firstPokemon, firstMoveResult.getMoveType());
+            logger.logPokemonAfterBattleSequence(firstPokemon, firstMoveResult);
+            logger.logPokemonAfterBattleSequence(secondPokemon, null);
             return;
         }
 
@@ -49,7 +53,8 @@ public class MoveProcessor {
 
         processEachMove(firstMoveResult, secondPokemon, firstPokemon, firstMoveType);
         processEachMove(secondMoveResults, firstPokemon, secondPokemon, secondMoveType);
-
+        logger.logPokemonAfterBattleSequence(firstPokemon, firstMoveResult);
+        logger.logPokemonAfterBattleSequence(secondPokemon, secondMoveResults);
     }
 
     private void processEachMove(MoveResult moveResult, Pokemon defenderPokemon, Pokemon attackerPokemon,
@@ -71,8 +76,7 @@ public class MoveProcessor {
                     int attackValue = Math.max(0,attackerPokemon.getSpecialAttack() - defenderPokemon.getSpecialDefence());
                     defenderPokemon.setHp(Math.max(0,defenderPokemon.getHp() - attackValue));
                 }
-            }else
-                defenderPokemon.setDodge(false);
+            }
         }
     }
 
@@ -87,5 +91,8 @@ public class MoveProcessor {
             if(pokemon2.getAbilitiesCooldown() != null)
                 pokemon2.getAbilitiesCooldown().set(i, Math.max(0,pokemon1.getAbilitiesCooldown().get(i) - 1));
         }
+        // when the new turn starts the pokemon will not be able to dodge anymore
+        pokemon1.setDodge(false);
+        pokemon2.setDodge(false);
     }
 }

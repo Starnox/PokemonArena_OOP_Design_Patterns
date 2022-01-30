@@ -44,7 +44,14 @@ public class Item {
 
     @Override
     public String toString(){
-        return name;
+        String stringForHp = (hp != null ? "hp+" + hp + " " : "");
+        String stringForAttack = (attack != null ? "attack+" + attack + " " : "");
+        String stringForSpecialAttack = (specialAttack != null ? "specialAttack+" + specialAttack + " " : "");
+        String stringForDefense = (defense != null ? "defense+" + defense + " " : "");
+        String stringForSpecialDefense = (specialDefense != null ? "specialDefense+" + specialDefense + " " : "");
+
+        return name + "( " + stringForHp + stringForAttack + stringForSpecialAttack +
+                stringForDefense + stringForSpecialDefense + ")";
     }
 
 }

@@ -1,14 +1,82 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_1",
-    "age": 56,
+    "age": 87,
     "pokemons": [
       {
-        "name": "Bulbasaur",
-        "hp": 42,
-        "specialAttack": 5,
+        "name": "Jigglypuff",
+        "hp": 34,
+        "normalAttack": 4,
+        "defence": 2,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 3,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          }
+        ],
+        "itemList": [],
+        "savedHp": 34,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Charmander",
+        "hp": 60,
+        "normalAttack": 4,
         "defence": 3,
-        "specialDefence": 1,
+        "specialDefence": 5,
+        "abilities": [
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 7,
+            "stun": false,
+            "dodge": false,
+            "cd": 6
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Vesta",
+            "hp": 10
+          },
+          {
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
+          }
+        ],
+        "savedHp": 50,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Bulbasaur",
+        "hp": 52,
+        "specialAttack": 8,
+        "defence": 3,
+        "specialDefence": 4,
         "abilities": [
           {
             "damage": 6,
@@ -23,8 +91,67 @@
             "cd": 3
           }
         ],
-        "itemList": [],
+        "itemList": [
+          {
+            "name": "Vesta",
+            "hp": 10
+          },
+          {
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
+          },
+          {
+            "name": "Sabiuta",
+            "attack": 3
+          }
+        ],
         "savedHp": 42,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "secondPokemonCoach": {
+    "name": "coach_2_1",
+    "age": 60,
+    "pokemons": [
+      {
+        "name": "Vulpix",
+        "hp": 36,
+        "normalAttack": 5,
+        "defence": 2,
+        "specialDefence": 7,
+        "abilities": [
+          {
+            "damage": 8,
+            "stun": true,
+            "dodge": false,
+            "cd": 6
+          },
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": true,
+            "cd": 7
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Bagheta Magica",
+            "specialAttack": 3
+          },
+          {
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
+          }
+        ],
+        "savedHp": 36,
         "isStunned": false,
         "isDodge": false,
         "abilitiesCooldown": [
@@ -52,7 +179,12 @@
             "cd": 7
           }
         ],
-        "itemList": [],
+        "itemList": [
+          {
+            "name": "Bagheta Magica",
+            "specialAttack": 3
+          }
+        ],
         "savedHp": 36,
         "isStunned": false,
         "isDodge": false,
@@ -63,8 +195,8 @@
       },
       {
         "name": "Meowth",
-        "hp": 41,
-        "normalAttack": 3,
+        "hp": 43,
+        "normalAttack": 8,
         "defence": 4,
         "specialDefence": 2,
         "abilities": [
@@ -81,130 +213,19 @@
             "cd": 5
           }
         ],
-        "itemList": [],
+        "itemList": [
+          {
+            "name": "Vitamine",
+            "hp": 2,
+            "attack": 2,
+            "specialAttack": 2
+          },
+          {
+            "name": "Sabiuta",
+            "attack": 3
+          }
+        ],
         "savedHp": 41,
-        "isStunned": false,
-        "isDodge": false,
-        "abilitiesCooldown": [
-          0,
-          0
-        ]
-      }
-    ]
-  },
-  "secondPokemonCoach": {
-    "name": "coach_2_1",
-    "age": 27,
-    "pokemons": [
-      {
-        "name": "Vulpix",
-        "hp": 48,
-        "normalAttack": 7,
-        "defence": 2,
-        "specialDefence": 4,
-        "abilities": [
-          {
-            "damage": 8,
-            "stun": true,
-            "dodge": false,
-            "cd": 6
-          },
-          {
-            "damage": 2,
-            "stun": false,
-            "dodge": true,
-            "cd": 7
-          }
-        ],
-        "itemList": [
-          {
-            "name": "Vesta",
-            "hp": 10
-          },
-          {
-            "name": "Vitamine",
-            "hp": 2,
-            "attack": 2,
-            "specialAttack": 2
-          }
-        ],
-        "savedHp": 36,
-        "isStunned": false,
-        "isDodge": false,
-        "abilitiesCooldown": [
-          0,
-          0
-        ]
-      },
-      {
-        "name": "Psyduck",
-        "hp": 55,
-        "normalAttack": 5,
-        "defence": 3,
-        "specialDefence": 3,
-        "abilities": [
-          {
-            "damage": 2,
-            "stun": false,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 2,
-            "stun": true,
-            "dodge": false,
-            "cd": 5
-          }
-        ],
-        "itemList": [
-          {
-            "name": "Vesta",
-            "hp": 10
-          },
-          {
-            "name": "Vitamine",
-            "hp": 2,
-            "attack": 2,
-            "specialAttack": 2
-          }
-        ],
-        "savedHp": 43,
-        "isStunned": false,
-        "isDodge": false,
-        "abilitiesCooldown": [
-          0,
-          0
-        ]
-      },
-      {
-        "name": "Eevee",
-        "hp": 38,
-        "normalAttack": 7,
-        "defence": 2,
-        "specialDefence": 4,
-        "abilities": [
-          {
-            "damage": 8,
-            "stun": true,
-            "dodge": false,
-            "cd": 6
-          },
-          {
-            "damage": 2,
-            "stun": false,
-            "dodge": true,
-            "cd": 7
-          }
-        ],
-        "itemList": [
-          {
-            "name": "Vitamine",
-            "hp": 2,
-            "attack": 2,
-            "specialAttack": 2
-          }
-        ],
-        "savedHp": 36,
         "isStunned": false,
         "isDodge": false,
         "abilitiesCooldown": [

@@ -113,13 +113,13 @@ public class Pokemon {
         StringBuilder itemsString = new StringBuilder();
         if (itemList != null) {
             for (Item item : itemList) {
-                itemsString.append(item).append("\n");
+                itemsString.append("--").append(item).append("\n");
             }
             // delete last \n
             if (!itemList.isEmpty())
                 itemsString.deleteCharAt(itemsString.length() - 1);
             else
-                itemsString.append("no items");
+                itemsString.append("--no items");
         }
 
         return name + ":\n" + "hp: " + hp + "\n"

@@ -43,6 +43,8 @@ public class PokemonCoach {
         return pokemons;
     }
 
+
+    // this method uses the command design pattern
     public MoveResult chooseMoveForPokemon(int pokemonIndex){
         Pokemon currentPokemon = pokemons.get(pokemonIndex);
 
@@ -53,7 +55,18 @@ public class PokemonCoach {
         }
         Constants.MOVE_TYPE moveType = Constants.getRandomMove();
 
+        boolean hasAbility = false;
+        for(int cooldown : currentPokemon.getAbilitiesCooldown()) {
+            if (cooldown != 0) {
+                hasAbility = true;
+                break;
+            }
+        }
+        if(!hasAbility)
+            moveType = Constants.MOVE_TYPE.ABILITY;
+
         // the loop  will always have an ability to exit
+        // command pattern -> we store the command as a separate object that will be process individually
         while(true) {
             switch (moveType) {
                 case ATTACK -> {

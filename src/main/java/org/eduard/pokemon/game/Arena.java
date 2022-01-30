@@ -69,6 +69,9 @@ public class Arena {
             // create new event depending on its type, start the battle and then update the stats
             IEvent battleEvent = EventFactory.createEvent(currentEvent, firstPokemonCoach, secondPokemonCoach, pokemonIndex);
 
+            logger.logEventType(battleEvent);
+            logger.logDelimiter();
+
             assert battleEvent != null;
             BattleResult battleResult = battleEvent.startBattle();
 
@@ -78,13 +81,19 @@ public class Arena {
                 break;
             }
             logger.logBattleResult(battleResult);
+            logger.logDelimiter();
 
             updatePokemonStatsAfterBattle(battleResult, pokemonIndex);
-
-
+            logger.logNewStatsHeader();
+            logger.logDelimiter();
+            logger.logPokemonStats(firstPokemonCoach.getPokemons().get(pokemonIndex));
+            logger.logDelimiter();
+            logger.logPokemonStats(secondPokemonCoach.getPokemons().get(pokemonIndex));
+            logger.logDelimiter();
 
             currentEvent = Constants.getRandomEvent();
         }
+
 
     }
 

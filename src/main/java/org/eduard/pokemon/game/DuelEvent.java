@@ -2,6 +2,7 @@ package org.eduard.pokemon.game;
 
 import org.eduard.pokemon.entities.Pokemon;
 import org.eduard.pokemon.entities.PokemonCoach;
+import org.eduard.pokemon.helpers.Logger;
 
 public class DuelEvent implements IEvent {
     private PokemonCoach pokemonCoach1;
@@ -16,6 +17,18 @@ public class DuelEvent implements IEvent {
 
     @Override
     public BattleResult startBattle() {
-        return null;
+        Logger logger = Logger.getInstance();
+        Pokemon firstPokemon = pokemonCoach1.getPokemons().get(pokemonIndex);
+        Pokemon secondPokemon = pokemonCoach2.getPokemons().get(pokemonIndex);
+
+        logger.logPokemonBattleHeader(firstPokemon,
+                secondPokemon);
+
+        
+
+        boolean isFirstPokemonDead = (firstPokemon.getHp() == 0);
+        boolean isSecondPokemonDead = (secondPokemon.getHp() == 0);
+
+        return new BattleResult(false, isFirstPokemonDead, isSecondPokemonDead);
     }
 }
