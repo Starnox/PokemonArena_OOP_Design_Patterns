@@ -11,23 +11,25 @@ import java.util.concurrent.*;
 public class DuelEvent implements IEvent {
     private PokemonCoach pokemonCoach1;
     private PokemonCoach pokemonCoach2;
-    private int pokemonIndex;
+    private int pokemonIndex1;
+    private int pokemonIndex2;
 
-    public DuelEvent(PokemonCoach pokemonCoach1, PokemonCoach pokemonCoach2, int pokemonIndex) {
+    public DuelEvent(PokemonCoach pokemonCoach1, PokemonCoach pokemonCoach2, int pokemonIndex1, int pokemonIndex2) {
         this.pokemonCoach1 = pokemonCoach1;
         this.pokemonCoach2 = pokemonCoach2;
-        this.pokemonIndex = pokemonIndex;
+        this.pokemonIndex1 = pokemonIndex1;
+        this.pokemonIndex2 = pokemonIndex2;
     }
 
     @Override
     public BattleResult startBattle() {
         Logger logger = Logger.getInstance();
         MoveProcessor moveProcessor = MoveProcessor.getInstance();
-        pokemonCoach1.setCurrentPokemonIndex(pokemonIndex);
-        pokemonCoach2.setCurrentPokemonIndex(pokemonIndex);
+        pokemonCoach1.setCurrentPokemonIndex(pokemonIndex1);
+        pokemonCoach2.setCurrentPokemonIndex(pokemonIndex2);
 
-        Pokemon firstPokemon = pokemonCoach1.getPokemons().get(pokemonIndex);
-        Pokemon secondPokemon = pokemonCoach2.getPokemons().get(pokemonIndex);
+        Pokemon firstPokemon = pokemonCoach1.getPokemons().get(pokemonIndex1);
+        Pokemon secondPokemon = pokemonCoach2.getPokemons().get(pokemonIndex2);
 
         logger.logPokemonBattleHeader(firstPokemon,
                 secondPokemon);

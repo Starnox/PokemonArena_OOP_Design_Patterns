@@ -175,4 +175,10 @@ public class Logger {
         System.out.println(stringToLog);
         logStringToFile(stringToLog);
     }
+
+    public void logChampionShipHeader() {
+        String stringToLog = "Meciul de campionat este pe cale sa inceapa....";
+        System.out.println(stringToLog);
+        logStringToFile(stringToLog);
+    }
 }

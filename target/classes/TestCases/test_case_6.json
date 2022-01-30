@@ -1,14 +1,14 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_6",
-    "age": 81,
+    "age": 4,
     "pokemons": [
       {
         "name": "Pikachu",
-        "hp": 37,
-        "specialAttack": 6,
-        "defence": 4,
-        "specialDefence": 5,
+        "hp": 35,
+        "specialAttack": 4,
+        "defence": 3,
+        "specialDefence": 3,
         "abilities": [
           {
             "damage": 6,
@@ -25,15 +25,8 @@
         ],
         "itemList": [
           {
-            "name": "Scut",
-            "defense": 2,
-            "specialDefense": 2
-          },
-          {
-            "name": "Vitamine",
-            "hp": 2,
-            "attack": 2,
-            "specialAttack": 2
+            "name": "Brad de Craciun",
+            "defense": 1
           }
         ],
         "savedHp": 35,
@@ -45,45 +38,11 @@
         ]
       },
       {
-        "name": "Jigglypuff",
-        "hp": 34,
-        "normalAttack": 4,
-        "defence": 2,
-        "specialDefence": 3,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 3,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          }
-        ],
-        "itemList": [
-          {
-            "name": "Bagheta Magica",
-            "specialAttack": 3
-          }
-        ],
-        "savedHp": 34,
-        "isStunned": false,
-        "isDodge": false,
-        "abilitiesCooldown": [
-          0,
-          0
-        ]
-      },
-      {
         "name": "Bulbasaur",
-        "hp": 44,
-        "specialAttack": 7,
-        "defence": 5,
-        "specialDefence": 3,
+        "hp": 42,
+        "specialAttack": 5,
+        "defence": 4,
+        "specialDefence": 1,
         "abilities": [
           {
             "damage": 6,
@@ -100,18 +59,40 @@
         ],
         "itemList": [
           {
-            "name": "Scut",
-            "defense": 2,
-            "specialDefense": 2
-          },
-          {
-            "name": "Vitamine",
-            "hp": 2,
-            "attack": 2,
-            "specialAttack": 2
+            "name": "Brad de Craciun",
+            "defense": 1
           }
         ],
         "savedHp": 42,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Vulpix",
+        "hp": 36,
+        "normalAttack": 5,
+        "defence": 2,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 8,
+            "stun": true,
+            "dodge": false,
+            "cd": 6
+          },
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": true,
+            "cd": 7
+          }
+        ],
+        "itemList": [],
+        "savedHp": 36,
         "isStunned": false,
         "isDodge": false,
         "abilitiesCooldown": [
@@ -124,82 +105,10 @@
   },
   "secondPokemonCoach": {
     "name": "coach_2_6",
-    "age": 64,
+    "age": 63,
     "pokemons": [
       {
-        "name": "Jigglypuff",
-        "hp": 34,
-        "normalAttack": 7,
-        "defence": 2,
-        "specialDefence": 3,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          },
-          {
-            "damage": 3,
-            "stun": true,
-            "dodge": false,
-            "cd": 4
-          }
-        ],
-        "itemList": [
-          {
-            "name": "Sabiuta",
-            "attack": 3
-          }
-        ],
-        "savedHp": 34,
-        "isStunned": false,
-        "isDodge": false,
-        "abilitiesCooldown": [
-          0,
-          0
-        ]
-      },
-      {
-        "name": "Squirtle",
-        "hp": 70,
-        "specialAttack": 6,
-        "defence": 5,
-        "specialDefence": 5,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": false,
-            "dodge": false,
-            "cd": 3
-          },
-          {
-            "damage": 2,
-            "stun": true,
-            "dodge": false,
-            "cd": 2
-          }
-        ],
-        "itemList": [
-          {
-            "name": "Bagheta Magica",
-            "specialAttack": 3
-          },
-          {
-            "name": "Vesta",
-            "hp": 10
-          }
-        ],
-        "savedHp": 60,
-        "isStunned": false,
-        "isDodge": false,
-        "abilitiesCooldown": [
-          0,
-          0
-        ]
-      },
-      {
-        "name": "Eevee",
+        "name": "Vulpix",
         "hp": 36,
         "normalAttack": 5,
         "defence": 3,
@@ -224,6 +133,64 @@
             "defense": 1
           }
         ],
+        "savedHp": 36,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "hp": 43,
+        "normalAttack": 3,
+        "defence": 3,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 2,
+            "stun": true,
+            "dodge": false,
+            "cd": 5
+          }
+        ],
+        "itemList": [],
+        "savedHp": 43,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Eevee",
+        "hp": 36,
+        "normalAttack": 5,
+        "defence": 2,
+        "specialDefence": 4,
+        "abilities": [
+          {
+            "damage": 8,
+            "stun": true,
+            "dodge": false,
+            "cd": 6
+          },
+          {
+            "damage": 2,
+            "stun": false,
+            "dodge": true,
+            "cd": 7
+          }
+        ],
+        "itemList": [],
         "savedHp": 36,
         "isStunned": false,
         "isDodge": false,

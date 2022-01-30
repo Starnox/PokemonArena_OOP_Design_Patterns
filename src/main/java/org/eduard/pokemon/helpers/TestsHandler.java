@@ -21,15 +21,15 @@ public class TestsHandler {
             // set the cooldown if the abilities to 0 and add itmes
 
             for(Pokemon pokemon : firstCoachPokemons){
-                pokemon.setSavedHp(pokemon.getHp());
                 pokemon.setAbilitiesCooldown(new ArrayList<>(Collections.nCopies(2, 0)));
                 pokemon.setItemList(generateItemsForPokemon());
+                pokemon.setSavedHp(pokemon.getHp());
             }
 
             for(Pokemon pokemon : secondCoachPokemons){
-                pokemon.setSavedHp(pokemon.getHp());
                 pokemon.setAbilitiesCooldown(new ArrayList<>(Collections.nCopies(2, 0)));
                 pokemon.setItemList(generateItemsForPokemon());
+                pokemon.setSavedHp(pokemon.getHp());
             }
 
 

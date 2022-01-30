@@ -92,7 +92,8 @@ public class Pokemon {
     }
 
     public int calculateStats() {
-        return hp + normalAttack + specialAttack + defence + specialDefence;
+        int attack = (normalAttack != null ? normalAttack : specialAttack );
+        return hp + attack + defence + specialDefence;
     }
 
     @Override

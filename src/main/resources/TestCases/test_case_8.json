@@ -1,37 +1,39 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_8",
-    "age": 1,
+    "age": 19,
     "pokemons": [
       {
-        "name": "Bulbasaur",
+        "name": "Jigglypuff",
         "hp": 44,
-        "specialAttack": 7,
-        "defence": 3,
-        "specialDefence": 1,
+        "normalAttack": 7,
+        "defence": 2,
+        "specialDefence": 3,
         "abilities": [
           {
-            "damage": 6,
-            "stun": false,
+            "damage": 4,
+            "stun": true,
             "dodge": false,
             "cd": 4
           },
           {
-            "damage": 5,
-            "stun": false,
+            "damage": 3,
+            "stun": true,
             "dodge": false,
-            "cd": 3
+            "cd": 4
           }
         ],
         "itemList": [
           {
-            "name": "Vitamine",
-            "hp": 2,
-            "attack": 2,
-            "specialAttack": 2
+            "name": "Vesta",
+            "hp": 10
+          },
+          {
+            "name": "Sabiuta",
+            "attack": 3
           }
         ],
-        "savedHp": 42,
+        "savedHp": 44,
         "isStunned": false,
         "isDodge": false,
         "abilitiesCooldown": [
@@ -41,8 +43,8 @@
       },
       {
         "name": "Eevee",
-        "hp": 38,
-        "normalAttack": 7,
+        "hp": 36,
+        "normalAttack": 8,
         "defence": 2,
         "specialDefence": 4,
         "abilities": [
@@ -61,10 +63,8 @@
         ],
         "itemList": [
           {
-            "name": "Vitamine",
-            "hp": 2,
-            "attack": 2,
-            "specialAttack": 2
+            "name": "Sabiuta",
+            "attack": 3
           }
         ],
         "savedHp": 36,
@@ -77,8 +77,8 @@
       },
       {
         "name": "Meowth",
-        "hp": 43,
-        "normalAttack": 5,
+        "hp": 41,
+        "normalAttack": 3,
         "defence": 4,
         "specialDefence": 2,
         "abilities": [
@@ -95,14 +95,7 @@
             "cd": 5
           }
         ],
-        "itemList": [
-          {
-            "name": "Vitamine",
-            "hp": 2,
-            "attack": 2,
-            "specialAttack": 2
-          }
-        ],
+        "itemList": [],
         "savedHp": 41,
         "isStunned": false,
         "isDodge": false,
@@ -116,30 +109,36 @@
   },
   "secondPokemonCoach": {
     "name": "coach_2_8",
-    "age": 54,
+    "age": 70,
     "pokemons": [
       {
-        "name": "Charmander",
-        "hp": 50,
-        "normalAttack": 4,
-        "defence": 3,
-        "specialDefence": 2,
+        "name": "Pikachu",
+        "hp": 35,
+        "specialAttack": 4,
+        "defence": 4,
+        "specialDefence": 5,
         "abilities": [
           {
-            "damage": 4,
-            "stun": true,
+            "damage": 6,
+            "stun": false,
             "dodge": false,
             "cd": 4
           },
           {
-            "damage": 7,
-            "stun": false,
-            "dodge": false,
-            "cd": 6
+            "damage": 4,
+            "stun": true,
+            "dodge": true,
+            "cd": 5
           }
         ],
-        "itemList": [],
-        "savedHp": 50,
+        "itemList": [
+          {
+            "name": "Scut",
+            "defense": 2,
+            "specialDefense": 2
+          }
+        ],
+        "savedHp": 35,
         "isStunned": false,
         "isDodge": false,
         "abilitiesCooldown": [
@@ -148,11 +147,11 @@
         ]
       },
       {
-        "name": "Vulpix",
+        "name": "Eevee",
         "hp": 36,
         "normalAttack": 5,
-        "defence": 2,
-        "specialDefence": 7,
+        "defence": 3,
+        "specialDefence": 4,
         "abilities": [
           {
             "damage": 8,
@@ -169,9 +168,8 @@
         ],
         "itemList": [
           {
-            "name": "Pelerina",
-            "specialAttack": 3,
-            "specialDefense": 3
+            "name": "Brad de Craciun",
+            "defense": 1
           }
         ],
         "savedHp": 36,
@@ -187,7 +185,7 @@
         "hp": 62,
         "normalAttack": 3,
         "defence": 6,
-        "specialDefence": 4,
+        "specialDefence": 7,
         "abilities": [
           {
             "damage": 4,
@@ -202,7 +200,13 @@
             "cd": 5
           }
         ],
-        "itemList": [],
+        "itemList": [
+          {
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
+          }
+        ],
         "savedHp": 62,
         "isStunned": false,
         "isDodge": false,

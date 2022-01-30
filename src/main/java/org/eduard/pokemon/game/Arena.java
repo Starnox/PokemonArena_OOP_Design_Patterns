@@ -57,8 +57,20 @@ public class Arena {
         int bestPokemonFromCoach1Index = firstPokemonCoach.getBestPokemon();
         int bestPokemonFromCoach2Index = secondPokemonCoach.getBestPokemon();
 
-        //IEvent championshipEvent = EventFactory.createEvent(Constants.EVENT_TYPE.DUEL, firstPokemonCoach, secondPokemonCoach, )
+        logger.logChampionShipHeader();
+        IEvent championshipEvent = EventFactory.createEvent(Constants.EVENT_TYPE.DUEL, firstPokemonCoach,
+                secondPokemonCoach, bestPokemonFromCoach1Index, bestPokemonFromCoach2Index);
 
+        logger.logDelimiter();
+        logger.logPokemonStats(firstPokemonCoach.getPokemons().get(bestPokemonFromCoach1Index));
+        logger.logDelimiter();
+        logger.logPokemonStats(secondPokemonCoach.getPokemons().get(bestPokemonFromCoach2Index));
+        logger.logDelimiter();
+
+        assert championshipEvent != null;
+        BattleResult battleResult = championshipEvent.startBattle();
+        logger.logBattleResult(battleResult);
+        logger.logDelimiter();
     }
 
 
@@ -72,7 +84,8 @@ public class Arena {
         while(!duelWasFought){
 
             // create new event depending on its type, start the battle and then update the stats
-            IEvent battleEvent = EventFactory.createEvent(currentEvent, firstPokemonCoach, secondPokemonCoach, pokemonIndex);
+            IEvent battleEvent = EventFactory.createEvent(currentEvent, firstPokemonCoach,
+                    secondPokemonCoach, pokemonIndex, pokemonIndex);
 
             logger.logEventType(battleEvent);
             logger.logDelimiter();

@@ -1,57 +1,58 @@
-coach_1_5 cu varsta de 62 intra in arena si se va lupta cu coach_2_5 care are varsta de 14
+coach_1_5 cu varsta de 24 intra in arena si se va lupta cu coach_2_5 care are varsta de 72
 ------------------**************------------------
-coach_1_5 se lupta cu pokemonul Bulbasaur contra lui coach_2_5 care are pokemonul Bulbasaur
+coach_1_5 se lupta cu pokemonul Charmander contra lui coach_2_5 care are pokemonul Pikachu
 ------------------**************------------------
-Bulbasaur:
-hp: 42
-specialAttack: 5
+Charmander:
+hp: 52
+normalAttack: 6
 defence: 3
-specialDefence: 1
+specialDefence: 2
 Si itemele:
---no items
+--Vitamine( hp+2 attack+2 specialAttack+2 )
 ------------------**************------------------
-Bulbasaur:
-hp: 42
-specialAttack: 5
-defence: 3
-specialDefence: 1
+Pikachu:
+hp: 37
+specialAttack: 6
+defence: 4
+specialDefence: 5
 Si itemele:
---no items
+--Scut( defense+2 specialDefense+2 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
 ------------------**************------------------
 Va avea loc o lupta impotriva lui Neutrel2
 ------------------**************------------------
-Bulbasaur VS Neutrel2
-Bulbasaur ataca special / Neutrel2 ataca normal -> Rezultat:
------> Bulbasaur HP 41 
------> Neutrel2 HP 16 
-Bulbasaur abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Bulbasaur HP 40 abilitatea 1 cooldown 4 
+Charmander VS Neutrel2
+Charmander ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Charmander HP 51 
+-----> Neutrel2 HP 15 
+Charmander ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Charmander HP 50 
 -----> Neutrel2 HP 10 
-Bulbasaur ataca special / Neutrel2 ataca normal -> Rezultat:
------> Bulbasaur HP 39 abilitatea 1 cooldown 3 
------> Neutrel2 HP 6 
-Bulbasaur ataca special / Neutrel2 ataca normal -> Rezultat:
------> Bulbasaur HP 38 abilitatea 1 cooldown 2 
------> Neutrel2 HP 2 
-Bulbasaur ataca special / Neutrel2 ataca normal -> Rezultat:
------> Bulbasaur HP 37 abilitatea 1 cooldown 1 
+Charmander abilitate 1 / Neutrel2 ataca normal -> Rezultat:
+-----> Charmander HP 49 abilitatea 1 cooldown 4 
+-----> Neutrel2 HP 6 si este stuned, 
+Charmander ataca normal / Neutrel2 nu face nimic -> Rezultat:
+-----> Charmander HP 49 abilitatea 1 cooldown 3 
+-----> Neutrel2 HP 1 
+Charmander ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Charmander HP 48 abilitatea 1 cooldown 2 
 -----> Neutrel2 HP 0 
 ------------------**************------------------
-Bulbasaur VS Neutrel2
-Bulbasaur abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Bulbasaur HP 41 abilitatea 1 cooldown 4 
------> Neutrel2 HP 14 
-Bulbasaur ataca special / Neutrel2 ataca normal -> Rezultat:
------> Bulbasaur HP 40 abilitatea 1 cooldown 3 
+Pikachu VS Neutrel2
+Pikachu ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 37 
+-----> Neutrel2 HP 15 
+Pikachu ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 37 
 -----> Neutrel2 HP 10 
-Bulbasaur abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Bulbasaur HP 39 abilitatea 1 cooldown 2, abilitatea 2 cooldown 3 
+Pikachu ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 37 
 -----> Neutrel2 HP 5 
-Bulbasaur ataca special / Neutrel2 ataca normal -> Rezultat:
------> Bulbasaur HP 38 abilitatea 1 cooldown 1, abilitatea 2 cooldown 2 
------> Neutrel2 HP 1 
-Bulbasaur ataca special / Neutrel2 ataca normal -> Rezultat:
------> Bulbasaur HP 37 abilitatea 2 cooldown 1 
+Pikachu abilitate 2 / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 37 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
+-----> Neutrel2 HP 1 si este stuned, 
+Pikachu ataca special / Neutrel2 nu face nimic -> Rezultat:
+-----> Pikachu HP 37 abilitatea 2 cooldown 4 
 -----> Neutrel2 HP 0 
 ------------------**************------------------
 Lupta impotriva lui Neutrel s-a terminat
@@ -61,344 +62,267 @@ Caracterisiticile for fi actualizate
 ------------------**************------------------
 NEW STATS!!
 ------------------**************------------------
-Bulbasaur:
-hp: 43
-specialAttack: 6
+Charmander:
+hp: 53
+normalAttack: 7
 defence: 4
-specialDefence: 2
+specialDefence: 3
 Si itemele:
---no items
+--Vitamine( hp+2 attack+2 specialAttack+2 )
 ------------------**************------------------
-Bulbasaur:
-hp: 43
-specialAttack: 6
-defence: 4
-specialDefence: 2
+Pikachu:
+hp: 38
+specialAttack: 7
+defence: 5
+specialDefence: 6
 Si itemele:
---no items
+--Scut( defense+2 specialDefense+2 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
 ------------------**************------------------
 Va avea loc un duel intre cei doi pokemoni
 ------------------**************------------------
-Bulbasaur VS Bulbasaur
+Charmander VS Pikachu
 ------------------**************------------------
-Bulbasaur abilitate 1 / Bulbasaur abilitate 1 -> Rezultat:
------> Bulbasaur HP 37 abilitatea 1 cooldown 4 
------> Bulbasaur HP 37 abilitatea 1 cooldown 4 
-Bulbasaur abilitate 2 / Bulbasaur ataca special -> Rezultat:
------> Bulbasaur HP 33 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
------> Bulbasaur HP 32 abilitatea 1 cooldown 3 
-Bulbasaur ataca special / Bulbasaur ataca special -> Rezultat:
------> Bulbasaur HP 29 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
------> Bulbasaur HP 28 abilitatea 1 cooldown 2 
-Bulbasaur ataca special / Bulbasaur abilitate 2 -> Rezultat:
------> Bulbasaur HP 24 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
------> Bulbasaur HP 24 abilitatea 1 cooldown 1, abilitatea 2 cooldown 3 
-Bulbasaur ataca special / Bulbasaur abilitate 1 -> Rezultat:
------> Bulbasaur HP 18 
------> Bulbasaur HP 20 abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
-Bulbasaur ataca special / Bulbasaur ataca special -> Rezultat:
------> Bulbasaur HP 14 
------> Bulbasaur HP 16 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
-Bulbasaur abilitate 2 / Bulbasaur abilitate 2 -> Rezultat:
------> Bulbasaur HP 9 abilitatea 2 cooldown 3 
------> Bulbasaur HP 11 abilitatea 1 cooldown 2, abilitatea 2 cooldown 3 
-Bulbasaur abilitate 1 / Bulbasaur ataca special -> Rezultat:
------> Bulbasaur HP 5 abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
------> Bulbasaur HP 5 abilitatea 1 cooldown 1, abilitatea 2 cooldown 2 
-Bulbasaur ataca special / Bulbasaur abilitate 1 -> Rezultat:
------> Bulbasaur HP 0 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
------> Bulbasaur HP 1 abilitatea 1 cooldown 4, abilitatea 2 cooldown 1 
-Pokemonul celui de-al doilea antrenor a castigat
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Bulbasaur:
-hp: 43
-specialAttack: 6
-defence: 4
-specialDefence: 2
-Si itemele:
---no items
-------------------**************------------------
-Bulbasaur:
-hp: 44
-specialAttack: 7
-defence: 5
-specialDefence: 3
-Si itemele:
---no items
-------------------**************------------------
-coach_1_5 se lupta cu pokemonul Vulpix contra lui coach_2_5 care are pokemonul Charmander
-------------------**************------------------
-Vulpix:
-hp: 36
-normalAttack: 5
-defence: 2
-specialDefence: 7
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-Charmander:
-hp: 52
-normalAttack: 6
-defence: 3
-specialDefence: 2
-Si itemele:
---Vitamine( hp+2 attack+2 specialAttack+2 )
-------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel2
-------------------**************------------------
-Vulpix VS Neutrel2
-Vulpix ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Vulpix HP 34 
------> Neutrel2 HP 16 
-Vulpix abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Vulpix HP 34 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
------> Neutrel2 HP 14 
-Vulpix ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Vulpix HP 32 abilitatea 2 cooldown 6 
------> Neutrel2 HP 10 
-Vulpix abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Vulpix HP 30 abilitatea 1 cooldown 6, abilitatea 2 cooldown 5 
------> Neutrel2 HP 2 si este stuned, 
-Vulpix ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Vulpix HP 30 abilitatea 1 cooldown 5, abilitatea 2 cooldown 4 
------> Neutrel2 HP 0 
-------------------**************------------------
-Charmander VS Neutrel2
-Charmander abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Charmander HP 51 abilitatea 2 cooldown 6 
------> Neutrel2 HP 13 
-Charmander abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Charmander HP 50 abilitatea 1 cooldown 4, abilitatea 2 cooldown 5 
------> Neutrel2 HP 9 si este stuned, 
-Charmander ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Charmander HP 50 abilitatea 1 cooldown 3, abilitatea 2 cooldown 4 
------> Neutrel2 HP 4 
-Charmander ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Charmander HP 49 abilitatea 1 cooldown 2, abilitatea 2 cooldown 3 
------> Neutrel2 HP 0 
-------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
+Charmander ataca normal / Pikachu abilitate 2 -> Rezultat:
+-----> Charmander HP 49 si este stuned, 
+-----> Pikachu HP 38 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
+Charmander nu face nimic / Pikachu ataca special -> Rezultat:
+-----> Charmander HP 45 
+-----> Pikachu HP 38 abilitatea 2 cooldown 4 
+Charmander ataca normal / Pikachu ataca special -> Rezultat:
+-----> Charmander HP 41 
+-----> Pikachu HP 36 abilitatea 2 cooldown 3 
+Charmander ataca normal / Pikachu ataca special -> Rezultat:
+-----> Charmander HP 37 
+-----> Pikachu HP 34 abilitatea 2 cooldown 2 
+Charmander abilitate 2 / Pikachu ataca special -> Rezultat:
+-----> Charmander HP 33 abilitatea 2 cooldown 6 
+-----> Pikachu HP 27 abilitatea 2 cooldown 1 
+Charmander abilitate 1 / Pikachu ataca special -> Rezultat:
+-----> Charmander HP 29 abilitatea 1 cooldown 4, abilitatea 2 cooldown 5 
+-----> Pikachu HP 23 si este stuned, 
+Charmander ataca normal / Pikachu nu face nimic -> Rezultat:
+-----> Charmander HP 29 abilitatea 1 cooldown 3, abilitatea 2 cooldown 4 
+-----> Pikachu HP 21 
+Charmander ataca normal / Pikachu ataca special -> Rezultat:
+-----> Charmander HP 25 abilitatea 1 cooldown 2, abilitatea 2 cooldown 3 
+-----> Pikachu HP 19 
+Charmander ataca normal / Pikachu ataca special -> Rezultat:
+-----> Charmander HP 21 abilitatea 1 cooldown 1, abilitatea 2 cooldown 2 
+-----> Pikachu HP 17 
+Charmander ataca normal / Pikachu ataca special -> Rezultat:
+-----> Charmander HP 17 abilitatea 2 cooldown 1 
+-----> Pikachu HP 15 
+Charmander ataca normal / Pikachu abilitate 1 -> Rezultat:
+-----> Charmander HP 11 
+-----> Pikachu HP 13 abilitatea 1 cooldown 4 
+Charmander abilitate 1 / Pikachu ataca special -> Rezultat:
+-----> Charmander HP 7 abilitatea 1 cooldown 4 
+-----> Pikachu HP 9 si este stuned, abilitatea 1 cooldown 3 
+Charmander ataca normal / Pikachu nu face nimic -> Rezultat:
+-----> Charmander HP 7 abilitatea 1 cooldown 3 
+-----> Pikachu HP 7 abilitatea 1 cooldown 2 
+Charmander abilitate 2 / Pikachu ataca special -> Rezultat:
+-----> Charmander HP 3 abilitatea 1 cooldown 2, abilitatea 2 cooldown 6 
+-----> Pikachu HP 0 abilitatea 1 cooldown 1 
 Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
 ------------------**************------------------
 NEW STATS!!
 ------------------**************------------------
-Vulpix:
-hp: 37
-normalAttack: 6
-defence: 3
-specialDefence: 8
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
 Charmander:
-hp: 51
-normalAttack: 7
-defence: 4
-specialDefence: 3
-Si itemele:
---Vitamine( hp+2 attack+2 specialAttack+2 )
-------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel2
-------------------**************------------------
-Vulpix VS Neutrel2
-Vulpix ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Vulpix HP 36 
------> Neutrel2 HP 15 
-Vulpix abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Vulpix HP 35 abilitatea 1 cooldown 6 
------> Neutrel2 HP 7 si este stuned, 
-Vulpix abilitate 2 / Neutrel2 nu face nimic -> Rezultat:
------> Vulpix HP 35 abilitatea 1 cooldown 5, abilitatea 2 cooldown 7 
------> Neutrel2 HP 5 
-Vulpix ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Vulpix HP 34 abilitatea 1 cooldown 4, abilitatea 2 cooldown 6 
------> Neutrel2 HP 0 
-------------------**************------------------
-Charmander VS Neutrel2
-Charmander abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Charmander HP 51 abilitatea 1 cooldown 4 
------> Neutrel2 HP 16 si este stuned, 
-Charmander ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Charmander HP 51 abilitatea 1 cooldown 3 
------> Neutrel2 HP 10 
-Charmander ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Charmander HP 51 abilitatea 1 cooldown 2 
------> Neutrel2 HP 4 
-Charmander ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Charmander HP 51 abilitatea 1 cooldown 1 
------> Neutrel2 HP 0 
-------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
-Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Vulpix:
-hp: 38
-normalAttack: 7
-defence: 4
-specialDefence: 9
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-Charmander:
-hp: 52
+hp: 54
 normalAttack: 8
 defence: 5
 specialDefence: 4
 Si itemele:
 --Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Pikachu:
+hp: 38
+specialAttack: 7
+defence: 5
+specialDefence: 6
+Si itemele:
+--Scut( defense+2 specialDefense+2 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+coach_1_5 se lupta cu pokemonul Bulbasaur contra lui coach_2_5 care are pokemonul Vulpix
+------------------**************------------------
+Bulbasaur:
+hp: 42
+specialAttack: 5
+defence: 4
+specialDefence: 1
+Si itemele:
+--Brad de Craciun( defense+1 )
+------------------**************------------------
+Vulpix:
+hp: 36
+normalAttack: 8
+defence: 3
+specialDefence: 7
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+--Sabiuta( attack+3 )
+------------------**************------------------
+Va avea loc o lupta impotriva lui Neutrel2
+------------------**************------------------
+Bulbasaur VS Neutrel2
+Bulbasaur abilitate 2 / Neutrel2 ataca normal -> Rezultat:
+-----> Bulbasaur HP 42 abilitatea 2 cooldown 3 
+-----> Neutrel2 HP 15 
+Bulbasaur ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Bulbasaur HP 42 abilitatea 2 cooldown 2 
+-----> Neutrel2 HP 11 
+Bulbasaur abilitate 1 / Neutrel2 ataca normal -> Rezultat:
+-----> Bulbasaur HP 42 abilitatea 1 cooldown 4, abilitatea 2 cooldown 1 
+-----> Neutrel2 HP 5 
+Bulbasaur ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Bulbasaur HP 42 abilitatea 1 cooldown 3 
+-----> Neutrel2 HP 1 
+Bulbasaur ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Bulbasaur HP 42 abilitatea 1 cooldown 2 
+-----> Neutrel2 HP 0 
+------------------**************------------------
+Vulpix VS Neutrel2
+Vulpix abilitate 2 / Neutrel2 ataca normal -> Rezultat:
+-----> Vulpix HP 36 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
+-----> Neutrel2 HP 18 
+Vulpix ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Vulpix HP 35 abilitatea 2 cooldown 6 
+-----> Neutrel2 HP 11 
+Vulpix ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Vulpix HP 34 abilitatea 2 cooldown 5 
+-----> Neutrel2 HP 4 
+Vulpix ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Vulpix HP 33 abilitatea 2 cooldown 4 
+-----> Neutrel2 HP 0 
+------------------**************------------------
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Caracterisiticile for fi actualizate
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Bulbasaur:
+hp: 43
+specialAttack: 6
+defence: 5
+specialDefence: 2
+Si itemele:
+--Brad de Craciun( defense+1 )
+------------------**************------------------
+Vulpix:
+hp: 37
+normalAttack: 9
+defence: 4
+specialDefence: 8
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+--Sabiuta( attack+3 )
+------------------**************------------------
+Va avea loc un duel intre cei doi pokemoni
+------------------**************------------------
+Bulbasaur VS Vulpix
+------------------**************------------------
+Bulbasaur ataca special / Vulpix abilitate 1 -> Rezultat:
+-----> Bulbasaur HP 35 si este stuned, 
+-----> Vulpix HP 37 abilitatea 1 cooldown 6 
+Bulbasaur nu face nimic / Vulpix ataca normal -> Rezultat:
+-----> Bulbasaur HP 31 
+-----> Vulpix HP 37 abilitatea 1 cooldown 5 
+Bulbasaur ataca special / Vulpix abilitate 2 -> Rezultat:
+-----> Bulbasaur HP 29 
+-----> Vulpix HP 37 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 7 
+Bulbasaur abilitate 1 / Vulpix ataca normal -> Rezultat:
+-----> Bulbasaur HP 25 abilitatea 1 cooldown 4 
+-----> Vulpix HP 31 abilitatea 1 cooldown 3, abilitatea 2 cooldown 6 
+Bulbasaur ataca special / Vulpix ataca normal -> Rezultat:
+-----> Bulbasaur HP 21 abilitatea 1 cooldown 3 
+-----> Vulpix HP 31 abilitatea 1 cooldown 2, abilitatea 2 cooldown 5 
+Bulbasaur ataca special / Vulpix ataca normal -> Rezultat:
+-----> Bulbasaur HP 17 abilitatea 1 cooldown 2 
+-----> Vulpix HP 31 abilitatea 1 cooldown 1, abilitatea 2 cooldown 4 
+Bulbasaur ataca special / Vulpix ataca normal -> Rezultat:
+-----> Bulbasaur HP 13 abilitatea 1 cooldown 1 
+-----> Vulpix HP 31 abilitatea 2 cooldown 3 
+Bulbasaur abilitate 1 / Vulpix abilitate 1 -> Rezultat:
+-----> Bulbasaur HP 5 si este stuned, abilitatea 1 cooldown 4 
+-----> Vulpix HP 25 abilitatea 1 cooldown 6, abilitatea 2 cooldown 2 
+Bulbasaur nu face nimic / Vulpix ataca normal -> Rezultat:
+-----> Bulbasaur HP 1 abilitatea 1 cooldown 3 
+-----> Vulpix HP 25 abilitatea 1 cooldown 5, abilitatea 2 cooldown 1 
+Bulbasaur ataca special / Vulpix ataca normal -> Rezultat:
+-----> Bulbasaur HP 0 abilitatea 1 cooldown 2 
+-----> Vulpix HP 25 abilitatea 1 cooldown 4 
+Pokemonul celui de-al doilea antrenor a castigat
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Bulbasaur:
+hp: 43
+specialAttack: 6
+defence: 5
+specialDefence: 2
+Si itemele:
+--Brad de Craciun( defense+1 )
+------------------**************------------------
+Vulpix:
+hp: 38
+normalAttack: 10
+defence: 5
+specialDefence: 9
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+--Sabiuta( attack+3 )
+------------------**************------------------
+coach_1_5 se lupta cu pokemonul Vulpix contra lui coach_2_5 care are pokemonul Meowth
+------------------**************------------------
+Vulpix:
+hp: 36
+normalAttack: 5
+defence: 2
+specialDefence: 4
+Si itemele:
+--no items
+------------------**************------------------
+Meowth:
+hp: 41
+normalAttack: 3
+defence: 4
+specialDefence: 2
+Si itemele:
+--no items
 ------------------**************------------------
 Va avea loc o lupta impotriva lui Neutrel1
 ------------------**************------------------
 Vulpix VS Neutrel1
-Vulpix abilitate 1 / Neutrel1 ataca normal -> Rezultat:
------> Vulpix HP 38 abilitatea 1 cooldown 6 
------> Neutrel1 HP 2 si este stuned, 
-Vulpix ataca normal / Neutrel1 nu face nimic -> Rezultat:
------> Vulpix HP 38 abilitatea 1 cooldown 5 
------> Neutrel1 HP 0 
-------------------**************------------------
-Charmander VS Neutrel1
-Charmander ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Charmander HP 52 
------> Neutrel1 HP 3 
-Charmander ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Charmander HP 52 
------> Neutrel1 HP 0 
-------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
-Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Vulpix:
-hp: 39
-normalAttack: 8
-defence: 5
-specialDefence: 10
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-Charmander:
-hp: 53
-normalAttack: 9
-defence: 6
-specialDefence: 5
-Si itemele:
---Vitamine( hp+2 attack+2 specialAttack+2 )
-------------------**************------------------
-Va avea loc un duel intre cei doi pokemoni
-------------------**************------------------
-Vulpix VS Charmander
-------------------**************------------------
-Vulpix ataca normal / Charmander abilitate 2 -> Rezultat:
------> Vulpix HP 32 
------> Charmander HP 51 abilitatea 2 cooldown 6 
-Vulpix abilitate 2 / Charmander ataca normal -> Rezultat:
------> Vulpix HP 32 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
------> Charmander HP 49 abilitatea 2 cooldown 5 
-Vulpix ataca normal / Charmander ataca normal -> Rezultat:
------> Vulpix HP 28 abilitatea 2 cooldown 6 
------> Charmander HP 47 abilitatea 2 cooldown 4 
-Vulpix ataca normal / Charmander ataca normal -> Rezultat:
------> Vulpix HP 24 abilitatea 2 cooldown 5 
------> Charmander HP 45 abilitatea 2 cooldown 3 
-Vulpix ataca normal / Charmander ataca normal -> Rezultat:
------> Vulpix HP 20 abilitatea 2 cooldown 4 
------> Charmander HP 43 abilitatea 2 cooldown 2 
-Vulpix abilitate 1 / Charmander abilitate 1 -> Rezultat:
------> Vulpix HP 16 si este stuned, abilitatea 1 cooldown 6, abilitatea 2 cooldown 3 
------> Charmander HP 35 si este stuned, abilitatea 1 cooldown 4, abilitatea 2 cooldown 1 
-Vulpix nu face nimic / Charmander nu face nimic -> Rezultat:
------> Vulpix HP 16 abilitatea 1 cooldown 5, abilitatea 2 cooldown 2 
------> Charmander HP 35 abilitatea 1 cooldown 3 
-Vulpix ataca normal / Charmander abilitate 2 -> Rezultat:
------> Vulpix HP 9 abilitatea 1 cooldown 4, abilitatea 2 cooldown 1 
------> Charmander HP 33 abilitatea 1 cooldown 2, abilitatea 2 cooldown 6 
-Vulpix abilitate 2 / Charmander ataca normal -> Rezultat:
------> Vulpix HP 9 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 3, abilitatea 2 cooldown 7 
------> Charmander HP 31 abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
-Vulpix ataca normal / Charmander ataca normal -> Rezultat:
------> Vulpix HP 5 abilitatea 1 cooldown 2, abilitatea 2 cooldown 6 
------> Charmander HP 29 abilitatea 2 cooldown 4 
-Vulpix ataca normal / Charmander ataca normal -> Rezultat:
------> Vulpix HP 1 abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
------> Charmander HP 27 abilitatea 2 cooldown 3 
-Vulpix ataca normal / Charmander ataca normal -> Rezultat:
------> Vulpix HP 0 abilitatea 2 cooldown 4 
------> Charmander HP 25 abilitatea 2 cooldown 2 
-Pokemonul celui de-al doilea antrenor a castigat
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Vulpix:
-hp: 39
-normalAttack: 8
-defence: 5
-specialDefence: 10
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-Charmander:
-hp: 54
-normalAttack: 10
-defence: 7
-specialDefence: 6
-Si itemele:
---Vitamine( hp+2 attack+2 specialAttack+2 )
-------------------**************------------------
-coach_1_5 se lupta cu pokemonul Psyduck contra lui coach_2_5 care are pokemonul Eevee
-------------------**************------------------
-Psyduck:
-hp: 43
-normalAttack: 3
-defence: 3
-specialDefence: 3
-Si itemele:
---no items
-------------------**************------------------
-Eevee:
-hp: 36
-normalAttack: 5
-defence: 2
-specialDefence: 4
-Si itemele:
---Bagheta Magica( specialAttack+3 )
-------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel1
-------------------**************------------------
-Psyduck VS Neutrel1
-Psyduck ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Psyduck HP 43 
------> Neutrel1 HP 8 
-Psyduck abilitate 1 / Neutrel1 ataca normal -> Rezultat:
------> Psyduck HP 43 abilitatea 1 cooldown 4 
+Vulpix ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Vulpix HP 35 
 -----> Neutrel1 HP 6 
-Psyduck ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Psyduck HP 43 abilitatea 1 cooldown 3 
------> Neutrel1 HP 4 
-Psyduck ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Psyduck HP 43 abilitatea 1 cooldown 2 
+Vulpix ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Vulpix HP 34 
 -----> Neutrel1 HP 2 
-Psyduck abilitate 2 / Neutrel1 ataca normal -> Rezultat:
------> Psyduck HP 43 abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
------> Neutrel1 HP 0 si este stuned, 
+Vulpix ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Vulpix HP 33 
+-----> Neutrel1 HP 0 
 ------------------**************------------------
-Eevee VS Neutrel1
-Eevee abilitate 1 / Neutrel1 ataca normal -> Rezultat:
------> Eevee HP 35 abilitatea 1 cooldown 6 
------> Neutrel1 HP 2 si este stuned, 
-Eevee ataca normal / Neutrel1 nu face nimic -> Rezultat:
------> Eevee HP 35 abilitatea 1 cooldown 5 
+Meowth VS Neutrel1
+Meowth ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Meowth HP 41 
+-----> Neutrel1 HP 8 
+Meowth abilitate 2 / Neutrel1 ataca normal -> Rezultat:
+-----> Meowth HP 41 abilitatea 2 cooldown 5 
+-----> Neutrel1 HP 6 si este stuned, 
+Meowth abilitate 1 / Neutrel1 nu face nimic -> Rezultat:
+-----> Meowth HP 41 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
+-----> Neutrel1 HP 1 
+Meowth ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Meowth HP 41 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
 -----> Neutrel1 HP 0 
 ------------------**************------------------
 Lupta impotriva lui Neutrel s-a terminat
@@ -408,327 +332,184 @@ Caracterisiticile for fi actualizate
 ------------------**************------------------
 NEW STATS!!
 ------------------**************------------------
-Psyduck:
-hp: 44
-normalAttack: 4
-defence: 4
-specialDefence: 4
-Si itemele:
---no items
-------------------**************------------------
-Eevee:
+Vulpix:
 hp: 37
 normalAttack: 6
 defence: 3
 specialDefence: 5
 Si itemele:
---Bagheta Magica( specialAttack+3 )
+--no items
 ------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel2
+Meowth:
+hp: 42
+normalAttack: 4
+defence: 5
+specialDefence: 3
+Si itemele:
+--no items
 ------------------**************------------------
-Psyduck VS Neutrel2
-Psyduck abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 44 abilitatea 1 cooldown 4 
------> Neutrel2 HP 18 
-Psyduck ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 44 abilitatea 1 cooldown 3 
------> Neutrel2 HP 15 
-Psyduck ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 44 abilitatea 1 cooldown 2 
------> Neutrel2 HP 12 
-Psyduck abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 44 abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
------> Neutrel2 HP 10 si este stuned, 
-Psyduck ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Psyduck HP 44 abilitatea 2 cooldown 4 
------> Neutrel2 HP 7 
-Psyduck ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 44 abilitatea 2 cooldown 3 
------> Neutrel2 HP 4 
-Psyduck abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 44 abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
------> Neutrel2 HP 2 
-Psyduck ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 44 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
------> Neutrel2 HP 0 
+Va avea loc un duel intre cei doi pokemoni
 ------------------**************------------------
-Eevee VS Neutrel2
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 36 
------> Neutrel2 HP 15 
-Eevee abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 36 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
------> Neutrel2 HP 13 
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 35 abilitatea 2 cooldown 6 
------> Neutrel2 HP 8 
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 34 abilitatea 2 cooldown 5 
------> Neutrel2 HP 3 
-Eevee abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 33 abilitatea 1 cooldown 6, abilitatea 2 cooldown 4 
------> Neutrel2 HP 0 si este stuned, 
+Vulpix VS Meowth
 ------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
-Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
+Vulpix ataca normal / Meowth abilitate 1 -> Rezultat:
+-----> Vulpix HP 32 
+-----> Meowth HP 42 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
+Vulpix ataca normal / Meowth abilitate 2 -> Rezultat:
+-----> Vulpix HP 30 si este stuned, 
+-----> Meowth HP 41 abilitatea 1 cooldown 3, abilitatea 2 cooldown 5 
+Vulpix nu face nimic / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 29 
+-----> Meowth HP 41 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
+Vulpix abilitate 2 / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 29 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
+-----> Meowth HP 39 abilitatea 1 cooldown 1, abilitatea 2 cooldown 3 
+Vulpix ataca normal / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 28 abilitatea 2 cooldown 6 
+-----> Meowth HP 38 abilitatea 2 cooldown 2 
+Vulpix ataca normal / Meowth abilitate 1 -> Rezultat:
+-----> Vulpix HP 23 abilitatea 2 cooldown 5 
+-----> Meowth HP 38 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 1 
+Vulpix ataca normal / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 22 abilitatea 2 cooldown 4 
+-----> Meowth HP 37 abilitatea 1 cooldown 3 
+Vulpix ataca normal / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 21 abilitatea 2 cooldown 3 
+-----> Meowth HP 36 abilitatea 1 cooldown 2 
+Vulpix ataca normal / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 20 abilitatea 2 cooldown 2 
+-----> Meowth HP 35 abilitatea 1 cooldown 1 
+Vulpix abilitate 1 / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 19 abilitatea 1 cooldown 6, abilitatea 2 cooldown 1 
+-----> Meowth HP 27 si este stuned, 
+Vulpix ataca normal / Meowth nu face nimic -> Rezultat:
+-----> Vulpix HP 19 abilitatea 1 cooldown 5 
+-----> Meowth HP 26 
+Vulpix abilitate 2 / Meowth abilitate 1 -> Rezultat:
+-----> Vulpix HP 19 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 7 
+-----> Meowth HP 26 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
+Vulpix ataca normal / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 18 abilitatea 1 cooldown 3, abilitatea 2 cooldown 6 
+-----> Meowth HP 25 abilitatea 1 cooldown 3 
+Vulpix ataca normal / Meowth abilitate 2 -> Rezultat:
+-----> Vulpix HP 16 si este stuned, abilitatea 1 cooldown 2, abilitatea 2 cooldown 5 
+-----> Meowth HP 24 abilitatea 1 cooldown 2, abilitatea 2 cooldown 5 
+Vulpix nu face nimic / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 15 abilitatea 1 cooldown 1, abilitatea 2 cooldown 4 
+-----> Meowth HP 24 abilitatea 1 cooldown 1, abilitatea 2 cooldown 4 
+Vulpix ataca normal / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 14 abilitatea 2 cooldown 3 
+-----> Meowth HP 23 abilitatea 2 cooldown 3 
+Vulpix abilitate 1 / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 13 abilitatea 1 cooldown 6, abilitatea 2 cooldown 2 
+-----> Meowth HP 15 si este stuned, abilitatea 2 cooldown 2 
+Vulpix ataca normal / Meowth nu face nimic -> Rezultat:
+-----> Vulpix HP 13 abilitatea 1 cooldown 5, abilitatea 2 cooldown 1 
+-----> Meowth HP 14 abilitatea 2 cooldown 1 
+Vulpix abilitate 2 / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 13 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 7 
+-----> Meowth HP 12 
+Vulpix ataca normal / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 12 abilitatea 1 cooldown 3, abilitatea 2 cooldown 6 
+-----> Meowth HP 11 
+Vulpix ataca normal / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 11 abilitatea 1 cooldown 2, abilitatea 2 cooldown 5 
+-----> Meowth HP 10 
+Vulpix ataca normal / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 10 abilitatea 1 cooldown 1, abilitatea 2 cooldown 4 
+-----> Meowth HP 9 
+Vulpix ataca normal / Meowth abilitate 2 -> Rezultat:
+-----> Vulpix HP 8 si este stuned, abilitatea 2 cooldown 3 
+-----> Meowth HP 8 abilitatea 2 cooldown 5 
+Vulpix nu face nimic / Meowth abilitate 1 -> Rezultat:
+-----> Vulpix HP 3 abilitatea 2 cooldown 2 
+-----> Meowth HP 8 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
+Vulpix ataca normal / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 2 abilitatea 2 cooldown 1 
+-----> Meowth HP 7 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
+Vulpix abilitate 2 / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 2 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
+-----> Meowth HP 5 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+Vulpix ataca normal / Meowth ataca normal -> Rezultat:
+-----> Vulpix HP 1 abilitatea 2 cooldown 6 
+-----> Meowth HP 4 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+Vulpix abilitate 1 / Meowth abilitate 2 -> Rezultat:
+-----> Vulpix HP 0 si este stuned, abilitatea 1 cooldown 6, abilitatea 2 cooldown 5 
+-----> Meowth HP 0 si este stuned, abilitatea 2 cooldown 5 
+Duelul s-a terminat intr-o remiza
 ------------------**************------------------
 NEW STATS!!
 ------------------**************------------------
-Psyduck:
-hp: 45
-normalAttack: 5
-defence: 5
+Vulpix:
+hp: 37
+normalAttack: 6
+defence: 3
 specialDefence: 5
 Si itemele:
 --no items
 ------------------**************------------------
-Eevee:
-hp: 38
-normalAttack: 7
-defence: 4
-specialDefence: 6
-Si itemele:
---Bagheta Magica( specialAttack+3 )
-------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel2
-------------------**************------------------
-Psyduck VS Neutrel2
-Psyduck ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 45 
------> Neutrel2 HP 16 
-Psyduck abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 45 abilitatea 2 cooldown 5 
------> Neutrel2 HP 14 si este stuned, 
-Psyduck ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Psyduck HP 45 abilitatea 2 cooldown 4 
------> Neutrel2 HP 10 
-Psyduck ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 45 abilitatea 2 cooldown 3 
------> Neutrel2 HP 6 
-Psyduck abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 45 abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
------> Neutrel2 HP 4 
-Psyduck ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 45 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
------> Neutrel2 HP 0 
-------------------**************------------------
-Eevee VS Neutrel2
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 38 
------> Neutrel2 HP 14 
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 38 
------> Neutrel2 HP 8 
-Eevee abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 38 abilitatea 1 cooldown 6 
------> Neutrel2 HP 0 si este stuned, 
-------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
-Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Psyduck:
-hp: 46
-normalAttack: 6
-defence: 6
-specialDefence: 6
+Meowth:
+hp: 42
+normalAttack: 4
+defence: 5
+specialDefence: 3
 Si itemele:
 --no items
 ------------------**************------------------
-Eevee:
-hp: 39
+Meciul de campionat este pe cale sa inceapa....
+------------------**************------------------
+Charmander:
+hp: 54
 normalAttack: 8
 defence: 5
-specialDefence: 7
+specialDefence: 4
 Si itemele:
---Bagheta Magica( specialAttack+3 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
 ------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel1
-------------------**************------------------
-Psyduck VS Neutrel1
-Psyduck abilitate 2 / Neutrel1 ataca normal -> Rezultat:
------> Psyduck HP 46 abilitatea 2 cooldown 5 
------> Neutrel1 HP 8 si este stuned, 
-Psyduck ataca normal / Neutrel1 nu face nimic -> Rezultat:
------> Psyduck HP 46 abilitatea 2 cooldown 4 
------> Neutrel1 HP 3 
-Psyduck ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Psyduck HP 46 abilitatea 2 cooldown 3 
------> Neutrel1 HP 0 
-------------------**************------------------
-Eevee VS Neutrel1
-Eevee ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Eevee HP 39 
------> Neutrel1 HP 3 
-Eevee abilitate 1 / Neutrel1 ataca normal -> Rezultat:
------> Eevee HP 39 abilitatea 1 cooldown 6 
------> Neutrel1 HP 0 si este stuned, 
-------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
-Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Psyduck:
-hp: 47
-normalAttack: 7
-defence: 7
-specialDefence: 7
-Si itemele:
---no items
-------------------**************------------------
-Eevee:
-hp: 40
-normalAttack: 9
-defence: 6
-specialDefence: 8
-Si itemele:
---Bagheta Magica( specialAttack+3 )
-------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel2
-------------------**************------------------
-Psyduck VS Neutrel2
-Psyduck abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 47 abilitatea 1 cooldown 4 
------> Neutrel2 HP 18 
-Psyduck ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 47 abilitatea 1 cooldown 3 
------> Neutrel2 HP 12 
-Psyduck ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 47 abilitatea 1 cooldown 2 
------> Neutrel2 HP 6 
-Psyduck ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Psyduck HP 47 abilitatea 1 cooldown 1 
------> Neutrel2 HP 0 
-------------------**************------------------
-Eevee VS Neutrel2
-Eevee abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 40 abilitatea 1 cooldown 6 
------> Neutrel2 HP 12 si este stuned, 
-Eevee abilitate 2 / Neutrel2 nu face nimic -> Rezultat:
------> Eevee HP 40 abilitatea 1 cooldown 5, abilitatea 2 cooldown 7 
------> Neutrel2 HP 10 
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 40 abilitatea 1 cooldown 4, abilitatea 2 cooldown 6 
------> Neutrel2 HP 2 
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 40 abilitatea 1 cooldown 3, abilitatea 2 cooldown 5 
------> Neutrel2 HP 0 
-------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
-Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Psyduck:
-hp: 48
-normalAttack: 8
-defence: 8
-specialDefence: 8
-Si itemele:
---no items
-------------------**************------------------
-Eevee:
-hp: 41
+Vulpix:
+hp: 38
 normalAttack: 10
-defence: 7
+defence: 5
 specialDefence: 9
 Si itemele:
---Bagheta Magica( specialAttack+3 )
+--Brad de Craciun( defense+1 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+--Sabiuta( attack+3 )
 ------------------**************------------------
-Va avea loc un duel intre cei doi pokemoni
+Charmander VS Vulpix
 ------------------**************------------------
-Psyduck VS Eevee
-------------------**************------------------
-Psyduck ataca normal / Eevee ataca normal -> Rezultat:
------> Psyduck HP 46 
------> Eevee HP 40 
-Psyduck abilitate 1 / Eevee ataca normal -> Rezultat:
------> Psyduck HP 44 abilitatea 1 cooldown 4 
------> Eevee HP 38 
-Psyduck ataca normal / Eevee ataca normal -> Rezultat:
------> Psyduck HP 42 abilitatea 1 cooldown 3 
------> Eevee HP 37 
-Psyduck ataca normal / Eevee ataca normal -> Rezultat:
------> Psyduck HP 40 abilitatea 1 cooldown 2 
------> Eevee HP 36 
-Psyduck abilitate 2 / Eevee abilitate 1 -> Rezultat:
------> Psyduck HP 32 si este stuned, abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
------> Eevee HP 34 si este stuned, abilitatea 1 cooldown 6 
-Psyduck nu face nimic / Eevee nu face nimic -> Rezultat:
------> Psyduck HP 32 abilitatea 2 cooldown 4 
------> Eevee HP 34 abilitatea 1 cooldown 5 
-Psyduck ataca normal / Eevee ataca normal -> Rezultat:
------> Psyduck HP 30 abilitatea 2 cooldown 3 
------> Eevee HP 33 abilitatea 1 cooldown 4 
-Psyduck ataca normal / Eevee ataca normal -> Rezultat:
------> Psyduck HP 28 abilitatea 2 cooldown 2 
------> Eevee HP 32 abilitatea 1 cooldown 3 
-Psyduck ataca normal / Eevee ataca normal -> Rezultat:
------> Psyduck HP 26 abilitatea 2 cooldown 1 
------> Eevee HP 31 abilitatea 1 cooldown 2 
-Psyduck ataca normal / Eevee ataca normal -> Rezultat:
------> Psyduck HP 24 
------> Eevee HP 30 abilitatea 1 cooldown 1 
-Psyduck abilitate 2 / Eevee ataca normal -> Rezultat:
------> Psyduck HP 22 abilitatea 2 cooldown 5 
------> Eevee HP 28 si este stuned, 
-Psyduck ataca normal / Eevee nu face nimic -> Rezultat:
------> Psyduck HP 22 abilitatea 2 cooldown 4 
------> Eevee HP 27 
-Psyduck abilitate 1 / Eevee ataca normal -> Rezultat:
------> Psyduck HP 20 abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
------> Eevee HP 25 
-Psyduck ataca normal / Eevee ataca normal -> Rezultat:
------> Psyduck HP 18 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
------> Eevee HP 24 
-Psyduck ataca normal / Eevee abilitate 1 -> Rezultat:
------> Psyduck HP 10 si este stuned, abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
------> Eevee HP 23 abilitatea 1 cooldown 6 
-Psyduck nu face nimic / Eevee ataca normal -> Rezultat:
------> Psyduck HP 8 abilitatea 1 cooldown 1 
------> Eevee HP 23 abilitatea 1 cooldown 5 
-Psyduck abilitate 1 / Eevee ataca normal -> Rezultat:
------> Psyduck HP 6 abilitatea 1 cooldown 4 
------> Eevee HP 21 abilitatea 1 cooldown 4 
-Psyduck ataca normal / Eevee abilitate 2 -> Rezultat:
------> Psyduck HP 4 abilitatea 1 cooldown 3 
------> Eevee HP 21 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 3, abilitatea 2 cooldown 7 
-Psyduck abilitate 2 / Eevee ataca normal -> Rezultat:
------> Psyduck HP 2 abilitatea 1 cooldown 2, abilitatea 2 cooldown 5 
------> Eevee HP 19 si este stuned, abilitatea 1 cooldown 2, abilitatea 2 cooldown 6 
-Psyduck ataca normal / Eevee nu face nimic -> Rezultat:
------> Psyduck HP 2 abilitatea 1 cooldown 1, abilitatea 2 cooldown 4 
------> Eevee HP 18 abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
-Psyduck abilitate 1 / Eevee abilitate 1 -> Rezultat:
------> Psyduck HP 0 si este stuned, abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
------> Eevee HP 16 abilitatea 1 cooldown 6, abilitatea 2 cooldown 4 
+Charmander ataca normal / Vulpix ataca normal -> Rezultat:
+-----> Charmander HP 49 
+-----> Vulpix HP 35 
+Charmander ataca normal / Vulpix abilitate 1 -> Rezultat:
+-----> Charmander HP 41 si este stuned, 
+-----> Vulpix HP 32 abilitatea 1 cooldown 6 
+Charmander nu face nimic / Vulpix ataca normal -> Rezultat:
+-----> Charmander HP 36 
+-----> Vulpix HP 32 abilitatea 1 cooldown 5 
+Charmander ataca normal / Vulpix ataca normal -> Rezultat:
+-----> Charmander HP 31 
+-----> Vulpix HP 29 abilitatea 1 cooldown 4 
+Charmander ataca normal / Vulpix ataca normal -> Rezultat:
+-----> Charmander HP 26 
+-----> Vulpix HP 26 abilitatea 1 cooldown 3 
+Charmander abilitate 2 / Vulpix ataca normal -> Rezultat:
+-----> Charmander HP 21 abilitatea 2 cooldown 6 
+-----> Vulpix HP 19 abilitatea 1 cooldown 2 
+Charmander abilitate 1 / Vulpix abilitate 2 -> Rezultat:
+-----> Charmander HP 19 abilitatea 1 cooldown 4, abilitatea 2 cooldown 5 
+-----> Vulpix HP 19 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 1, abilitatea 2 cooldown 7 
+Charmander ataca normal / Vulpix ataca normal -> Rezultat:
+-----> Charmander HP 14 abilitatea 1 cooldown 3, abilitatea 2 cooldown 4 
+-----> Vulpix HP 16 abilitatea 2 cooldown 6 
+Charmander ataca normal / Vulpix ataca normal -> Rezultat:
+-----> Charmander HP 9 abilitatea 1 cooldown 2, abilitatea 2 cooldown 3 
+-----> Vulpix HP 13 abilitatea 2 cooldown 5 
+Charmander ataca normal / Vulpix abilitate 1 -> Rezultat:
+-----> Charmander HP 1 si este stuned, abilitatea 1 cooldown 1, abilitatea 2 cooldown 2 
+-----> Vulpix HP 10 abilitatea 1 cooldown 6, abilitatea 2 cooldown 4 
+Charmander nu face nimic / Vulpix ataca normal -> Rezultat:
+-----> Charmander HP 0 abilitatea 2 cooldown 1 
+-----> Vulpix HP 10 abilitatea 1 cooldown 5, abilitatea 2 cooldown 3 
 Pokemonul celui de-al doilea antrenor a castigat
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Psyduck:
-hp: 48
-normalAttack: 8
-defence: 8
-specialDefence: 8
-Si itemele:
---no items
-------------------**************------------------
-Eevee:
-hp: 42
-normalAttack: 11
-defence: 8
-specialDefence: 10
-Si itemele:
---Bagheta Magica( specialAttack+3 )
 ------------------**************------------------

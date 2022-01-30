@@ -1,60 +1,43 @@
-coach_1_3 cu varsta de 36 intra in arena si se va lupta cu coach_2_3 care are varsta de 43
+coach_1_3 cu varsta de 85 intra in arena si se va lupta cu coach_2_3 care are varsta de 96
 ------------------**************------------------
-coach_1_3 se lupta cu pokemonul Eevee contra lui coach_2_3 care are pokemonul Jigglypuff
-------------------**************------------------
-Eevee:
-hp: 38
-normalAttack: 7
-defence: 2
-specialDefence: 7
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
---Vitamine( hp+2 attack+2 specialAttack+2 )
+coach_1_3 se lupta cu pokemonul Jigglypuff contra lui coach_2_3 care are pokemonul Bulbasaur
 ------------------**************------------------
 Jigglypuff:
 hp: 34
 normalAttack: 4
 defence: 2
-specialDefence: 6
+specialDefence: 3
 Si itemele:
---Bagheta Magica( specialAttack+3 )
---Pelerina( specialAttack+3 specialDefense+3 )
+--no items
 ------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel2
+Bulbasaur:
+hp: 42
+specialAttack: 5
+defence: 3
+specialDefence: 1
+Si itemele:
+--no items
 ------------------**************------------------
-Eevee VS Neutrel2
-Eevee abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 36 abilitatea 1 cooldown 6 
------> Neutrel2 HP 12 si este stuned, 
-Eevee ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Eevee HP 36 abilitatea 1 cooldown 5 
------> Neutrel2 HP 6 
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 34 abilitatea 1 cooldown 4 
------> Neutrel2 HP 0 
+Va avea loc o lupta impotriva lui Neutrel1
 ------------------**************------------------
-Jigglypuff VS Neutrel2
-Jigglypuff abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Jigglypuff HP 32 abilitatea 2 cooldown 4 
------> Neutrel2 HP 17 si este stuned, 
-Jigglypuff ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Jigglypuff HP 32 abilitatea 2 cooldown 3 
------> Neutrel2 HP 14 
-Jigglypuff ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Jigglypuff HP 30 abilitatea 2 cooldown 2 
------> Neutrel2 HP 11 
-Jigglypuff ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Jigglypuff HP 28 abilitatea 2 cooldown 1 
------> Neutrel2 HP 8 
-Jigglypuff ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Jigglypuff HP 26 
------> Neutrel2 HP 5 
-Jigglypuff abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Jigglypuff HP 24 abilitatea 2 cooldown 4 
------> Neutrel2 HP 2 si este stuned, 
-Jigglypuff ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Jigglypuff HP 24 abilitatea 2 cooldown 3 
------> Neutrel2 HP 0 
+Jigglypuff VS Neutrel1
+Jigglypuff abilitate 1 / Neutrel1 ataca normal -> Rezultat:
+-----> Jigglypuff HP 33 abilitatea 1 cooldown 4 
+-----> Neutrel1 HP 6 si este stuned, 
+Jigglypuff abilitate 2 / Neutrel1 nu face nimic -> Rezultat:
+-----> Jigglypuff HP 33 abilitatea 1 cooldown 3, abilitatea 2 cooldown 4 
+-----> Neutrel1 HP 3 
+Jigglypuff ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Jigglypuff HP 32 abilitatea 1 cooldown 2, abilitatea 2 cooldown 3 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Bulbasaur VS Neutrel1
+Bulbasaur abilitate 2 / Neutrel1 ataca normal -> Rezultat:
+-----> Bulbasaur HP 42 abilitatea 2 cooldown 3 
+-----> Neutrel1 HP 5 
+Bulbasaur abilitate 1 / Neutrel1 ataca normal -> Rezultat:
+-----> Bulbasaur HP 42 abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
+-----> Neutrel1 HP 0 
 ------------------**************------------------
 Lupta impotriva lui Neutrel s-a terminat
 Pokemonul primului antrenor a castigat
@@ -62,193 +45,43 @@ Pokemonul celui de-al doilea antrenor a castigat
 Caracterisiticile for fi actualizate
 ------------------**************------------------
 NEW STATS!!
-------------------**************------------------
-Eevee:
-hp: 37
-normalAttack: 8
-defence: 3
-specialDefence: 8
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
---Vitamine( hp+2 attack+2 specialAttack+2 )
 ------------------**************------------------
 Jigglypuff:
 hp: 35
 normalAttack: 5
 defence: 3
-specialDefence: 7
-Si itemele:
---Bagheta Magica( specialAttack+3 )
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel2
-------------------**************------------------
-Eevee VS Neutrel2
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 36 
------> Neutrel2 HP 13 
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 35 
------> Neutrel2 HP 6 
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 34 
------> Neutrel2 HP 0 
-------------------**************------------------
-Jigglypuff VS Neutrel2
-Jigglypuff ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Jigglypuff HP 34 
------> Neutrel2 HP 16 
-Jigglypuff abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Jigglypuff HP 33 abilitatea 1 cooldown 4 
------> Neutrel2 HP 12 si este stuned, 
-Jigglypuff ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Jigglypuff HP 33 abilitatea 1 cooldown 3 
------> Neutrel2 HP 8 
-Jigglypuff abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Jigglypuff HP 32 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
------> Neutrel2 HP 5 si este stuned, 
-Jigglypuff ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Jigglypuff HP 32 abilitatea 1 cooldown 1, abilitatea 2 cooldown 3 
------> Neutrel2 HP 1 
-Jigglypuff ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Jigglypuff HP 31 abilitatea 2 cooldown 2 
------> Neutrel2 HP 0 
-------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
-Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Eevee:
-hp: 38
-normalAttack: 9
-defence: 4
-specialDefence: 9
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
---Vitamine( hp+2 attack+2 specialAttack+2 )
-------------------**************------------------
-Jigglypuff:
-hp: 36
-normalAttack: 6
-defence: 4
-specialDefence: 8
-Si itemele:
---Bagheta Magica( specialAttack+3 )
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-Va avea loc un duel intre cei doi pokemoni
-------------------**************------------------
-Eevee VS Jigglypuff
-------------------**************------------------
-Eevee abilitate 2 / Jigglypuff ataca normal -> Rezultat:
------> Eevee HP 38 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
------> Jigglypuff HP 34 
-Eevee ataca normal / Jigglypuff ataca normal -> Rezultat:
------> Eevee HP 36 abilitatea 2 cooldown 6 
------> Jigglypuff HP 29 
-Eevee ataca normal / Jigglypuff abilitate 2 -> Rezultat:
------> Eevee HP 33 si este stuned, abilitatea 2 cooldown 5 
------> Jigglypuff HP 24 abilitatea 2 cooldown 4 
-Eevee nu face nimic / Jigglypuff ataca normal -> Rezultat:
------> Eevee HP 31 abilitatea 2 cooldown 4 
------> Jigglypuff HP 24 abilitatea 2 cooldown 3 
-Eevee ataca normal / Jigglypuff ataca normal -> Rezultat:
------> Eevee HP 29 abilitatea 2 cooldown 3 
------> Jigglypuff HP 19 abilitatea 2 cooldown 2 
-Eevee ataca normal / Jigglypuff ataca normal -> Rezultat:
------> Eevee HP 27 abilitatea 2 cooldown 2 
------> Jigglypuff HP 14 abilitatea 2 cooldown 1 
-Eevee abilitate 1 / Jigglypuff ataca normal -> Rezultat:
------> Eevee HP 25 abilitatea 1 cooldown 6, abilitatea 2 cooldown 1 
------> Jigglypuff HP 6 si este stuned, 
-Eevee abilitate 2 / Jigglypuff nu face nimic -> Rezultat:
------> Eevee HP 25 abilitatea 1 cooldown 5, abilitatea 2 cooldown 7 
------> Jigglypuff HP 4 
-Eevee ataca normal / Jigglypuff ataca normal -> Rezultat:
------> Eevee HP 23 abilitatea 1 cooldown 4, abilitatea 2 cooldown 6 
------> Jigglypuff HP 0 
-Pokemonul primului antrenor a castigat
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Eevee:
-hp: 39
-normalAttack: 10
-defence: 5
-specialDefence: 10
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
---Vitamine( hp+2 attack+2 specialAttack+2 )
-------------------**************------------------
-Jigglypuff:
-hp: 36
-normalAttack: 6
-defence: 4
-specialDefence: 8
-Si itemele:
---Bagheta Magica( specialAttack+3 )
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-coach_1_3 se lupta cu pokemonul Meowth contra lui coach_2_3 care are pokemonul Eevee
-------------------**************------------------
-Meowth:
-hp: 43
-normalAttack: 5
-defence: 6
 specialDefence: 4
 Si itemele:
---Scut( defense+2 specialDefense+2 )
---Vitamine( hp+2 attack+2 specialAttack+2 )
+--no items
 ------------------**************------------------
-Eevee:
-hp: 36
-normalAttack: 5
-defence: 2
-specialDefence: 7
+Bulbasaur:
+hp: 43
+specialAttack: 6
+defence: 4
+specialDefence: 2
 Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
+--no items
 ------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel2
+Va avea loc o lupta impotriva lui Neutrel1
 ------------------**************------------------
-Meowth VS Neutrel2
-Meowth abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 43 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
------> Neutrel2 HP 15 
-Meowth abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 43 abilitatea 1 cooldown 3, abilitatea 2 cooldown 5 
------> Neutrel2 HP 13 si este stuned, 
-Meowth ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Meowth HP 43 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
------> Neutrel2 HP 9 
-Meowth ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 43 abilitatea 1 cooldown 1, abilitatea 2 cooldown 3 
------> Neutrel2 HP 5 
-Meowth ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 43 abilitatea 2 cooldown 2 
------> Neutrel2 HP 1 
-Meowth abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 43 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 1 
------> Neutrel2 HP 0 
+Jigglypuff VS Neutrel1
+Jigglypuff abilitate 1 / Neutrel1 ataca normal -> Rezultat:
+-----> Jigglypuff HP 35 abilitatea 1 cooldown 4 
+-----> Neutrel1 HP 6 si este stuned, 
+Jigglypuff ataca normal / Neutrel1 nu face nimic -> Rezultat:
+-----> Jigglypuff HP 35 abilitatea 1 cooldown 3 
+-----> Neutrel1 HP 2 
+Jigglypuff abilitate 2 / Neutrel1 ataca normal -> Rezultat:
+-----> Jigglypuff HP 35 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
+-----> Neutrel1 HP 0 si este stuned, 
 ------------------**************------------------
-Eevee VS Neutrel2
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 34 
------> Neutrel2 HP 16 
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 32 
------> Neutrel2 HP 12 
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 30 
------> Neutrel2 HP 8 
-Eevee abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 30 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
------> Neutrel2 HP 6 
-Eevee abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 28 abilitatea 1 cooldown 6, abilitatea 2 cooldown 6 
------> Neutrel2 HP 0 si este stuned, 
+Bulbasaur VS Neutrel1
+Bulbasaur ataca special / Neutrel1 ataca normal -> Rezultat:
+-----> Bulbasaur HP 43 
+-----> Neutrel1 HP 5 
+Bulbasaur abilitate 2 / Neutrel1 ataca normal -> Rezultat:
+-----> Bulbasaur HP 43 abilitatea 2 cooldown 3 
+-----> Neutrel1 HP 0 
 ------------------**************------------------
 Lupta impotriva lui Neutrel s-a terminat
 Pokemonul primului antrenor a castigat
@@ -257,548 +90,775 @@ Caracterisiticile for fi actualizate
 ------------------**************------------------
 NEW STATS!!
 ------------------**************------------------
-Meowth:
-hp: 42
+Jigglypuff:
+hp: 36
 normalAttack: 6
-defence: 7
+defence: 4
 specialDefence: 5
 Si itemele:
---Scut( defense+2 specialDefense+2 )
---Vitamine( hp+2 attack+2 specialAttack+2 )
+--no items
 ------------------**************------------------
-Eevee:
-hp: 37
-normalAttack: 6
-defence: 3
-specialDefence: 8
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel1
-------------------**************------------------
-Meowth VS Neutrel1
-Meowth ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Meowth HP 42 
------> Neutrel1 HP 5 
-Meowth ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Meowth HP 42 
------> Neutrel1 HP 0 
-------------------**************------------------
-Eevee VS Neutrel1
-Eevee abilitate 2 / Neutrel1 ataca normal -> Rezultat:
------> Eevee HP 37 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
------> Neutrel1 HP 8 
-Eevee ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Eevee HP 37 abilitatea 2 cooldown 6 
------> Neutrel1 HP 3 
-Eevee ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Eevee HP 37 abilitatea 2 cooldown 5 
------> Neutrel1 HP 0 
-------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
-Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Meowth:
-hp: 43
-normalAttack: 7
-defence: 8
-specialDefence: 6
-Si itemele:
---Scut( defense+2 specialDefense+2 )
---Vitamine( hp+2 attack+2 specialAttack+2 )
-------------------**************------------------
-Eevee:
-hp: 38
-normalAttack: 7
-defence: 4
-specialDefence: 9
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel2
-------------------**************------------------
-Meowth VS Neutrel2
-Meowth ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 43 
------> Neutrel2 HP 14 
-Meowth ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 43 
------> Neutrel2 HP 8 
-Meowth abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 43 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
------> Neutrel2 HP 3 
-Meowth ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 43 abilitatea 1 cooldown 3 
------> Neutrel2 HP 0 
-------------------**************------------------
-Eevee VS Neutrel2
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 38 
------> Neutrel2 HP 14 
-Eevee abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 38 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
------> Neutrel2 HP 12 
-Eevee abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 38 abilitatea 1 cooldown 6, abilitatea 2 cooldown 6 
------> Neutrel2 HP 4 si este stuned, 
-Eevee ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Eevee HP 38 abilitatea 1 cooldown 5, abilitatea 2 cooldown 5 
------> Neutrel2 HP 0 
-------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
-Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Meowth:
+Bulbasaur:
 hp: 44
-normalAttack: 8
-defence: 9
-specialDefence: 7
-Si itemele:
---Scut( defense+2 specialDefense+2 )
---Vitamine( hp+2 attack+2 specialAttack+2 )
-------------------**************------------------
-Eevee:
-hp: 39
-normalAttack: 8
+specialAttack: 7
 defence: 5
-specialDefence: 10
+specialDefence: 3
 Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel2
-------------------**************------------------
-Meowth VS Neutrel2
-Meowth ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 44 
------> Neutrel2 HP 13 
-Meowth abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 44 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
------> Neutrel2 HP 8 
-Meowth abilitate 2 / Neutrel2 ataca normal -> Rezultat:
------> Meowth HP 44 abilitatea 1 cooldown 3, abilitatea 2 cooldown 5 
------> Neutrel2 HP 6 si este stuned, 
-Meowth ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Meowth HP 44 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
------> Neutrel2 HP 0 
-------------------**************------------------
-Eevee VS Neutrel2
-Eevee ataca normal / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 39 
------> Neutrel2 HP 13 
-Eevee abilitate 1 / Neutrel2 ataca normal -> Rezultat:
------> Eevee HP 39 abilitatea 1 cooldown 6 
------> Neutrel2 HP 5 si este stuned, 
-Eevee ataca normal / Neutrel2 nu face nimic -> Rezultat:
------> Eevee HP 39 abilitatea 1 cooldown 5 
------> Neutrel2 HP 0 
-------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
-Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Meowth:
-hp: 45
-normalAttack: 9
-defence: 10
-specialDefence: 8
-Si itemele:
---Scut( defense+2 specialDefense+2 )
---Vitamine( hp+2 attack+2 specialAttack+2 )
-------------------**************------------------
-Eevee:
-hp: 40
-normalAttack: 9
-defence: 6
-specialDefence: 11
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-Va avea loc o lupta impotriva lui Neutrel1
-------------------**************------------------
-Meowth VS Neutrel1
-Meowth abilitate 2 / Neutrel1 ataca normal -> Rezultat:
------> Meowth HP 45 abilitatea 2 cooldown 5 
------> Neutrel1 HP 8 si este stuned, 
-Meowth ataca normal / Neutrel1 nu face nimic -> Rezultat:
------> Meowth HP 45 abilitatea 2 cooldown 4 
------> Neutrel1 HP 0 
-------------------**************------------------
-Eevee VS Neutrel1
-Eevee ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Eevee HP 40 
------> Neutrel1 HP 2 
-Eevee ataca normal / Neutrel1 ataca normal -> Rezultat:
------> Eevee HP 40 
------> Neutrel1 HP 0 
-------------------**************------------------
-Lupta impotriva lui Neutrel s-a terminat
-Pokemonul primului antrenor a castigat
-Pokemonul celui de-al doilea antrenor a castigat
-Caracterisiticile for fi actualizate
-------------------**************------------------
-NEW STATS!!
-------------------**************------------------
-Meowth:
-hp: 46
-normalAttack: 10
-defence: 11
-specialDefence: 9
-Si itemele:
---Scut( defense+2 specialDefense+2 )
---Vitamine( hp+2 attack+2 specialAttack+2 )
-------------------**************------------------
-Eevee:
-hp: 41
-normalAttack: 10
-defence: 7
-specialDefence: 12
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
+--no items
 ------------------**************------------------
 Va avea loc un duel intre cei doi pokemoni
 ------------------**************------------------
-Meowth VS Eevee
+Jigglypuff VS Bulbasaur
 ------------------**************------------------
-Meowth abilitate 2 / Eevee abilitate 2 -> Rezultat:
------> Meowth HP 44 abilitatea 2 cooldown 5 
------> Eevee HP 41 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
-Meowth ataca normal / Eevee abilitate 1 -> Rezultat:
------> Meowth HP 36 si este stuned, abilitatea 2 cooldown 4 
------> Eevee HP 38 abilitatea 1 cooldown 6, abilitatea 2 cooldown 6 
-Meowth nu face nimic / Eevee ataca normal -> Rezultat:
------> Meowth HP 36 abilitatea 2 cooldown 3 
------> Eevee HP 38 abilitatea 1 cooldown 5, abilitatea 2 cooldown 5 
-Meowth ataca normal / Eevee ataca normal -> Rezultat:
------> Meowth HP 36 abilitatea 2 cooldown 2 
------> Eevee HP 35 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
-Meowth abilitate 1 / Eevee ataca normal -> Rezultat:
------> Meowth HP 36 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 1 
------> Eevee HP 30 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
-Meowth abilitate 2 / Eevee ataca normal -> Rezultat:
------> Meowth HP 36 abilitatea 1 cooldown 3, abilitatea 2 cooldown 5 
------> Eevee HP 28 si este stuned, abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
-Meowth ataca normal / Eevee nu face nimic -> Rezultat:
------> Meowth HP 36 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
------> Eevee HP 25 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
-Meowth ataca normal / Eevee abilitate 2 -> Rezultat:
------> Meowth HP 34 abilitatea 1 cooldown 1, abilitatea 2 cooldown 3 
------> Eevee HP 25 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
-Meowth ataca normal / Eevee ataca normal -> Rezultat:
------> Meowth HP 34 abilitatea 2 cooldown 2 
------> Eevee HP 22 abilitatea 2 cooldown 6 
-Meowth ataca normal / Eevee abilitate 1 -> Rezultat:
------> Meowth HP 26 si este stuned, abilitatea 2 cooldown 1 
------> Eevee HP 19 abilitatea 1 cooldown 6, abilitatea 2 cooldown 5 
-Meowth nu face nimic / Eevee ataca normal -> Rezultat:
------> Meowth HP 26 
------> Eevee HP 19 abilitatea 1 cooldown 5, abilitatea 2 cooldown 4 
-Meowth abilitate 2 / Eevee ataca normal -> Rezultat:
------> Meowth HP 26 abilitatea 2 cooldown 5 
------> Eevee HP 17 si este stuned, abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
-Meowth ataca normal / Eevee nu face nimic -> Rezultat:
------> Meowth HP 26 abilitatea 2 cooldown 4 
------> Eevee HP 14 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
-Meowth ataca normal / Eevee ataca normal -> Rezultat:
------> Meowth HP 26 abilitatea 2 cooldown 3 
------> Eevee HP 11 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
-Meowth ataca normal / Eevee ataca normal -> Rezultat:
------> Meowth HP 26 abilitatea 2 cooldown 2 
------> Eevee HP 8 abilitatea 1 cooldown 1 
-Meowth ataca normal / Eevee ataca normal -> Rezultat:
------> Meowth HP 26 abilitatea 2 cooldown 1 
------> Eevee HP 5 
-Meowth ataca normal / Eevee abilitate 1 -> Rezultat:
------> Meowth HP 18 si este stuned, 
------> Eevee HP 2 abilitatea 1 cooldown 6 
-Meowth nu face nimic / Eevee abilitate 2 -> Rezultat:
------> Meowth HP 16 
------> Eevee HP 2 abilitatea 1 cooldown 5, abilitatea 2 cooldown 7 
-Meowth abilitate 2 / Eevee ataca normal -> Rezultat:
------> Meowth HP 16 abilitatea 2 cooldown 5 
------> Eevee HP 0 si este stuned, abilitatea 1 cooldown 4, abilitatea 2 cooldown 6 
-Pokemonul primului antrenor a castigat
+Jigglypuff abilitate 2 / Bulbasaur abilitate 2 -> Rezultat:
+-----> Jigglypuff HP 31 abilitatea 2 cooldown 4 
+-----> Bulbasaur HP 41 si este stuned, abilitatea 2 cooldown 3 
+Jigglypuff ataca normal / Bulbasaur nu face nimic -> Rezultat:
+-----> Jigglypuff HP 31 abilitatea 2 cooldown 3 
+-----> Bulbasaur HP 40 abilitatea 2 cooldown 2 
+Jigglypuff abilitate 1 / Bulbasaur ataca special -> Rezultat:
+-----> Jigglypuff HP 29 abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
+-----> Bulbasaur HP 36 si este stuned, abilitatea 2 cooldown 1 
+Jigglypuff ataca normal / Bulbasaur nu face nimic -> Rezultat:
+-----> Jigglypuff HP 29 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
+-----> Bulbasaur HP 35 
+Jigglypuff abilitate 2 / Bulbasaur abilitate 2 -> Rezultat:
+-----> Jigglypuff HP 24 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
+-----> Bulbasaur HP 32 si este stuned, abilitatea 2 cooldown 3 
+Jigglypuff ataca normal / Bulbasaur nu face nimic -> Rezultat:
+-----> Jigglypuff HP 24 abilitatea 1 cooldown 1, abilitatea 2 cooldown 3 
+-----> Bulbasaur HP 31 abilitatea 2 cooldown 2 
+Jigglypuff abilitate 1 / Bulbasaur ataca special -> Rezultat:
+-----> Jigglypuff HP 22 abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
+-----> Bulbasaur HP 27 si este stuned, abilitatea 2 cooldown 1 
+Jigglypuff ataca normal / Bulbasaur nu face nimic -> Rezultat:
+-----> Jigglypuff HP 22 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
+-----> Bulbasaur HP 26 
+Jigglypuff abilitate 2 / Bulbasaur abilitate 2 -> Rezultat:
+-----> Jigglypuff HP 17 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
+-----> Bulbasaur HP 23 si este stuned, abilitatea 2 cooldown 3 
+Jigglypuff ataca normal / Bulbasaur nu face nimic -> Rezultat:
+-----> Jigglypuff HP 17 abilitatea 1 cooldown 1, abilitatea 2 cooldown 3 
+-----> Bulbasaur HP 22 abilitatea 2 cooldown 2 
+Jigglypuff abilitate 1 / Bulbasaur ataca special -> Rezultat:
+-----> Jigglypuff HP 15 abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
+-----> Bulbasaur HP 18 si este stuned, abilitatea 2 cooldown 1 
+Jigglypuff ataca normal / Bulbasaur nu face nimic -> Rezultat:
+-----> Jigglypuff HP 15 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
+-----> Bulbasaur HP 17 
+Jigglypuff abilitate 2 / Bulbasaur abilitate 1 -> Rezultat:
+-----> Jigglypuff HP 9 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
+-----> Bulbasaur HP 14 si este stuned, abilitatea 1 cooldown 4 
+Jigglypuff ataca normal / Bulbasaur nu face nimic -> Rezultat:
+-----> Jigglypuff HP 9 abilitatea 1 cooldown 1, abilitatea 2 cooldown 3 
+-----> Bulbasaur HP 13 abilitatea 1 cooldown 3 
+Jigglypuff abilitate 1 / Bulbasaur ataca special -> Rezultat:
+-----> Jigglypuff HP 7 abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
+-----> Bulbasaur HP 9 si este stuned, abilitatea 1 cooldown 2 
+Jigglypuff ataca normal / Bulbasaur nu face nimic -> Rezultat:
+-----> Jigglypuff HP 7 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
+-----> Bulbasaur HP 8 abilitatea 1 cooldown 1 
+Jigglypuff ataca normal / Bulbasaur abilitate 2 -> Rezultat:
+-----> Jigglypuff HP 2 abilitatea 1 cooldown 2 
+-----> Bulbasaur HP 7 abilitatea 2 cooldown 3 
+Jigglypuff ataca normal / Bulbasaur ataca special -> Rezultat:
+-----> Jigglypuff HP 0 abilitatea 1 cooldown 1 
+-----> Bulbasaur HP 6 abilitatea 2 cooldown 2 
+Pokemonul celui de-al doilea antrenor a castigat
 ------------------**************------------------
 NEW STATS!!
 ------------------**************------------------
-Meowth:
-hp: 47
-normalAttack: 11
-defence: 12
-specialDefence: 10
+Jigglypuff:
+hp: 36
+normalAttack: 6
+defence: 4
+specialDefence: 5
 Si itemele:
---Scut( defense+2 specialDefense+2 )
---Vitamine( hp+2 attack+2 specialAttack+2 )
+--no items
 ------------------**************------------------
-Eevee:
-hp: 41
-normalAttack: 10
-defence: 7
-specialDefence: 12
-Si itemele:
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-coach_1_3 se lupta cu pokemonul Snorlax contra lui coach_2_3 care are pokemonul Meowth
-------------------**************------------------
-Snorlax:
-hp: 72
-normalAttack: 3
-defence: 6
-specialDefence: 7
-Si itemele:
---Vesta( hp+10 )
---Pelerina( specialAttack+3 specialDefense+3 )
-------------------**************------------------
-Meowth:
-hp: 41
-normalAttack: 3
+Bulbasaur:
+hp: 45
+specialAttack: 8
 defence: 6
 specialDefence: 4
 Si itemele:
+--no items
+------------------**************------------------
+coach_1_3 se lupta cu pokemonul Pikachu contra lui coach_2_3 care are pokemonul Squirtle
+------------------**************------------------
+Pikachu:
+hp: 35
+specialAttack: 4
+defence: 2
+specialDefence: 3
+Si itemele:
+--no items
+------------------**************------------------
+Squirtle:
+hp: 60
+specialAttack: 3
+defence: 8
+specialDefence: 7
+Si itemele:
+--Brad de Craciun( defense+1 )
 --Scut( defense+2 specialDefense+2 )
+--Sabiuta( attack+3 )
+------------------**************------------------
+Va avea loc o lupta impotriva lui Neutrel2
+------------------**************------------------
+Pikachu VS Neutrel2
+Pikachu ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 33 
+-----> Neutrel2 HP 17 
+Pikachu ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 31 
+-----> Neutrel2 HP 14 
+Pikachu abilitate 2 / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 31 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
+-----> Neutrel2 HP 10 si este stuned, 
+Pikachu abilitate 1 / Neutrel2 nu face nimic -> Rezultat:
+-----> Pikachu HP 31 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
+-----> Neutrel2 HP 4 
+Pikachu ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 29 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
+-----> Neutrel2 HP 1 
+Pikachu ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 27 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+-----> Neutrel2 HP 0 
+------------------**************------------------
+Squirtle VS Neutrel2
+Squirtle abilitate 1 / Neutrel2 ataca normal -> Rezultat:
+-----> Squirtle HP 60 abilitatea 1 cooldown 3 
+-----> Neutrel2 HP 16 
+Squirtle ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Squirtle HP 60 abilitatea 1 cooldown 2 
+-----> Neutrel2 HP 14 
+Squirtle abilitate 2 / Neutrel2 ataca normal -> Rezultat:
+-----> Squirtle HP 60 abilitatea 1 cooldown 1, abilitatea 2 cooldown 2 
+-----> Neutrel2 HP 12 si este stuned, 
+Squirtle ataca special / Neutrel2 nu face nimic -> Rezultat:
+-----> Squirtle HP 60 abilitatea 2 cooldown 1 
+-----> Neutrel2 HP 10 
+Squirtle ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Squirtle HP 60 
+-----> Neutrel2 HP 8 
+Squirtle ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Squirtle HP 60 
+-----> Neutrel2 HP 6 
+Squirtle ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Squirtle HP 60 
+-----> Neutrel2 HP 4 
+Squirtle ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Squirtle HP 60 
+-----> Neutrel2 HP 2 
+Squirtle abilitate 1 / Neutrel2 ataca normal -> Rezultat:
+-----> Squirtle HP 60 abilitatea 1 cooldown 3 
+-----> Neutrel2 HP 0 
+------------------**************------------------
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Caracterisiticile for fi actualizate
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Pikachu:
+hp: 36
+specialAttack: 5
+defence: 3
+specialDefence: 4
+Si itemele:
+--no items
+------------------**************------------------
+Squirtle:
+hp: 61
+specialAttack: 4
+defence: 9
+specialDefence: 8
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Scut( defense+2 specialDefense+2 )
+--Sabiuta( attack+3 )
 ------------------**************------------------
 Va avea loc un duel intre cei doi pokemoni
 ------------------**************------------------
-Snorlax VS Meowth
+Pikachu VS Squirtle
 ------------------**************------------------
-Snorlax ataca normal / Meowth abilitate 2 -> Rezultat:
------> Snorlax HP 70 si este stuned, 
------> Meowth HP 41 abilitatea 2 cooldown 5 
-Snorlax nu face nimic / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 65 
------> Meowth HP 41 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 65 
------> Meowth HP 41 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
-Snorlax abilitate 1 / Meowth ataca normal -> Rezultat:
------> Snorlax HP 65 abilitatea 1 cooldown 5 
------> Meowth HP 37 si este stuned, abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
-Snorlax ataca normal / Meowth nu face nimic -> Rezultat:
------> Snorlax HP 65 abilitatea 1 cooldown 4 
------> Meowth HP 37 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 65 abilitatea 1 cooldown 3 
------> Meowth HP 37 
-Snorlax ataca normal / Meowth abilitate 2 -> Rezultat:
------> Snorlax HP 63 si este stuned, abilitatea 1 cooldown 2 
------> Meowth HP 37 abilitatea 2 cooldown 5 
-Snorlax nu face nimic / Meowth ataca normal -> Rezultat:
------> Snorlax HP 63 abilitatea 1 cooldown 1 
------> Meowth HP 37 abilitatea 2 cooldown 4 
-Snorlax ataca normal / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 58 
------> Meowth HP 37 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
-Snorlax abilitate 2 / Meowth ataca normal -> Rezultat:
------> Snorlax HP 58 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
------> Meowth HP 37 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
-Snorlax abilitate 1 / Meowth ataca normal -> Rezultat:
------> Snorlax HP 58 abilitatea 1 cooldown 5, abilitatea 2 cooldown 4 
------> Meowth HP 33 si este stuned, abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
-Snorlax ataca normal / Meowth nu face nimic -> Rezultat:
------> Snorlax HP 58 abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
------> Meowth HP 33 abilitatea 1 cooldown 1 
-Snorlax ataca normal / Meowth abilitate 2 -> Rezultat:
------> Snorlax HP 56 si este stuned, abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
------> Meowth HP 33 abilitatea 2 cooldown 5 
-Snorlax nu face nimic / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 51 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
------> Meowth HP 33 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 51 abilitatea 1 cooldown 1 
------> Meowth HP 33 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 51 
------> Meowth HP 33 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
-Snorlax abilitate 1 / Meowth ataca normal -> Rezultat:
------> Snorlax HP 51 abilitatea 1 cooldown 5 
------> Meowth HP 29 si este stuned, abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
-Snorlax ataca normal / Meowth nu face nimic -> Rezultat:
------> Snorlax HP 51 abilitatea 1 cooldown 4 
------> Meowth HP 29 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 51 abilitatea 1 cooldown 3 
------> Meowth HP 29 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 51 abilitatea 1 cooldown 2 
------> Meowth HP 29 
-Snorlax ataca normal / Meowth abilitate 2 -> Rezultat:
------> Snorlax HP 49 si este stuned, abilitatea 1 cooldown 1 
------> Meowth HP 29 abilitatea 2 cooldown 5 
-Snorlax nu face nimic / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 44 
------> Meowth HP 29 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
-Snorlax abilitate 1 / Meowth ataca normal -> Rezultat:
------> Snorlax HP 44 abilitatea 1 cooldown 5 
------> Meowth HP 25 si este stuned, abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
-Snorlax ataca normal / Meowth nu face nimic -> Rezultat:
------> Snorlax HP 44 abilitatea 1 cooldown 4 
------> Meowth HP 25 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
-Snorlax abilitate 2 / Meowth ataca normal -> Rezultat:
------> Snorlax HP 44 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 3, abilitatea 2 cooldown 5 
------> Meowth HP 25 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
-Snorlax ataca normal / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 39 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
------> Meowth HP 25 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 39 abilitatea 1 cooldown 1, abilitatea 2 cooldown 3 
------> Meowth HP 25 abilitatea 1 cooldown 3 
-Snorlax ataca normal / Meowth abilitate 2 -> Rezultat:
------> Snorlax HP 37 si este stuned, abilitatea 2 cooldown 2 
------> Meowth HP 25 abilitatea 1 cooldown 2, abilitatea 2 cooldown 5 
-Snorlax nu face nimic / Meowth ataca normal -> Rezultat:
------> Snorlax HP 37 abilitatea 2 cooldown 1 
------> Meowth HP 25 abilitatea 1 cooldown 1, abilitatea 2 cooldown 4 
-Snorlax abilitate 2 / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 37 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
------> Meowth HP 25 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 37 abilitatea 2 cooldown 4 
------> Meowth HP 25 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 37 abilitatea 2 cooldown 3 
------> Meowth HP 25 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
-Snorlax ataca normal / Meowth abilitate 2 -> Rezultat:
------> Snorlax HP 35 si este stuned, abilitatea 2 cooldown 2 
------> Meowth HP 25 abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
-Snorlax nu face nimic / Meowth ataca normal -> Rezultat:
------> Snorlax HP 35 abilitatea 2 cooldown 1 
------> Meowth HP 25 abilitatea 2 cooldown 4 
-Snorlax abilitate 2 / Meowth ataca normal -> Rezultat:
------> Snorlax HP 35 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
------> Meowth HP 25 abilitatea 2 cooldown 3 
-Snorlax abilitate 1 / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 30 abilitatea 1 cooldown 5, abilitatea 2 cooldown 4 
------> Meowth HP 25 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 30 abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
------> Meowth HP 25 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 30 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
------> Meowth HP 25 abilitatea 1 cooldown 2 
-Snorlax ataca normal / Meowth abilitate 2 -> Rezultat:
------> Snorlax HP 28 si este stuned, abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
------> Meowth HP 25 abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
-Snorlax nu face nimic / Meowth ataca normal -> Rezultat:
------> Snorlax HP 28 abilitatea 1 cooldown 1 
------> Meowth HP 25 abilitatea 2 cooldown 4 
-Snorlax abilitate 2 / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 28 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
------> Meowth HP 25 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
-Snorlax abilitate 1 / Meowth ataca normal -> Rezultat:
------> Snorlax HP 28 abilitatea 1 cooldown 5, abilitatea 2 cooldown 4 
------> Meowth HP 21 si este stuned, abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
-Snorlax ataca normal / Meowth nu face nimic -> Rezultat:
------> Snorlax HP 28 abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
------> Meowth HP 21 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
-Snorlax ataca normal / Meowth abilitate 2 -> Rezultat:
------> Snorlax HP 26 si este stuned, abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
------> Meowth HP 21 abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
-Snorlax nu face nimic / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 21 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
------> Meowth HP 21 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 21 abilitatea 1 cooldown 1 
------> Meowth HP 21 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 21 
------> Meowth HP 21 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 21 
------> Meowth HP 21 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
-Snorlax abilitate 1 / Meowth ataca normal -> Rezultat:
------> Snorlax HP 21 abilitatea 1 cooldown 5 
------> Meowth HP 17 si este stuned, 
-Snorlax ataca normal / Meowth nu face nimic -> Rezultat:
------> Snorlax HP 21 abilitatea 1 cooldown 4 
------> Meowth HP 17 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 21 abilitatea 1 cooldown 3 
------> Meowth HP 17 
-Snorlax ataca normal / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 16 abilitatea 1 cooldown 2 
------> Meowth HP 17 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 16 abilitatea 1 cooldown 1 
------> Meowth HP 17 abilitatea 1 cooldown 3 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 16 
------> Meowth HP 17 abilitatea 1 cooldown 2 
-Snorlax abilitate 1 / Meowth abilitate 2 -> Rezultat:
------> Snorlax HP 14 si este stuned, abilitatea 1 cooldown 5 
------> Meowth HP 13 si este stuned, abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
-Snorlax nu face nimic / Meowth nu face nimic -> Rezultat:
------> Snorlax HP 14 abilitatea 1 cooldown 4 
------> Meowth HP 13 abilitatea 2 cooldown 4 
-Snorlax ataca normal / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 9 abilitatea 1 cooldown 3 
------> Meowth HP 13 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
-Snorlax abilitate 2 / Meowth ataca normal -> Rezultat:
------> Snorlax HP 9 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 2, abilitatea 2 cooldown 5 
------> Meowth HP 13 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 9 abilitatea 1 cooldown 1, abilitatea 2 cooldown 4 
------> Meowth HP 13 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 9 abilitatea 2 cooldown 3 
------> Meowth HP 13 abilitatea 1 cooldown 1 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 9 abilitatea 2 cooldown 2 
------> Meowth HP 13 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 9 abilitatea 2 cooldown 1 
------> Meowth HP 13 
-Snorlax abilitate 2 / Meowth ataca normal -> Rezultat:
------> Snorlax HP 9 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
------> Meowth HP 13 
-Snorlax abilitate 1 / Meowth abilitate 2 -> Rezultat:
------> Snorlax HP 7 si este stuned, abilitatea 1 cooldown 5, abilitatea 2 cooldown 4 
------> Meowth HP 9 si este stuned, abilitatea 2 cooldown 5 
-Snorlax nu face nimic / Meowth nu face nimic -> Rezultat:
------> Snorlax HP 7 abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
------> Meowth HP 9 abilitatea 2 cooldown 4 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 7 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
------> Meowth HP 9 abilitatea 2 cooldown 3 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 7 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
------> Meowth HP 9 abilitatea 2 cooldown 2 
-Snorlax ataca normal / Meowth ataca normal -> Rezultat:
------> Snorlax HP 7 abilitatea 1 cooldown 1 
------> Meowth HP 9 abilitatea 2 cooldown 1 
-Snorlax ataca normal / Meowth abilitate 2 -> Rezultat:
------> Snorlax HP 5 si este stuned, 
------> Meowth HP 9 abilitatea 2 cooldown 5 
-Snorlax nu face nimic / Meowth abilitate 1 -> Rezultat:
------> Snorlax HP 0 
------> Meowth HP 9 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
+Pikachu abilitate 2 / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 36 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
+-----> Squirtle HP 57 si este stuned, 
+Pikachu ataca special / Squirtle nu face nimic -> Rezultat:
+-----> Pikachu HP 36 abilitatea 2 cooldown 4 
+-----> Squirtle HP 57 
+Pikachu abilitate 1 / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 36 abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
+-----> Squirtle HP 51 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 36 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
+-----> Squirtle HP 51 
+Pikachu ataca special / Squirtle abilitate 1 -> Rezultat:
+-----> Pikachu HP 32 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
+-----> Squirtle HP 51 abilitatea 1 cooldown 3 
+Pikachu abilitate 2 / Squirtle abilitate 2 -> Rezultat:
+-----> Pikachu HP 32 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
+-----> Squirtle HP 47 si este stuned, abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+Pikachu ataca special / Squirtle nu face nimic -> Rezultat:
+-----> Pikachu HP 32 abilitatea 2 cooldown 4 
+-----> Squirtle HP 47 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 32 abilitatea 2 cooldown 3 
+-----> Squirtle HP 47 
+Pikachu ataca special / Squirtle abilitate 2 -> Rezultat:
+-----> Pikachu HP 30 si este stuned, abilitatea 2 cooldown 2 
+-----> Squirtle HP 47 abilitatea 2 cooldown 2 
+Pikachu nu face nimic / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 30 abilitatea 2 cooldown 1 
+-----> Squirtle HP 47 abilitatea 2 cooldown 1 
+Pikachu abilitate 2 / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 30 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
+-----> Squirtle HP 43 si este stuned, 
+Pikachu ataca special / Squirtle nu face nimic -> Rezultat:
+-----> Pikachu HP 30 abilitatea 2 cooldown 4 
+-----> Squirtle HP 43 
+Pikachu ataca special / Squirtle abilitate 1 -> Rezultat:
+-----> Pikachu HP 26 abilitatea 2 cooldown 3 
+-----> Squirtle HP 43 abilitatea 1 cooldown 3 
+Pikachu ataca special / Squirtle abilitate 2 -> Rezultat:
+-----> Pikachu HP 24 si este stuned, abilitatea 2 cooldown 2 
+-----> Squirtle HP 43 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+Pikachu nu face nimic / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 24 abilitatea 2 cooldown 1 
+-----> Squirtle HP 43 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 24 
+-----> Squirtle HP 43 
+Pikachu ataca special / Squirtle abilitate 1 -> Rezultat:
+-----> Pikachu HP 20 
+-----> Squirtle HP 43 abilitatea 1 cooldown 3 
+Pikachu abilitate 2 / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 20 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
+-----> Squirtle HP 39 si este stuned, abilitatea 1 cooldown 2 
+Pikachu abilitate 1 / Squirtle nu face nimic -> Rezultat:
+-----> Pikachu HP 20 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
+-----> Squirtle HP 33 abilitatea 1 cooldown 1 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 20 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
+-----> Squirtle HP 33 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 20 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+-----> Squirtle HP 33 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 20 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+-----> Squirtle HP 33 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 20 
+-----> Squirtle HP 33 
+Pikachu abilitate 2 / Squirtle abilitate 1 -> Rezultat:
+-----> Pikachu HP 20 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
+-----> Squirtle HP 29 si este stuned, abilitatea 1 cooldown 3 
+Pikachu ataca special / Squirtle nu face nimic -> Rezultat:
+-----> Pikachu HP 20 abilitatea 2 cooldown 4 
+-----> Squirtle HP 29 abilitatea 1 cooldown 2 
+Pikachu ataca special / Squirtle abilitate 2 -> Rezultat:
+-----> Pikachu HP 18 si este stuned, abilitatea 2 cooldown 3 
+-----> Squirtle HP 29 abilitatea 1 cooldown 1, abilitatea 2 cooldown 2 
+Pikachu nu face nimic / Squirtle abilitate 1 -> Rezultat:
+-----> Pikachu HP 14 abilitatea 2 cooldown 2 
+-----> Squirtle HP 29 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
+Pikachu ataca special / Squirtle abilitate 2 -> Rezultat:
+-----> Pikachu HP 12 si este stuned, abilitatea 2 cooldown 1 
+-----> Squirtle HP 29 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+Pikachu nu face nimic / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 12 
+-----> Squirtle HP 29 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+Pikachu ataca special / Squirtle abilitate 2 -> Rezultat:
+-----> Pikachu HP 10 si este stuned, 
+-----> Squirtle HP 29 abilitatea 2 cooldown 2 
+Pikachu nu face nimic / Squirtle abilitate 1 -> Rezultat:
+-----> Pikachu HP 6 
+-----> Squirtle HP 29 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 6 
+-----> Squirtle HP 29 abilitatea 1 cooldown 2 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 6 
+-----> Squirtle HP 29 abilitatea 1 cooldown 1 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 6 
+-----> Squirtle HP 29 
+Pikachu abilitate 1 / Squirtle abilitate 2 -> Rezultat:
+-----> Pikachu HP 4 si este stuned, abilitatea 1 cooldown 4 
+-----> Squirtle HP 23 abilitatea 2 cooldown 2 
+Pikachu nu face nimic / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 4 abilitatea 1 cooldown 3 
+-----> Squirtle HP 23 abilitatea 2 cooldown 1 
+Pikachu abilitate 2 / Squirtle abilitate 1 -> Rezultat:
+-----> Pikachu HP 4 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 2, abilitatea 2 cooldown 5 
+-----> Squirtle HP 19 si este stuned, abilitatea 1 cooldown 3 
+Pikachu ataca special / Squirtle nu face nimic -> Rezultat:
+-----> Pikachu HP 4 abilitatea 1 cooldown 1, abilitatea 2 cooldown 4 
+-----> Squirtle HP 19 abilitatea 1 cooldown 2 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 4 abilitatea 2 cooldown 3 
+-----> Squirtle HP 19 abilitatea 1 cooldown 1 
+Pikachu abilitate 1 / Squirtle abilitate 2 -> Rezultat:
+-----> Pikachu HP 2 si este stuned, abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
+-----> Squirtle HP 13 abilitatea 2 cooldown 2 
+Pikachu nu face nimic / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 2 abilitatea 1 cooldown 3, abilitatea 2 cooldown 1 
+-----> Squirtle HP 13 abilitatea 2 cooldown 1 
+Pikachu abilitate 2 / Squirtle abilitate 2 -> Rezultat:
+-----> Pikachu HP 2 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 2, abilitatea 2 cooldown 5 
+-----> Squirtle HP 9 si este stuned, abilitatea 2 cooldown 2 
+Pikachu ataca special / Squirtle nu face nimic -> Rezultat:
+-----> Pikachu HP 2 abilitatea 1 cooldown 1, abilitatea 2 cooldown 4 
+-----> Squirtle HP 9 abilitatea 2 cooldown 1 
+Pikachu ataca special / Squirtle ataca special -> Rezultat:
+-----> Pikachu HP 2 abilitatea 2 cooldown 3 
+-----> Squirtle HP 9 
+Pikachu abilitate 1 / Squirtle abilitate 2 -> Rezultat:
+-----> Pikachu HP 0 si este stuned, abilitatea 1 cooldown 4, abilitatea 2 cooldown 2 
+-----> Squirtle HP 3 abilitatea 2 cooldown 2 
 Pokemonul celui de-al doilea antrenor a castigat
 ------------------**************------------------
 NEW STATS!!
 ------------------**************------------------
-Snorlax:
-hp: 62
-normalAttack: 3
-defence: 6
-specialDefence: 7
+Pikachu:
+hp: 36
+specialAttack: 5
+defence: 3
+specialDefence: 4
 Si itemele:
---Vesta( hp+10 )
+--no items
+------------------**************------------------
+Squirtle:
+hp: 62
+specialAttack: 5
+defence: 10
+specialDefence: 9
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Scut( defense+2 specialDefense+2 )
+--Sabiuta( attack+3 )
+------------------**************------------------
+coach_1_3 se lupta cu pokemonul Charmander contra lui coach_2_3 care are pokemonul Meowth
+------------------**************------------------
+Charmander:
+hp: 50
+normalAttack: 4
+defence: 4
+specialDefence: 5
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+------------------**************------------------
+Meowth:
+hp: 41
+normalAttack: 3
+defence: 5
+specialDefence: 2
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Bagheta Magica( specialAttack+3 )
+------------------**************------------------
+Va avea loc o lupta impotriva lui Neutrel1
+------------------**************------------------
+Charmander VS Neutrel1
+Charmander ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Charmander HP 50 
+-----> Neutrel1 HP 7 
+Charmander abilitate 2 / Neutrel1 ataca normal -> Rezultat:
+-----> Charmander HP 50 abilitatea 2 cooldown 6 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Meowth VS Neutrel1
+Meowth ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Meowth HP 41 
+-----> Neutrel1 HP 8 
+Meowth abilitate 1 / Neutrel1 ataca normal -> Rezultat:
+-----> Meowth HP 41 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
+-----> Neutrel1 HP 3 
+Meowth ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Meowth HP 41 abilitatea 1 cooldown 3 
+-----> Neutrel1 HP 1 
+Meowth ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Meowth HP 41 abilitatea 1 cooldown 2 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Caracterisiticile for fi actualizate
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Charmander:
+hp: 51
+normalAttack: 5
+defence: 5
+specialDefence: 6
+Si itemele:
+--Brad de Craciun( defense+1 )
 --Pelerina( specialAttack+3 specialDefense+3 )
 ------------------**************------------------
 Meowth:
 hp: 42
 normalAttack: 4
-defence: 7
-specialDefence: 5
+defence: 6
+specialDefence: 3
 Si itemele:
+--Brad de Craciun( defense+1 )
+--Bagheta Magica( specialAttack+3 )
+------------------**************------------------
+Va avea loc o lupta impotriva lui Neutrel1
+------------------**************------------------
+Charmander VS Neutrel1
+Charmander abilitate 1 / Neutrel1 ataca normal -> Rezultat:
+-----> Charmander HP 51 abilitatea 1 cooldown 4 
+-----> Neutrel1 HP 6 si este stuned, 
+Charmander ataca normal / Neutrel1 nu face nimic -> Rezultat:
+-----> Charmander HP 51 abilitatea 1 cooldown 3 
+-----> Neutrel1 HP 2 
+Charmander ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Charmander HP 51 abilitatea 1 cooldown 2 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Meowth VS Neutrel1
+Meowth abilitate 2 / Neutrel1 ataca normal -> Rezultat:
+-----> Meowth HP 42 abilitatea 2 cooldown 5 
+-----> Neutrel1 HP 8 si este stuned, 
+Meowth abilitate 1 / Neutrel1 nu face nimic -> Rezultat:
+-----> Meowth HP 42 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
+-----> Neutrel1 HP 3 
+Meowth ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Meowth HP 42 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Caracterisiticile for fi actualizate
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Charmander:
+hp: 52
+normalAttack: 6
+defence: 6
+specialDefence: 7
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+------------------**************------------------
+Meowth:
+hp: 43
+normalAttack: 5
+defence: 7
+specialDefence: 4
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Bagheta Magica( specialAttack+3 )
+------------------**************------------------
+Va avea loc un duel intre cei doi pokemoni
+------------------**************------------------
+Charmander VS Meowth
+------------------**************------------------
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 52 
+-----> Meowth HP 43 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 52 
+-----> Meowth HP 43 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 52 
+-----> Meowth HP 43 
+Charmander ataca normal / Meowth abilitate 1 -> Rezultat:
+-----> Charmander HP 47 
+-----> Meowth HP 43 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
+Charmander abilitate 1 / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 47 abilitatea 1 cooldown 4 
+-----> Meowth HP 39 si este stuned, abilitatea 1 cooldown 3 
+Charmander ataca normal / Meowth nu face nimic -> Rezultat:
+-----> Charmander HP 47 abilitatea 1 cooldown 3 
+-----> Meowth HP 39 abilitatea 1 cooldown 2 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 47 abilitatea 1 cooldown 2 
+-----> Meowth HP 39 abilitatea 1 cooldown 1 
+Charmander abilitate 2 / Meowth abilitate 1 -> Rezultat:
+-----> Charmander HP 42 abilitatea 1 cooldown 1, abilitatea 2 cooldown 6 
+-----> Meowth HP 39 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
+Charmander abilitate 1 / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 42 abilitatea 1 cooldown 4, abilitatea 2 cooldown 5 
+-----> Meowth HP 35 si este stuned, abilitatea 1 cooldown 3 
+Charmander ataca normal / Meowth nu face nimic -> Rezultat:
+-----> Charmander HP 42 abilitatea 1 cooldown 3, abilitatea 2 cooldown 4 
+-----> Meowth HP 35 abilitatea 1 cooldown 2 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 42 abilitatea 1 cooldown 2, abilitatea 2 cooldown 3 
+-----> Meowth HP 35 abilitatea 1 cooldown 1 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 42 abilitatea 1 cooldown 1, abilitatea 2 cooldown 2 
+-----> Meowth HP 35 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 42 abilitatea 2 cooldown 1 
+-----> Meowth HP 35 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 42 
+-----> Meowth HP 35 
+Charmander abilitate 2 / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 42 abilitatea 2 cooldown 6 
+-----> Meowth HP 28 
+Charmander abilitate 1 / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 42 abilitatea 1 cooldown 4, abilitatea 2 cooldown 5 
+-----> Meowth HP 24 si este stuned, 
+Charmander ataca normal / Meowth nu face nimic -> Rezultat:
+-----> Charmander HP 42 abilitatea 1 cooldown 3, abilitatea 2 cooldown 4 
+-----> Meowth HP 24 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 42 abilitatea 1 cooldown 2, abilitatea 2 cooldown 3 
+-----> Meowth HP 24 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 42 abilitatea 1 cooldown 1, abilitatea 2 cooldown 2 
+-----> Meowth HP 24 
+Charmander ataca normal / Meowth abilitate 2 -> Rezultat:
+-----> Charmander HP 40 si este stuned, abilitatea 2 cooldown 1 
+-----> Meowth HP 24 abilitatea 2 cooldown 5 
+Charmander nu face nimic / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 40 
+-----> Meowth HP 24 abilitatea 2 cooldown 4 
+Charmander ataca normal / Meowth abilitate 1 -> Rezultat:
+-----> Charmander HP 35 
+-----> Meowth HP 24 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
+Charmander abilitate 1 / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 35 abilitatea 1 cooldown 4 
+-----> Meowth HP 20 si este stuned, abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
+Charmander ataca normal / Meowth nu face nimic -> Rezultat:
+-----> Charmander HP 35 abilitatea 1 cooldown 3 
+-----> Meowth HP 20 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
+Charmander abilitate 2 / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 35 abilitatea 1 cooldown 2, abilitatea 2 cooldown 6 
+-----> Meowth HP 13 abilitatea 1 cooldown 1 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 35 abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
+-----> Meowth HP 13 
+Charmander abilitate 1 / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 35 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
+-----> Meowth HP 9 si este stuned, 
+Charmander ataca normal / Meowth nu face nimic -> Rezultat:
+-----> Charmander HP 35 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
+-----> Meowth HP 9 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 35 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+-----> Meowth HP 9 
+Charmander ataca normal / Meowth abilitate 2 -> Rezultat:
+-----> Charmander HP 33 si este stuned, abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+-----> Meowth HP 9 abilitatea 2 cooldown 5 
+Charmander nu face nimic / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 33 
+-----> Meowth HP 9 abilitatea 2 cooldown 4 
+Charmander abilitate 2 / Meowth abilitate 1 -> Rezultat:
+-----> Charmander HP 28 abilitatea 2 cooldown 6 
+-----> Meowth HP 9 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 28 abilitatea 2 cooldown 5 
+-----> Meowth HP 9 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
+Charmander abilitate 1 / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 28 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
+-----> Meowth HP 5 si este stuned, abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
+Charmander ataca normal / Meowth nu face nimic -> Rezultat:
+-----> Charmander HP 28 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
+-----> Meowth HP 5 abilitatea 1 cooldown 1 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 28 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+-----> Meowth HP 5 
+Charmander ataca normal / Meowth abilitate 1 -> Rezultat:
+-----> Charmander HP 23 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+-----> Meowth HP 5 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
+Charmander ataca normal / Meowth abilitate 2 -> Rezultat:
+-----> Charmander HP 21 si este stuned, 
+-----> Meowth HP 5 abilitatea 1 cooldown 3, abilitatea 2 cooldown 5 
+Charmander nu face nimic / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 21 
+-----> Meowth HP 5 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
+Charmander ataca normal / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 21 
+-----> Meowth HP 5 abilitatea 1 cooldown 1, abilitatea 2 cooldown 3 
+Charmander abilitate 1 / Meowth ataca normal -> Rezultat:
+-----> Charmander HP 21 abilitatea 1 cooldown 4 
+-----> Meowth HP 1 si este stuned, abilitatea 2 cooldown 2 
+Charmander abilitate 2 / Meowth nu face nimic -> Rezultat:
+-----> Charmander HP 21 abilitatea 1 cooldown 3, abilitatea 2 cooldown 6 
+-----> Meowth HP 0 abilitatea 2 cooldown 1 
+Pokemonul primului antrenor a castigat
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Charmander:
+hp: 53
+normalAttack: 7
+defence: 7
+specialDefence: 8
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+------------------**************------------------
+Meowth:
+hp: 43
+normalAttack: 5
+defence: 7
+specialDefence: 4
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Bagheta Magica( specialAttack+3 )
+------------------**************------------------
+Meciul de campionat este pe cale sa inceapa....
+------------------**************------------------
+Charmander:
+hp: 53
+normalAttack: 7
+defence: 7
+specialDefence: 8
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+------------------**************------------------
+Squirtle:
+hp: 62
+specialAttack: 5
+defence: 10
+specialDefence: 9
+Si itemele:
+--Brad de Craciun( defense+1 )
 --Scut( defense+2 specialDefense+2 )
+--Sabiuta( attack+3 )
+------------------**************------------------
+Charmander VS Squirtle
+------------------**************------------------
+Charmander abilitate 1 / Squirtle abilitate 1 -> Rezultat:
+-----> Charmander HP 49 abilitatea 1 cooldown 4 
+-----> Squirtle HP 58 si este stuned, abilitatea 1 cooldown 3 
+Charmander abilitate 2 / Squirtle nu face nimic -> Rezultat:
+-----> Charmander HP 49 abilitatea 1 cooldown 3, abilitatea 2 cooldown 6 
+-----> Squirtle HP 51 abilitatea 1 cooldown 2 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 49 abilitatea 1 cooldown 2, abilitatea 2 cooldown 5 
+-----> Squirtle HP 51 abilitatea 1 cooldown 1 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 49 abilitatea 1 cooldown 1, abilitatea 2 cooldown 4 
+-----> Squirtle HP 51 
+Charmander abilitate 1 / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 49 abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
+-----> Squirtle HP 47 si este stuned, 
+Charmander ataca normal / Squirtle nu face nimic -> Rezultat:
+-----> Charmander HP 49 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
+-----> Squirtle HP 47 
+Charmander ataca normal / Squirtle abilitate 1 -> Rezultat:
+-----> Charmander HP 45 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
+-----> Squirtle HP 47 abilitatea 1 cooldown 3 
+Charmander abilitate 2 / Squirtle abilitate 2 -> Rezultat:
+-----> Charmander HP 43 si este stuned, abilitatea 1 cooldown 1, abilitatea 2 cooldown 6 
+-----> Squirtle HP 40 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+Charmander nu face nimic / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 43 abilitatea 2 cooldown 5 
+-----> Squirtle HP 40 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+Charmander ataca normal / Squirtle abilitate 1 -> Rezultat:
+-----> Charmander HP 39 abilitatea 2 cooldown 4 
+-----> Squirtle HP 40 abilitatea 1 cooldown 3 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 39 abilitatea 2 cooldown 3 
+-----> Squirtle HP 40 abilitatea 1 cooldown 2 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 39 abilitatea 2 cooldown 2 
+-----> Squirtle HP 40 abilitatea 1 cooldown 1 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 39 abilitatea 2 cooldown 1 
+-----> Squirtle HP 40 
+Charmander abilitate 2 / Squirtle abilitate 1 -> Rezultat:
+-----> Charmander HP 35 abilitatea 2 cooldown 6 
+-----> Squirtle HP 33 abilitatea 1 cooldown 3 
+Charmander abilitate 1 / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 35 abilitatea 1 cooldown 4, abilitatea 2 cooldown 5 
+-----> Squirtle HP 29 si este stuned, abilitatea 1 cooldown 2 
+Charmander ataca normal / Squirtle nu face nimic -> Rezultat:
+-----> Charmander HP 35 abilitatea 1 cooldown 3, abilitatea 2 cooldown 4 
+-----> Squirtle HP 29 abilitatea 1 cooldown 1 
+Charmander ataca normal / Squirtle abilitate 1 -> Rezultat:
+-----> Charmander HP 31 abilitatea 1 cooldown 2, abilitatea 2 cooldown 3 
+-----> Squirtle HP 29 abilitatea 1 cooldown 3 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 31 abilitatea 1 cooldown 1, abilitatea 2 cooldown 2 
+-----> Squirtle HP 29 abilitatea 1 cooldown 2 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 31 abilitatea 2 cooldown 1 
+-----> Squirtle HP 29 abilitatea 1 cooldown 1 
+Charmander ataca normal / Squirtle abilitate 1 -> Rezultat:
+-----> Charmander HP 27 
+-----> Squirtle HP 29 abilitatea 1 cooldown 3 
+Charmander abilitate 1 / Squirtle abilitate 2 -> Rezultat:
+-----> Charmander HP 25 si este stuned, abilitatea 1 cooldown 4 
+-----> Squirtle HP 25 si este stuned, abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+Charmander nu face nimic / Squirtle nu face nimic -> Rezultat:
+-----> Charmander HP 25 abilitatea 1 cooldown 3 
+-----> Squirtle HP 25 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+Charmander abilitate 2 / Squirtle abilitate 1 -> Rezultat:
+-----> Charmander HP 21 abilitatea 1 cooldown 2, abilitatea 2 cooldown 6 
+-----> Squirtle HP 18 abilitatea 1 cooldown 3 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 21 abilitatea 1 cooldown 1, abilitatea 2 cooldown 5 
+-----> Squirtle HP 18 abilitatea 1 cooldown 2 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 21 abilitatea 2 cooldown 4 
+-----> Squirtle HP 18 abilitatea 1 cooldown 1 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 21 abilitatea 2 cooldown 3 
+-----> Squirtle HP 18 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 21 abilitatea 2 cooldown 2 
+-----> Squirtle HP 18 
+Charmander abilitate 1 / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 21 abilitatea 1 cooldown 4, abilitatea 2 cooldown 1 
+-----> Squirtle HP 14 si este stuned, 
+Charmander ataca normal / Squirtle nu face nimic -> Rezultat:
+-----> Charmander HP 21 abilitatea 1 cooldown 3 
+-----> Squirtle HP 14 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 21 abilitatea 1 cooldown 2 
+-----> Squirtle HP 14 
+Charmander ataca normal / Squirtle abilitate 1 -> Rezultat:
+-----> Charmander HP 17 abilitatea 1 cooldown 1 
+-----> Squirtle HP 14 abilitatea 1 cooldown 3 
+Charmander abilitate 1 / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 17 abilitatea 1 cooldown 4 
+-----> Squirtle HP 10 si este stuned, abilitatea 1 cooldown 2 
+Charmander ataca normal / Squirtle nu face nimic -> Rezultat:
+-----> Charmander HP 17 abilitatea 1 cooldown 3 
+-----> Squirtle HP 10 abilitatea 1 cooldown 1 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 17 abilitatea 1 cooldown 2 
+-----> Squirtle HP 10 
+Charmander abilitate 2 / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 17 abilitatea 1 cooldown 1, abilitatea 2 cooldown 6 
+-----> Squirtle HP 3 
+Charmander ataca normal / Squirtle abilitate 1 -> Rezultat:
+-----> Charmander HP 13 abilitatea 2 cooldown 5 
+-----> Squirtle HP 3 abilitatea 1 cooldown 3 
+Charmander ataca normal / Squirtle abilitate 2 -> Rezultat:
+-----> Charmander HP 11 si este stuned, abilitatea 2 cooldown 4 
+-----> Squirtle HP 3 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+Charmander nu face nimic / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 11 abilitatea 2 cooldown 3 
+-----> Squirtle HP 3 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+Charmander ataca normal / Squirtle abilitate 1 -> Rezultat:
+-----> Charmander HP 7 abilitatea 2 cooldown 2 
+-----> Squirtle HP 3 abilitatea 1 cooldown 3 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 7 abilitatea 2 cooldown 1 
+-----> Squirtle HP 3 abilitatea 1 cooldown 2 
+Charmander ataca normal / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 7 
+-----> Squirtle HP 3 abilitatea 1 cooldown 1 
+Charmander abilitate 2 / Squirtle ataca special -> Rezultat:
+-----> Charmander HP 7 abilitatea 2 cooldown 6 
+-----> Squirtle HP 0 
+Pokemonul primului antrenor a castigat
 ------------------**************------------------
