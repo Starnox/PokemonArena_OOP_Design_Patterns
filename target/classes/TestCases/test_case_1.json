@@ -1,14 +1,52 @@
 {
   "firstPokemonCoach": {
     "name": "coach_1_1",
-    "age": 7,
+    "age": 22,
     "pokemons": [
+      {
+        "name": "Pikachu",
+        "hp": 35,
+        "specialAttack": 7,
+        "defence": 2,
+        "specialDefence": 3,
+        "abilities": [
+          {
+            "damage": 6,
+            "stun": false,
+            "dodge": false,
+            "cd": 4
+          },
+          {
+            "damage": 4,
+            "stun": true,
+            "dodge": true,
+            "cd": 5
+          }
+        ],
+        "itemList": [
+          {
+            "name": "Bagheta Magica",
+            "specialAttack": 3
+          },
+          {
+            "name": "Sabiuta",
+            "attack": 3
+          }
+        ],
+        "savedHp": 35,
+        "isStunned": false,
+        "isDodge": false,
+        "abilitiesCooldown": [
+          0,
+          0
+        ]
+      },
       {
         "name": "Charmander",
         "hp": 50,
         "normalAttack": 4,
         "defence": 3,
-        "specialDefence": 5,
+        "specialDefence": 2,
         "abilities": [
           {
             "damage": 4,
@@ -23,17 +61,7 @@
             "cd": 6
           }
         ],
-        "itemList": [
-          {
-            "name": "Bagheta Magica",
-            "specialAttack": 3
-          },
-          {
-            "name": "Pelerina",
-            "specialAttack": 3,
-            "specialDefense": 3
-          }
-        ],
+        "itemList": [],
         "savedHp": 50,
         "isStunned": false,
         "isDodge": false,
@@ -43,16 +71,16 @@
         ]
       },
       {
-        "name": "Psyduck",
-        "hp": 45,
-        "normalAttack": 5,
-        "defence": 3,
-        "specialDefence": 3,
+        "name": "Meowth",
+        "hp": 41,
+        "normalAttack": 6,
+        "defence": 4,
+        "specialDefence": 2,
         "abilities": [
           {
-            "damage": 2,
+            "damage": 5,
             "stun": false,
-            "dodge": false,
+            "dodge": true,
             "cd": 4
           },
           {
@@ -64,56 +92,11 @@
         ],
         "itemList": [
           {
-            "name": "Vitamine",
-            "hp": 2,
-            "attack": 2,
-            "specialAttack": 2
+            "name": "Sabiuta",
+            "attack": 3
           }
         ],
-        "savedHp": 43,
-        "isStunned": false,
-        "isDodge": false,
-        "abilitiesCooldown": [
-          0,
-          0
-        ]
-      },
-      {
-        "name": "Snorlax",
-        "hp": 72,
-        "normalAttack": 3,
-        "defence": 7,
-        "specialDefence": 7,
-        "abilities": [
-          {
-            "damage": 4,
-            "stun": true,
-            "dodge": false,
-            "cd": 5
-          },
-          {
-            "damage": 0,
-            "stun": false,
-            "dodge": true,
-            "cd": 5
-          }
-        ],
-        "itemList": [
-          {
-            "name": "Brad de Craciun",
-            "defense": 1
-          },
-          {
-            "name": "Vesta",
-            "hp": 10
-          },
-          {
-            "name": "Pelerina",
-            "specialAttack": 3,
-            "specialDefense": 3
-          }
-        ],
-        "savedHp": 62,
+        "savedHp": 41,
         "isStunned": false,
         "isDodge": false,
         "abilitiesCooldown": [
@@ -121,18 +104,19 @@
           0
         ]
       }
-    ]
+    ],
+    "currentPokemonIndex": 0
   },
   "secondPokemonCoach": {
     "name": "coach_2_1",
-    "age": 1,
+    "age": 85,
     "pokemons": [
       {
         "name": "Jigglypuff",
-        "hp": 44,
+        "hp": 34,
         "normalAttack": 4,
-        "defence": 2,
-        "specialDefence": 3,
+        "defence": 4,
+        "specialDefence": 5,
         "abilities": [
           {
             "damage": 4,
@@ -149,8 +133,9 @@
         ],
         "itemList": [
           {
-            "name": "Vesta",
-            "hp": 10
+            "name": "Scut",
+            "defense": 2,
+            "specialDefense": 2
           }
         ],
         "savedHp": 34,
@@ -162,37 +147,44 @@
         ]
       },
       {
-        "name": "Vulpix",
-        "hp": 36,
-        "normalAttack": 5,
+        "name": "Bulbasaur",
+        "hp": 44,
+        "specialAttack": 10,
         "defence": 5,
         "specialDefence": 6,
         "abilities": [
           {
-            "damage": 8,
-            "stun": true,
+            "damage": 6,
+            "stun": false,
             "dodge": false,
-            "cd": 6
+            "cd": 4
           },
           {
-            "damage": 2,
+            "damage": 5,
             "stun": false,
-            "dodge": true,
-            "cd": 7
+            "dodge": false,
+            "cd": 3
           }
         ],
         "itemList": [
           {
-            "name": "Brad de Craciun",
-            "defense": 1
-          },
-          {
             "name": "Scut",
             "defense": 2,
             "specialDefense": 2
+          },
+          {
+            "name": "Pelerina",
+            "specialAttack": 3,
+            "specialDefense": 3
+          },
+          {
+            "name": "Vitamine",
+            "hp": 2,
+            "attack": 2,
+            "specialAttack": 2
           }
         ],
-        "savedHp": 36,
+        "savedHp": 42,
         "isStunned": false,
         "isDodge": false,
         "abilitiesCooldown": [
@@ -201,36 +193,32 @@
         ]
       },
       {
-        "name": "Squirtle",
-        "hp": 70,
-        "specialAttack": 3,
+        "name": "Snorlax",
+        "hp": 62,
+        "normalAttack": 6,
         "defence": 6,
-        "specialDefence": 5,
+        "specialDefence": 4,
         "abilities": [
           {
             "damage": 4,
-            "stun": false,
-            "dodge": false,
-            "cd": 3
-          },
-          {
-            "damage": 2,
             "stun": true,
             "dodge": false,
-            "cd": 2
+            "cd": 5
+          },
+          {
+            "damage": 0,
+            "stun": false,
+            "dodge": true,
+            "cd": 5
           }
         ],
         "itemList": [
           {
-            "name": "Brad de Craciun",
-            "defense": 1
-          },
-          {
-            "name": "Vesta",
-            "hp": 10
+            "name": "Sabiuta",
+            "attack": 3
           }
         ],
-        "savedHp": 60,
+        "savedHp": 62,
         "isStunned": false,
         "isDodge": false,
         "abilitiesCooldown": [
@@ -238,6 +226,7 @@
           0
         ]
       }
-    ]
+    ],
+    "currentPokemonIndex": 0
   }
 }

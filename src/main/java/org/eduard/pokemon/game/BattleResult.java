@@ -39,12 +39,14 @@ public final class BattleResult {
         }
         else{
             // draw
-            if(isSecondPokemonDead && isSecondPokemonDead)
+            if(isFirstPokemonDead && isSecondPokemonDead)
                 toReturn.append("Duelul s-a terminat intr-o remiza");
             else if(isFirstPokemonDead)
                 toReturn.append("Pokemonul celui de-al doilea antrenor a castigat");
-            else
+            else if(isSecondPokemonDead)
                 toReturn.append("Pokemonul primului antrenor a castigat");
+            else
+                toReturn.append("ERROR");
         }
 
         return toReturn.toString();

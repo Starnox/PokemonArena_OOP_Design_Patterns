@@ -170,4 +170,9 @@ public class Logger {
         return stringBuilder.toString();
     }
 
+    public void logError() {
+        String stringToLog = "An error has occured!";
+        System.out.println(stringToLog);
+        logStringToFile(stringToLog);
+    }
 }

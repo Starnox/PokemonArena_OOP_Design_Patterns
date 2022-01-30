@@ -1,0 +1,588 @@
+coach_1_7 cu varsta de 11 intra in arena si se va lupta cu coach_2_7 care are varsta de 79
+------------------**************------------------
+coach_1_7 se lupta cu pokemonul Pikachu contra lui coach_2_7 care are pokemonul Charmander
+------------------**************------------------
+Pikachu:
+hp: 35
+specialAttack: 10
+defence: 2
+specialDefence: 6
+Si itemele:
+--Bagheta Magica( specialAttack+3 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+------------------**************------------------
+Charmander:
+hp: 52
+normalAttack: 6
+defence: 3
+specialDefence: 5
+Si itemele:
+--Bagheta Magica( specialAttack+3 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Va avea loc o lupta impotriva lui Neutrel2
+------------------**************------------------
+Pikachu VS Neutrel2
+Pikachu ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 33 
+-----> Neutrel2 HP 11 
+Pikachu ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 31 
+-----> Neutrel2 HP 2 
+Pikachu ataca special / Neutrel2 ataca normal -> Rezultat:
+-----> Pikachu HP 29 
+-----> Neutrel2 HP 0 
+------------------**************------------------
+Charmander VS Neutrel2
+Charmander ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Charmander HP 51 
+-----> Neutrel2 HP 15 
+Charmander abilitate 1 / Neutrel2 ataca normal -> Rezultat:
+-----> Charmander HP 50 abilitatea 1 cooldown 4 
+-----> Neutrel2 HP 11 si este stuned, 
+Charmander ataca normal / Neutrel2 nu face nimic -> Rezultat:
+-----> Charmander HP 50 abilitatea 1 cooldown 3 
+-----> Neutrel2 HP 6 
+Charmander abilitate 2 / Neutrel2 ataca normal -> Rezultat:
+-----> Charmander HP 49 abilitatea 1 cooldown 2, abilitatea 2 cooldown 6 
+-----> Neutrel2 HP 0 
+------------------**************------------------
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Caracterisiticile for fi actualizate
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Pikachu:
+hp: 36
+specialAttack: 11
+defence: 3
+specialDefence: 7
+Si itemele:
+--Bagheta Magica( specialAttack+3 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+------------------**************------------------
+Charmander:
+hp: 51
+normalAttack: 7
+defence: 4
+specialDefence: 6
+Si itemele:
+--Bagheta Magica( specialAttack+3 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Va avea loc un duel intre cei doi pokemoni
+------------------**************------------------
+Pikachu VS Charmander
+------------------**************------------------
+Pikachu abilitate 2 / Charmander ataca normal -> Rezultat:
+-----> Pikachu HP 36 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 5 
+-----> Charmander HP 47 si este stuned, 
+Pikachu abilitate 1 / Charmander nu face nimic -> Rezultat:
+-----> Pikachu HP 36 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
+-----> Charmander HP 41 
+Pikachu ataca special / Charmander ataca normal -> Rezultat:
+-----> Pikachu HP 32 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
+-----> Charmander HP 36 
+Pikachu ataca special / Charmander abilitate 2 -> Rezultat:
+-----> Pikachu HP 25 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+-----> Charmander HP 31 abilitatea 2 cooldown 6 
+Pikachu ataca special / Charmander ataca normal -> Rezultat:
+-----> Pikachu HP 21 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+-----> Charmander HP 26 abilitatea 2 cooldown 5 
+Pikachu ataca special / Charmander ataca normal -> Rezultat:
+-----> Pikachu HP 17 
+-----> Charmander HP 21 abilitatea 2 cooldown 4 
+Pikachu ataca special / Charmander abilitate 1 -> Rezultat:
+-----> Pikachu HP 13 si este stuned, 
+-----> Charmander HP 16 abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
+Pikachu nu face nimic / Charmander ataca normal -> Rezultat:
+-----> Pikachu HP 9 
+-----> Charmander HP 16 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
+Pikachu abilitate 1 / Charmander ataca normal -> Rezultat:
+-----> Pikachu HP 5 abilitatea 1 cooldown 4 
+-----> Charmander HP 10 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
+Pikachu ataca special / Charmander ataca normal -> Rezultat:
+-----> Pikachu HP 1 abilitatea 1 cooldown 3 
+-----> Charmander HP 5 abilitatea 1 cooldown 1 
+Pikachu abilitate 2 / Charmander ataca normal -> Rezultat:
+-----> Pikachu HP 1 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 2, abilitatea 2 cooldown 5 
+-----> Charmander HP 1 si este stuned, 
+Pikachu ataca special / Charmander nu face nimic -> Rezultat:
+-----> Pikachu HP 1 abilitatea 1 cooldown 1, abilitatea 2 cooldown 4 
+-----> Charmander HP 0 
+Pokemonul primului antrenor a castigat
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Pikachu:
+hp: 37
+specialAttack: 12
+defence: 4
+specialDefence: 8
+Si itemele:
+--Bagheta Magica( specialAttack+3 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+------------------**************------------------
+Charmander:
+hp: 51
+normalAttack: 7
+defence: 4
+specialDefence: 6
+Si itemele:
+--Bagheta Magica( specialAttack+3 )
+--Pelerina( specialAttack+3 specialDefense+3 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+coach_1_7 se lupta cu pokemonul Jigglypuff contra lui coach_2_7 care are pokemonul Vulpix
+------------------**************------------------
+Jigglypuff:
+hp: 34
+normalAttack: 4
+defence: 2
+specialDefence: 3
+Si itemele:
+--no items
+------------------**************------------------
+Vulpix:
+hp: 38
+normalAttack: 7
+defence: 3
+specialDefence: 4
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Va avea loc o lupta impotriva lui Neutrel1
+------------------**************------------------
+Jigglypuff VS Neutrel1
+Jigglypuff abilitate 2 / Neutrel1 ataca normal -> Rezultat:
+-----> Jigglypuff HP 33 abilitatea 2 cooldown 4 
+-----> Neutrel1 HP 7 si este stuned, 
+Jigglypuff abilitate 1 / Neutrel1 nu face nimic -> Rezultat:
+-----> Jigglypuff HP 33 abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
+-----> Neutrel1 HP 3 
+Jigglypuff ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Jigglypuff HP 32 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Vulpix VS Neutrel1
+Vulpix ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Vulpix HP 38 
+-----> Neutrel1 HP 4 
+Vulpix abilitate 1 / Neutrel1 ataca normal -> Rezultat:
+-----> Vulpix HP 38 abilitatea 1 cooldown 6 
+-----> Neutrel1 HP 0 si este stuned, 
+------------------**************------------------
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Caracterisiticile for fi actualizate
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Jigglypuff:
+hp: 35
+normalAttack: 5
+defence: 3
+specialDefence: 4
+Si itemele:
+--no items
+------------------**************------------------
+Vulpix:
+hp: 37
+normalAttack: 8
+defence: 4
+specialDefence: 5
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Va avea loc o lupta impotriva lui Neutrel2
+------------------**************------------------
+Jigglypuff VS Neutrel2
+Jigglypuff abilitate 1 / Neutrel2 ataca normal -> Rezultat:
+-----> Jigglypuff HP 34 abilitatea 1 cooldown 4 
+-----> Neutrel2 HP 16 si este stuned, 
+Jigglypuff abilitate 2 / Neutrel2 nu face nimic -> Rezultat:
+-----> Jigglypuff HP 34 abilitatea 1 cooldown 3, abilitatea 2 cooldown 4 
+-----> Neutrel2 HP 13 
+Jigglypuff ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Jigglypuff HP 33 abilitatea 1 cooldown 2, abilitatea 2 cooldown 3 
+-----> Neutrel2 HP 9 
+Jigglypuff ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Jigglypuff HP 32 abilitatea 1 cooldown 1, abilitatea 2 cooldown 2 
+-----> Neutrel2 HP 5 
+Jigglypuff abilitate 1 / Neutrel2 ataca normal -> Rezultat:
+-----> Jigglypuff HP 31 abilitatea 1 cooldown 4, abilitatea 2 cooldown 1 
+-----> Neutrel2 HP 1 si este stuned, 
+Jigglypuff ataca normal / Neutrel2 nu face nimic -> Rezultat:
+-----> Jigglypuff HP 31 abilitatea 1 cooldown 3 
+-----> Neutrel2 HP 0 
+------------------**************------------------
+Vulpix VS Neutrel2
+Vulpix abilitate 1 / Neutrel2 ataca normal -> Rezultat:
+-----> Vulpix HP 37 abilitatea 1 cooldown 6 
+-----> Neutrel2 HP 12 si este stuned, 
+Vulpix ataca normal / Neutrel2 nu face nimic -> Rezultat:
+-----> Vulpix HP 37 abilitatea 1 cooldown 5 
+-----> Neutrel2 HP 5 
+Vulpix ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Vulpix HP 37 abilitatea 1 cooldown 4 
+-----> Neutrel2 HP 0 
+------------------**************------------------
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Caracterisiticile for fi actualizate
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Jigglypuff:
+hp: 36
+normalAttack: 6
+defence: 4
+specialDefence: 5
+Si itemele:
+--no items
+------------------**************------------------
+Vulpix:
+hp: 38
+normalAttack: 9
+defence: 5
+specialDefence: 6
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Va avea loc o lupta impotriva lui Neutrel1
+------------------**************------------------
+Jigglypuff VS Neutrel1
+Jigglypuff abilitate 1 / Neutrel1 ataca normal -> Rezultat:
+-----> Jigglypuff HP 36 abilitatea 1 cooldown 4 
+-----> Neutrel1 HP 6 si este stuned, 
+Jigglypuff abilitate 2 / Neutrel1 nu face nimic -> Rezultat:
+-----> Jigglypuff HP 36 abilitatea 1 cooldown 3, abilitatea 2 cooldown 4 
+-----> Neutrel1 HP 3 
+Jigglypuff ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Jigglypuff HP 36 abilitatea 1 cooldown 2, abilitatea 2 cooldown 3 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Vulpix VS Neutrel1
+Vulpix abilitate 1 / Neutrel1 ataca normal -> Rezultat:
+-----> Vulpix HP 38 abilitatea 1 cooldown 6 
+-----> Neutrel1 HP 2 si este stuned, 
+Vulpix abilitate 2 / Neutrel1 nu face nimic -> Rezultat:
+-----> Vulpix HP 38 abilitatea 1 cooldown 5, abilitatea 2 cooldown 7 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Caracterisiticile for fi actualizate
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Jigglypuff:
+hp: 37
+normalAttack: 7
+defence: 5
+specialDefence: 6
+Si itemele:
+--no items
+------------------**************------------------
+Vulpix:
+hp: 39
+normalAttack: 10
+defence: 6
+specialDefence: 7
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Va avea loc o lupta impotriva lui Neutrel1
+------------------**************------------------
+Jigglypuff VS Neutrel1
+Jigglypuff abilitate 1 / Neutrel1 ataca normal -> Rezultat:
+-----> Jigglypuff HP 37 abilitatea 1 cooldown 4 
+-----> Neutrel1 HP 6 si este stuned, 
+Jigglypuff ataca normal / Neutrel1 nu face nimic -> Rezultat:
+-----> Jigglypuff HP 37 abilitatea 1 cooldown 3 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Vulpix VS Neutrel1
+Vulpix ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Vulpix HP 39 
+-----> Neutrel1 HP 1 
+Vulpix ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Vulpix HP 39 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Caracterisiticile for fi actualizate
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Jigglypuff:
+hp: 38
+normalAttack: 8
+defence: 6
+specialDefence: 7
+Si itemele:
+--no items
+------------------**************------------------
+Vulpix:
+hp: 40
+normalAttack: 11
+defence: 7
+specialDefence: 8
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Va avea loc o lupta impotriva lui Neutrel2
+------------------**************------------------
+Jigglypuff VS Neutrel2
+Jigglypuff abilitate 2 / Neutrel2 ataca normal -> Rezultat:
+-----> Jigglypuff HP 38 abilitatea 2 cooldown 4 
+-----> Neutrel2 HP 17 si este stuned, 
+Jigglypuff abilitate 1 / Neutrel2 nu face nimic -> Rezultat:
+-----> Jigglypuff HP 38 abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
+-----> Neutrel2 HP 13 
+Jigglypuff ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Jigglypuff HP 38 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
+-----> Neutrel2 HP 6 
+Jigglypuff ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Jigglypuff HP 38 abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
+-----> Neutrel2 HP 0 
+------------------**************------------------
+Vulpix VS Neutrel2
+Vulpix ataca normal / Neutrel2 ataca normal -> Rezultat:
+-----> Vulpix HP 40 
+-----> Neutrel2 HP 10 
+Vulpix abilitate 1 / Neutrel2 ataca normal -> Rezultat:
+-----> Vulpix HP 40 abilitatea 1 cooldown 6 
+-----> Neutrel2 HP 2 si este stuned, 
+Vulpix abilitate 2 / Neutrel2 nu face nimic -> Rezultat:
+-----> Vulpix HP 40 abilitatea 1 cooldown 5, abilitatea 2 cooldown 7 
+-----> Neutrel2 HP 0 
+------------------**************------------------
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Caracterisiticile for fi actualizate
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Jigglypuff:
+hp: 39
+normalAttack: 9
+defence: 7
+specialDefence: 8
+Si itemele:
+--no items
+------------------**************------------------
+Vulpix:
+hp: 41
+normalAttack: 12
+defence: 8
+specialDefence: 9
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Va avea loc o lupta impotriva lui Neutrel1
+------------------**************------------------
+Jigglypuff VS Neutrel1
+Jigglypuff ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Jigglypuff HP 39 
+-----> Neutrel1 HP 2 
+Jigglypuff ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Jigglypuff HP 39 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Vulpix VS Neutrel1
+Vulpix ataca normal / Neutrel1 ataca normal -> Rezultat:
+-----> Vulpix HP 41 
+-----> Neutrel1 HP 0 
+------------------**************------------------
+Lupta impotriva lui Neutrel s-a terminat
+Pokemonul primului antrenor a castigat
+Pokemonul celui de-al doilea antrenor a castigat
+Caracterisiticile for fi actualizate
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Jigglypuff:
+hp: 40
+normalAttack: 10
+defence: 8
+specialDefence: 9
+Si itemele:
+--no items
+------------------**************------------------
+Vulpix:
+hp: 42
+normalAttack: 13
+defence: 9
+specialDefence: 10
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Va avea loc un duel intre cei doi pokemoni
+------------------**************------------------
+Jigglypuff VS Vulpix
+------------------**************------------------
+Jigglypuff abilitate 2 / Vulpix ataca normal -> Rezultat:
+-----> Jigglypuff HP 35 abilitatea 2 cooldown 4 
+-----> Vulpix HP 39 si este stuned, 
+Jigglypuff ataca normal / Vulpix nu face nimic -> Rezultat:
+-----> Jigglypuff HP 35 abilitatea 2 cooldown 3 
+-----> Vulpix HP 38 
+Jigglypuff ataca normal / Vulpix ataca normal -> Rezultat:
+-----> Jigglypuff HP 30 abilitatea 2 cooldown 2 
+-----> Vulpix HP 37 
+Jigglypuff abilitate 1 / Vulpix ataca normal -> Rezultat:
+-----> Jigglypuff HP 25 abilitatea 1 cooldown 4, abilitatea 2 cooldown 1 
+-----> Vulpix HP 33 si este stuned, 
+Jigglypuff ataca normal / Vulpix nu face nimic -> Rezultat:
+-----> Jigglypuff HP 25 abilitatea 1 cooldown 3 
+-----> Vulpix HP 32 
+Jigglypuff abilitate 2 / Vulpix abilitate 2 -> Rezultat:
+-----> Jigglypuff HP 23 abilitatea 1 cooldown 2, abilitatea 2 cooldown 4 
+-----> Vulpix HP 32 pentru ca a folosit o abilitate cu dodge, abilitatea 2 cooldown 7 
+Jigglypuff ataca normal / Vulpix ataca normal -> Rezultat:
+-----> Jigglypuff HP 18 abilitatea 1 cooldown 1, abilitatea 2 cooldown 3 
+-----> Vulpix HP 31 abilitatea 2 cooldown 6 
+Jigglypuff ataca normal / Vulpix abilitate 1 -> Rezultat:
+-----> Jigglypuff HP 10 si este stuned, abilitatea 2 cooldown 2 
+-----> Vulpix HP 30 abilitatea 1 cooldown 6, abilitatea 2 cooldown 5 
+Jigglypuff nu face nimic / Vulpix ataca normal -> Rezultat:
+-----> Jigglypuff HP 5 abilitatea 2 cooldown 1 
+-----> Vulpix HP 30 abilitatea 1 cooldown 5, abilitatea 2 cooldown 4 
+Jigglypuff ataca normal / Vulpix ataca normal -> Rezultat:
+-----> Jigglypuff HP 0 
+-----> Vulpix HP 29 abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
+Pokemonul celui de-al doilea antrenor a castigat
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Jigglypuff:
+hp: 40
+normalAttack: 10
+defence: 8
+specialDefence: 9
+Si itemele:
+--no items
+------------------**************------------------
+Vulpix:
+hp: 43
+normalAttack: 14
+defence: 10
+specialDefence: 11
+Si itemele:
+--Brad de Craciun( defense+1 )
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+coach_1_7 se lupta cu pokemonul Squirtle contra lui coach_2_7 care are pokemonul Meowth
+------------------**************------------------
+Squirtle:
+hp: 62
+specialAttack: 5
+defence: 5
+specialDefence: 5
+Si itemele:
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Meowth:
+hp: 41
+normalAttack: 3
+defence: 4
+specialDefence: 2
+Si itemele:
+--Bagheta Magica( specialAttack+3 )
+------------------**************------------------
+Va avea loc un duel intre cei doi pokemoni
+------------------**************------------------
+Squirtle VS Meowth
+------------------**************------------------
+Squirtle ataca special / Meowth abilitate 1 -> Rezultat:
+-----> Squirtle HP 57 
+-----> Meowth HP 41 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4 
+Squirtle ataca special / Meowth ataca normal -> Rezultat:
+-----> Squirtle HP 57 
+-----> Meowth HP 38 abilitatea 1 cooldown 3 
+Squirtle abilitate 1 / Meowth ataca normal -> Rezultat:
+-----> Squirtle HP 57 abilitatea 1 cooldown 3 
+-----> Meowth HP 34 abilitatea 1 cooldown 2 
+Squirtle ataca special / Meowth ataca normal -> Rezultat:
+-----> Squirtle HP 57 abilitatea 1 cooldown 2 
+-----> Meowth HP 31 abilitatea 1 cooldown 1 
+Squirtle ataca special / Meowth abilitate 2 -> Rezultat:
+-----> Squirtle HP 55 si este stuned, abilitatea 1 cooldown 1 
+-----> Meowth HP 28 abilitatea 2 cooldown 5 
+Squirtle nu face nimic / Meowth ataca normal -> Rezultat:
+-----> Squirtle HP 55 
+-----> Meowth HP 28 abilitatea 2 cooldown 4 
+Squirtle ataca special / Meowth abilitate 1 -> Rezultat:
+-----> Squirtle HP 50 
+-----> Meowth HP 28 pentru ca a folosit o abilitate cu dodge, abilitatea 1 cooldown 4, abilitatea 2 cooldown 3 
+Squirtle abilitate 1 / Meowth ataca normal -> Rezultat:
+-----> Squirtle HP 50 abilitatea 1 cooldown 3 
+-----> Meowth HP 24 abilitatea 1 cooldown 3, abilitatea 2 cooldown 2 
+Squirtle abilitate 2 / Meowth ataca normal -> Rezultat:
+-----> Squirtle HP 50 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+-----> Meowth HP 22 si este stuned, abilitatea 1 cooldown 2, abilitatea 2 cooldown 1 
+Squirtle ataca special / Meowth nu face nimic -> Rezultat:
+-----> Squirtle HP 50 abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+-----> Meowth HP 19 abilitatea 1 cooldown 1 
+Squirtle ataca special / Meowth abilitate 2 -> Rezultat:
+-----> Squirtle HP 48 si este stuned, 
+-----> Meowth HP 16 abilitatea 2 cooldown 5 
+Squirtle nu face nimic / Meowth abilitate 1 -> Rezultat:
+-----> Squirtle HP 43 
+-----> Meowth HP 16 abilitatea 1 cooldown 4, abilitatea 2 cooldown 4 
+Squirtle ataca special / Meowth ataca normal -> Rezultat:
+-----> Squirtle HP 43 
+-----> Meowth HP 13 abilitatea 1 cooldown 3, abilitatea 2 cooldown 3 
+Squirtle ataca special / Meowth ataca normal -> Rezultat:
+-----> Squirtle HP 43 
+-----> Meowth HP 10 abilitatea 1 cooldown 2, abilitatea 2 cooldown 2 
+Squirtle abilitate 2 / Meowth ataca normal -> Rezultat:
+-----> Squirtle HP 43 abilitatea 2 cooldown 2 
+-----> Meowth HP 8 si este stuned, abilitatea 1 cooldown 1, abilitatea 2 cooldown 1 
+Squirtle ataca special / Meowth nu face nimic -> Rezultat:
+-----> Squirtle HP 43 abilitatea 2 cooldown 1 
+-----> Meowth HP 5 
+Squirtle ataca special / Meowth ataca normal -> Rezultat:
+-----> Squirtle HP 43 
+-----> Meowth HP 2 
+Squirtle ataca special / Meowth abilitate 2 -> Rezultat:
+-----> Squirtle HP 41 si este stuned, 
+-----> Meowth HP 0 abilitatea 2 cooldown 5 
+Pokemonul primului antrenor a castigat
+------------------**************------------------
+NEW STATS!!
+------------------**************------------------
+Squirtle:
+hp: 61
+specialAttack: 6
+defence: 6
+specialDefence: 6
+Si itemele:
+--Vitamine( hp+2 attack+2 specialAttack+2 )
+------------------**************------------------
+Meowth:
+hp: 41
+normalAttack: 3
+defence: 4
+specialDefence: 2
+Si itemele:
+--Bagheta Magica( specialAttack+3 )
+------------------**************------------------

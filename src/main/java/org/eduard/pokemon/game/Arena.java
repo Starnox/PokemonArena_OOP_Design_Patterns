@@ -53,7 +53,12 @@ public class Arena {
             startBattleBetweenPokemons(pokemonIndex);
         }
 
-        // TODO implement battle between the two best pokemons of the two trainers
+        // the battle between the best two pokemons
+        int bestPokemonFromCoach1Index = firstPokemonCoach.getBestPokemon();
+        int bestPokemonFromCoach2Index = secondPokemonCoach.getBestPokemon();
+
+        //IEvent championshipEvent = EventFactory.createEvent(Constants.EVENT_TYPE.DUEL, firstPokemonCoach, secondPokemonCoach, )
+
     }
 
 
@@ -75,10 +80,8 @@ public class Arena {
             assert battleEvent != null;
             BattleResult battleResult = battleEvent.startBattle();
 
-            // TODO implement duel and delete this if
             if(currentEvent == Constants.EVENT_TYPE.DUEL) {
                 duelWasFought = true;
-                break;
             }
             logger.logBattleResult(battleResult);
             logger.logDelimiter();

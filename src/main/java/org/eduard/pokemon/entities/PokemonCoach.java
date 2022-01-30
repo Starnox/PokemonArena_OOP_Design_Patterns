@@ -5,11 +5,14 @@ import org.eduard.pokemon.helpers.Constants;
 
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.Callable;
 
-public class PokemonCoach {
+public class PokemonCoach implements Callable<MoveResult> {
     private String name;
     private int age;
     private List<Pokemon> pokemons;
+
+    private int currentPokemonIndex;
 
     public PokemonCoach(){}
 
@@ -17,6 +20,14 @@ public class PokemonCoach {
         this.name = name;
         this.age = age;
         this.pokemons = pokemons;
+    }
+
+    public int getCurrentPokemonIndex() {
+        return currentPokemonIndex;
+    }
+
+    public void setCurrentPokemonIndex(int currentPokemonIndex) {
+        this.currentPokemonIndex = currentPokemonIndex;
     }
 
     public void setName(String name) {
@@ -55,16 +66,6 @@ public class PokemonCoach {
         }
         Constants.MOVE_TYPE moveType = Constants.getRandomMove();
 
-        boolean hasAbility = false;
-        for(int cooldown : currentPokemon.getAbilitiesCooldown()) {
-            if (cooldown != 0) {
-                hasAbility = true;
-                break;
-            }
-        }
-        if(!hasAbility)
-            moveType = Constants.MOVE_TYPE.ABILITY;
-
         // the loop  will always have an ability to exit
         // command pattern -> we store the command as a separate object that will be process individually
         while(true) {
@@ -86,5 +87,22 @@ public class PokemonCoach {
             }
             moveType = Constants.getRandomMove();
         }
+    }
+
+    @Override
+    public MoveResult call() throws Exception{
+        return chooseMoveForPokemon(currentPokemonIndex);
+    }
+
+    public int getBestPokemon() {
+        int bestPokemon = 0;
+        int bestStats = 0;
+        for(int i = 0; i< pokemons.size(); ++i){
+            if(pokemons.get(i).calculateStats() > bestStats){
+                bestStats = pokemons.get(i).calculateStats();
+                bestPokemon = i;
+            }
+        }
+        return bestPokemon;
     }
 }

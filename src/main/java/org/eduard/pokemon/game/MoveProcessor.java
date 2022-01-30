@@ -25,7 +25,8 @@ public class MoveProcessor {
         logger.logBattleSequence(firstMoveResult, secondMoveResults, firstPokemon, secondPokemon);
         // TODO add logging
         if(firstMoveResult == null && secondMoveResults == null) {
-
+            logger.logPokemonAfterBattleSequence(firstPokemon, null);
+            logger.logPokemonAfterBattleSequence(secondPokemon, null);
             return;
         }
         if(firstMoveResult == null){
@@ -89,7 +90,7 @@ public class MoveProcessor {
         for(int i = 0; i < pokemon1.getAbilities().size(); ++i){
             pokemon1.getAbilitiesCooldown().set(i, Math.max(0,pokemon1.getAbilitiesCooldown().get(i) - 1));
             if(pokemon2.getAbilitiesCooldown() != null)
-                pokemon2.getAbilitiesCooldown().set(i, Math.max(0,pokemon1.getAbilitiesCooldown().get(i) - 1));
+                pokemon2.getAbilitiesCooldown().set(i, Math.max(0,pokemon2.getAbilitiesCooldown().get(i) - 1));
         }
         // when the new turn starts the pokemon will not be able to dodge anymore
         pokemon1.setDodge(false);
