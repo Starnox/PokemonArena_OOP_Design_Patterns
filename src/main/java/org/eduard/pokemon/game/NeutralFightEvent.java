@@ -37,20 +37,20 @@ public class NeutralFightEvent implements IEvent {
         return new BattleResult(true, isFirstPokemonDead, isSecondPokemonDead);
     }
 
-    private boolean startIndividualBattle(PokemonCoach pokemonCoach){
+    private boolean startIndividualBattle(PokemonCoach pokemonCoach) {
         MoveProcessor moveProcessor = MoveProcessor.getInstance();
         Pokemon pokemon = pokemonCoach.getPokemons().get(pokemonIndex);
         int savedNeutrelHealth = neutrelPokemon.getHp();
         // as long as both pokemons are alive
-        while(pokemon.getHP() > 0 && neutrelPokemon.getHP() > 0){
+        while (pokemon.getHP() > 0 && neutrelPokemon.getHP() > 0) {
             MoveResult moveResult = pokemonCoach.chooseMoveForPokemon(pokemonIndex);
             // in a fight against neutrel the pokemon will never be stunned
             assert moveResult != null;
 
             // execute the two moves at the same time
-            if(!neutrelPokemon.isStunned())
+            if (!neutrelPokemon.isStunned())
                 moveProcessor.executeMoveResults(moveResult, new MoveResult(neutrelPokemon.getNormalAttack()),
-                    pokemon, neutrelPokemon);
+                        pokemon, neutrelPokemon);
             else {
                 moveProcessor.executeMoveResults(moveResult, null, pokemon, neutrelPokemon);
                 neutrelPokemon.setStunned(false);
@@ -64,7 +64,7 @@ public class NeutralFightEvent implements IEvent {
         pokemonCoach.getPokemons().get(pokemonIndex).restorePokemon();
         neutrelPokemon.restorePokemon();
         neutrelPokemon.setHp(savedNeutrelHealth);
-        return  isPokemonDead;
+        return isPokemonDead;
     }
 
     public Pokemon getNeutrelPokemon() {

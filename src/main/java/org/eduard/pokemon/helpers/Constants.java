@@ -8,18 +8,6 @@ import java.util.List;
 public class Constants {
     public static final String PATH_TO_JSON_FILES = "src/main/resources/Pokemons";
     public static final String PATH_TO_TEST_FILES = "src/main/resources/TestCases";
-
-    public enum EVENT_TYPE{
-        NEUTREL1,
-        NEUTREL2,
-        DUEL
-    }
-
-    public enum MOVE_TYPE{
-        ATTACK,
-        ABILITY
-    }
-
     private static final List<EVENT_TYPE> EVENT_TYPES =
             List.of(EVENT_TYPE.values());
     private static final int EVENTS_SIZE = EVENT_TYPES.size();
@@ -35,33 +23,47 @@ public class Constants {
     private static final String NEUTREL1 = "Neutrel1";
     private static final String NEUTREL2 = "Neutrel2";
 
-    public static EVENT_TYPE getRandomEvent(){
+    public static EVENT_TYPE getRandomEvent() {
         return EVENT_TYPES.get(RANDOM.nextInt(EVENTS_SIZE));
     }
 
-    public static MOVE_TYPE getRandomMove() { return MOVE_TYPES.get(RANDOM.nextInt(MOVES_SIZE)); }
+    public static MOVE_TYPE getRandomMove() {
+        return MOVE_TYPES.get(RANDOM.nextInt(MOVES_SIZE));
+    }
 
-    public static String getRandomPokemon(){
+    public static String getRandomPokemon() {
         return POKEMON_NAMES.get(RANDOM.nextInt(POKEMON_SIZE));
     }
 
-    public static String getRandomItem(){
+    public static String getRandomItem() {
         return ITEM_NAMES.get(RANDOM.nextInt(ITEM_SIZE));
     }
 
-    public static int getRandomAge(){
+    public static int getRandomAge() {
         return RANDOM.nextInt(MAX_AGE);
     }
 
-    public static int getRandomNumber(int number){
+    public static int getRandomNumber(int number) {
         return RANDOM.nextInt(number);
     }
 
     public static Pokemon getNeutrel1() {
         return JSONHandler.readPokemonFromFileToObject(NEUTREL1);
     }
+
     public static Pokemon getNeutrel2() {
         return JSONHandler.readPokemonFromFileToObject(NEUTREL2);
+    }
+
+    public enum EVENT_TYPE {
+        NEUTREL1,
+        NEUTREL2,
+        DUEL
+    }
+
+    public enum MOVE_TYPE {
+        ATTACK,
+        ABILITY
     }
 
 

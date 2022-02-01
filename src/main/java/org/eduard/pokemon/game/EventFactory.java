@@ -5,7 +5,7 @@ import org.eduard.pokemon.helpers.Constants;
 
 public class EventFactory {
     public static IEvent createEvent(Constants.EVENT_TYPE eventType, PokemonCoach coach1,
-                              PokemonCoach coach2, int pokemonIndex1, int pokemonIndex2){
+                                     PokemonCoach coach2, int pokemonIndex1, int pokemonIndex2) {
         switch (eventType) {
             case NEUTREL1 -> {
                 return new NeutralFightEvent(coach1, coach2, Constants.getNeutrel1(), pokemonIndex1);

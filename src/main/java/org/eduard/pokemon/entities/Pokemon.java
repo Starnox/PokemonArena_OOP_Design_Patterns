@@ -1,7 +1,5 @@
 package org.eduard.pokemon.entities;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -44,8 +42,16 @@ public class Pokemon {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public Integer getNormalAttack() {
         return normalAttack;
+    }
+
+    public void setNormalAttack(Integer normalAttack) {
+        this.normalAttack = normalAttack;
     }
 
     public int getHP() {
@@ -74,7 +80,7 @@ public class Pokemon {
         hp = savedHp;
         isStunned = false;
         isDodge = false;
-        if(abilitiesCooldown != null)
+        if (abilitiesCooldown != null)
             for (int i = 0; i < abilitiesCooldown.size(); ++i)
                 abilitiesCooldown.set(i, 0);
     }
@@ -92,7 +98,7 @@ public class Pokemon {
     }
 
     public int calculateStats() {
-        int attack = (normalAttack != null ? normalAttack : specialAttack );
+        int attack = (normalAttack != null ? normalAttack : specialAttack);
         return hp + attack + defence + specialDefence;
     }
 
@@ -161,20 +167,12 @@ public class Pokemon {
         this.abilitiesCooldown = abilitiesCooldown;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public int getHp() {
         return hp;
     }
 
     public void setHp(int hp) {
         this.hp = hp;
-    }
-
-    public void setNormalAttack(Integer normalAttack) {
-        this.normalAttack = normalAttack;
     }
 
     public Integer getSpecialAttack() {

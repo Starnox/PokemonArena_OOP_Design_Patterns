@@ -43,7 +43,7 @@ public class DuelEvent implements IEvent {
         Callable<MoveResult> coachToExecuteMove2 = pokemonCoach2;
         List<Callable<MoveResult>> callables = Arrays.asList(coachToExecuteMove1, coachToExecuteMove2);
 
-        while (firstPokemon.getHp() > 0 && secondPokemon.getHp() > 0){
+        while (firstPokemon.getHp() > 0 && secondPokemon.getHp() > 0) {
             // create the two callables coaches that will each run their select move
             // create a list of future object that will hold the move result once they are both done
             try {
@@ -72,7 +72,6 @@ public class DuelEvent implements IEvent {
         // restore the pokemons
         firstPokemon.restorePokemon();
         secondPokemon.restorePokemon();
-
 
 
         return new BattleResult(false, isFirstPokemonDead, isSecondPokemonDead);

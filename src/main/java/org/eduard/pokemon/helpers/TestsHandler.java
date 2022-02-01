@@ -9,9 +9,9 @@ import java.util.*;
 
 public class TestsHandler {
 
-    public static void createTests(){
+    public static void createTests() {
         // create 10 tests
-        for(int i = 1; i<= 10; ++i){
+        for (int i = 1; i <= 10; ++i) {
             // pick a name and age for the two trainers
 
             // create list of pokemons for the two trainers with no duplicates;
@@ -20,13 +20,13 @@ public class TestsHandler {
 
             // set the cooldown if the abilities to 0 and add itmes
 
-            for(Pokemon pokemon : firstCoachPokemons){
+            for (Pokemon pokemon : firstCoachPokemons) {
                 pokemon.setAbilitiesCooldown(new ArrayList<>(Collections.nCopies(2, 0)));
                 pokemon.setItemList(generateItemsForPokemon());
                 pokemon.setSavedHp(pokemon.getHp());
             }
 
-            for(Pokemon pokemon : secondCoachPokemons){
+            for (Pokemon pokemon : secondCoachPokemons) {
                 pokemon.setAbilitiesCooldown(new ArrayList<>(Collections.nCopies(2, 0)));
                 pokemon.setItemList(generateItemsForPokemon());
                 pokemon.setSavedHp(pokemon.getHp());
@@ -50,25 +50,25 @@ public class TestsHandler {
         }
     }
 
-    private static List<Pokemon> generatePokemonList(){
+    private static List<Pokemon> generatePokemonList() {
         Set<String> pokemonSet = new HashSet<>();
-        while(pokemonSet.size() < 3)
+        while (pokemonSet.size() < 3)
             pokemonSet.add(Constants.getRandomPokemon());
         List<Pokemon> pokemonList = new ArrayList<>();
-        for(String pokemon : pokemonSet){
+        for (String pokemon : pokemonSet) {
             pokemonList.add(JSONHandler.readPokemonFromFileToObject(pokemon));
         }
 
         return pokemonList;
     }
 
-    private static List<Item> generateItemsForPokemon(){
+    private static List<Item> generateItemsForPokemon() {
         Set<String> itemSet = new HashSet<>();
-        while(itemSet.size() < Constants.getRandomNumber(4))
+        while (itemSet.size() < Constants.getRandomNumber(4))
             itemSet.add(Constants.getRandomItem());
 
         List<Item> itemList = new ArrayList<>();
-        for(String item : itemSet){
+        for (String item : itemSet) {
             itemList.add(JSONHandler.readItemFromFileToObject(item));
         }
 

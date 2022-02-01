@@ -1,16 +1,15 @@
 package org.eduard.pokemon.game;
 
-import org.eduard.pokemon.entities.Item;
-import org.eduard.pokemon.entities.Pokemon;
-import org.eduard.pokemon.helpers.*;
+import org.eduard.pokemon.helpers.JSONHandler;
+import org.eduard.pokemon.helpers.Logger;
+import org.eduard.pokemon.helpers.TestCase;
+import org.eduard.pokemon.helpers.TestsHandler;
 
 import java.util.List;
 
 
-public class PlayGame
-{
-    public static void main( String[] args )
-    {
+public class PlayGame {
+    public static void main(String[] args) {
 
         TestsHandler.createTests();
 
@@ -18,10 +17,9 @@ public class PlayGame
 
         List<TestCase> testCaseList = JSONHandler.readAllTestCases();
         Logger logger = Logger.getInstance();
-        logger.setOutputFile("test_case_1");
 
         int k = 1;
-        for(TestCase testCase : testCaseList){
+        for (TestCase testCase : testCaseList) {
             // set for each testCase the output file of the logger
             logger.setOutputFile("test_case_" + k);
             Arena newArena = new ArenaBuilder()

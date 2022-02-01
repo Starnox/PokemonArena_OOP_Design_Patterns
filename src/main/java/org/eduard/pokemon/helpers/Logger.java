@@ -7,8 +7,10 @@ import org.eduard.pokemon.game.IEvent;
 import org.eduard.pokemon.game.MoveResult;
 import org.eduard.pokemon.game.NeutralFightEvent;
 
-import java.io.*;
-import java.sql.SQLOutput;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 
 // TODO implement logger so that the file stays open until a function tells it to close
@@ -20,9 +22,12 @@ public class Logger {
     private static final Logger instance = new Logger();
     private String outputFile;
 
-    private Logger(){};
+    private Logger() {
+    }
 
-    public static Logger getInstance(){
+    ;
+
+    public static Logger getInstance() {
         return instance;
     }
 
@@ -35,7 +40,7 @@ public class Logger {
         clearOutputFile();
     }
 
-    public void logPlayers(PokemonCoach pokemonCoach1, PokemonCoach pokemonCoach2){
+    public void logPlayers(PokemonCoach pokemonCoach1, PokemonCoach pokemonCoach2) {
         String stringToLog = pokemonCoach1.getName() + " cu varsta de " + pokemonCoach1.getAge() +
                 " intra in arena si se va lupta cu " + pokemonCoach2.getName() + " care are varsta de "
                 + pokemonCoach2.getAge();
@@ -44,7 +49,7 @@ public class Logger {
         logStringToFile(stringToLog);
     }
 
-    public void logEntrance(PokemonCoach pokemonCoach1, PokemonCoach pokemonCoach2, int pokemonIndex){
+    public void logEntrance(PokemonCoach pokemonCoach1, PokemonCoach pokemonCoach2, int pokemonIndex) {
         String stringToLog = pokemonCoach1.getName() + " se lupta cu pokemonul " +
                 pokemonCoach1.getPokemons().get(pokemonIndex).getName() + " contra lui "
                 + pokemonCoach2.getName() + " care are pokemonul " +
@@ -53,18 +58,18 @@ public class Logger {
         logStringToFile(stringToLog);
     }
 
-    public void logBattleResult(BattleResult battleResult){
+    public void logBattleResult(BattleResult battleResult) {
         System.out.println(battleResult);
         logStringToFile(battleResult.toString());
     }
 
-    public void logDelimiter(){
+    public void logDelimiter() {
         System.out.println(DELIMITER);
         logStringToFile(DELIMITER);
     }
 
-    private void clearOutputFile(){
-        try(PrintWriter writer = new PrintWriter(outputFile)) {
+    private void clearOutputFile() {
+        try (PrintWriter writer = new PrintWriter(outputFile)) {
             writer.print("");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -77,10 +82,10 @@ public class Logger {
         logStringToFile(stringToLog);
     }
 
-    private void logStringToFile(String stringToLog){
-        if(outputFile == null)
+    private void logStringToFile(String stringToLog) {
+        if (outputFile == null)
             return;
-        try(PrintWriter writer = new PrintWriter(new FileWriter(outputFile, true))){
+        try (PrintWriter writer = new PrintWriter(new FileWriter(outputFile, true))) {
             writer.println(stringToLog);
         } catch (IOException e) {
             e.printStackTrace();
@@ -102,10 +107,10 @@ public class Logger {
 
     }
 
-    private String headerForPokemon(Pokemon pokemon, MoveResult moveResult){
-        if(moveResult == null)
+    private String headerForPokemon(Pokemon pokemon, MoveResult moveResult) {
+        if (moveResult == null)
             return pokemon.getName() + " nu face nimic";
-        else{
+        else {
             return pokemon.getName() + (moveResult.getMoveType() == Constants.MOVE_TYPE.ABILITY ? " abilitate "
                     + (moveResult.getAbilityIndex() + 1) : " ataca " + (pokemon.getNormalAttack() != null ? "normal" : "special"));
         }
@@ -113,10 +118,10 @@ public class Logger {
 
     public void logEventType(IEvent battleEvent) {
         StringBuilder stringToLog = new StringBuilder();
-        if(battleEvent instanceof NeutralFightEvent){
+        if (battleEvent instanceof NeutralFightEvent) {
             stringToLog.append("Va avea loc o lupta impotriva lui ")
                     .append(((NeutralFightEvent) battleEvent).getNeutrelPokemon().getName());
-        }else{
+        } else {
             stringToLog.append("Va avea loc un duel intre cei doi pokemoni");
         }
         System.out.println(stringToLog);
@@ -142,10 +147,9 @@ public class Logger {
         stringToLog.append(pokemon.getName()).append(" ");
         stringToLog.append("HP ").append(pokemon.getHp()).append(" ");
 
-        if(pokemon.isDodge()){
+        if (pokemon.isDodge()) {
             stringToLog.append("pentru ca a folosit o abilitate cu dodge, ");
-        }
-        else if(pokemon.isStunned() && moveResult != null){
+        } else if (pokemon.isStunned() && moveResult != null) {
             stringToLog.append("si este stuned, ");
         }
         stringToLog.append(getAbilitiesCooldownString(pokemon));
@@ -154,18 +158,18 @@ public class Logger {
         logStringToFile(stringToLog.toString());
     }
 
-    private String getAbilitiesCooldownString(Pokemon pokemon){
+    private String getAbilitiesCooldownString(Pokemon pokemon) {
         StringBuilder stringBuilder = new StringBuilder();
-        if(pokemon.getAbilitiesCooldown() != null){
+        if (pokemon.getAbilitiesCooldown() != null) {
             List<Integer> abilitiesCooldown = pokemon.getAbilitiesCooldown();
-            for(int i = 0; i < abilitiesCooldown.size(); ++i){
-                if(abilitiesCooldown.get(i) != 0)
-                    stringBuilder.append("abilitatea ").append(i+1).append(" cooldown ")
+            for (int i = 0; i < abilitiesCooldown.size(); ++i) {
+                if (abilitiesCooldown.get(i) != 0)
+                    stringBuilder.append("abilitatea ").append(i + 1).append(" cooldown ")
                             .append(abilitiesCooldown.get(i)).append(", ");
             }
         }
         // delete last 2 characters
-        if(stringBuilder.length() != 0)
+        if (stringBuilder.length() != 0)
             stringBuilder.delete(stringBuilder.length() - 2, stringBuilder.length() - 1);
         return stringBuilder.toString();
     }

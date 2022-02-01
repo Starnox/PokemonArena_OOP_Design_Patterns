@@ -16,7 +16,7 @@ public class MoveResult {
     private int cooldown = 0;
 
 
-    public MoveResult(Ability ability, int abilityIndex){
+    public MoveResult(Ability ability, int abilityIndex) {
         this.moveType = Constants.MOVE_TYPE.ABILITY;
         this.abilityIndex = abilityIndex;
         this.pureDamage = ability.getDamage();
@@ -25,7 +25,7 @@ public class MoveResult {
         this.cooldown = ability.getCd();
     }
 
-    public MoveResult(Integer attack){
+    public MoveResult(Integer attack) {
         this.moveType = Constants.MOVE_TYPE.ATTACK;
         this.attack = attack;
     }
@@ -38,10 +38,6 @@ public class MoveResult {
         this.abilityIndex = abilityIndex;
     }
 
-    public void setAttack(Integer attack) {
-        this.attack = attack;
-    }
-
     public Constants.MOVE_TYPE getMoveType() {
         return moveType;
     }
@@ -52,6 +48,10 @@ public class MoveResult {
 
     public int getAttack() {
         return attack;
+    }
+
+    public void setAttack(Integer attack) {
+        this.attack = attack;
     }
 
     public void setAttack(int attack) {
